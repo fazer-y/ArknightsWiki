@@ -38,22 +38,15 @@
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.刷新ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.参数设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.登录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.主界面ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.全屏ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.全屏ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -62,7 +55,6 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newToolStripMenuItem,
             this.viewVToolStripMenuItem,
-            this.configToolStripMenuItem,
             this.helpToolStripMenuItem,
             this.登录ToolStripMenuItem,
             this.主界面ToolStripMenuItem,
@@ -144,23 +136,6 @@
             this.刷新ToolStripMenuItem.Text = "刷新";
             this.刷新ToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
-            // configToolStripMenuItem
-            // 
-            this.configToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.参数设置ToolStripMenuItem});
-            this.configToolStripMenuItem.Name = "configToolStripMenuItem";
-            this.configToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F8;
-            this.configToolStripMenuItem.Size = new System.Drawing.Size(63, 23);
-            this.configToolStripMenuItem.Text = "设置(&S)";
-            // 
-            // 参数设置ToolStripMenuItem
-            // 
-            this.参数设置ToolStripMenuItem.Name = "参数设置ToolStripMenuItem";
-            this.参数设置ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F8;
-            this.参数设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 24);
-            this.参数设置ToolStripMenuItem.Text = "参数设置";
-            this.参数设置ToolStripMenuItem.Click += new System.EventHandler(this.configToolStripMenuItem_Click_1);
-            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -191,34 +166,12 @@
             this.主界面ToolStripMenuItem.Text = "主界面";
             this.主界面ToolStripMenuItem.Click += new System.EventHandler(this.主界面ToolStripMenuItem_Click);
             // 
-            // splitter1
+            // 全屏ToolStripMenuItem
             // 
-            this.splitter1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter1.Location = new System.Drawing.Point(0, 621);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(1194, 11);
-            this.splitter1.TabIndex = 23;
-            this.splitter1.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 632);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1194, 141);
-            this.panel1.TabIndex = 24;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1194, 141);
-            this.dataGridView1.TabIndex = 0;
+            this.全屏ToolStripMenuItem.Name = "全屏ToolStripMenuItem";
+            this.全屏ToolStripMenuItem.Size = new System.Drawing.Size(47, 23);
+            this.全屏ToolStripMenuItem.Text = "全屏";
+            this.全屏ToolStripMenuItem.Click += new System.EventHandler(this.全屏ToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -234,28 +187,20 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 25);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1194, 596);
+            this.panel2.Size = new System.Drawing.Size(1194, 748);
             this.panel2.TabIndex = 25;
             // 
-            // 全屏ToolStripMenuItem
-            // 
-            this.全屏ToolStripMenuItem.Name = "全屏ToolStripMenuItem";
-            this.全屏ToolStripMenuItem.Size = new System.Drawing.Size(47, 23);
-            this.全屏ToolStripMenuItem.Text = "全屏";
-            this.全屏ToolStripMenuItem.Click += new System.EventHandler(this.全屏ToolStripMenuItem_Click);
-            // 
-            // editorForm
+            // EditorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(106F, 106F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1194, 773);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.splitter1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "editorForm";
+            this.Name = "EditorForm";
             this.Text = "MD FileLoader 0.4";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -263,8 +208,6 @@
             this.ClientSizeChanged += new System.EventHandler(this.Form1_ClientSizeChanged);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,11 +215,7 @@
 
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ToolStripMenuItem configToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Panel panel2;
@@ -286,7 +225,6 @@
         private System.Windows.Forms.ToolStripMenuItem 保存ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 另存为ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 参数设置ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 关于ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewVToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 刷新ToolStripMenuItem;

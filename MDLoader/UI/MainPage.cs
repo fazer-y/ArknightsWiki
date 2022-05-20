@@ -15,6 +15,7 @@ namespace ArknightsWiki.UI
         public MainPage()
         {
             InitializeComponent();
+            TopLevel = false;
         }
     }
 }

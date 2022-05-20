@@ -124,11 +124,14 @@
   <data name="loginBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loginBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_760px_活动预告_三周年庆典_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\760px-活动预告_三周年庆典_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainPageBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackgroundImages\MainPageBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OperatorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iconimages\operatoricon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="760px-活动预告_三周年庆典_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\760px-活动预告_三周年庆典_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RecruitIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iconimages\recruiticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,7 +145,7 @@
   <data name="EnemiesIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\iconimages\enemiesicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MainPageBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackgroundImages\MainPageBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_min.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

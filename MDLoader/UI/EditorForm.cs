@@ -21,8 +21,6 @@ namespace ArknightsWiki.UI
     {   
         // 用户
         User user = null;
-        //设置窗体
-        SetupForm frm_setup = new SetupForm();
         //editor.md的C#适配层
         Adapter adapter = new Adapter();
         //标题栏内容
@@ -100,7 +98,6 @@ namespace ArknightsWiki.UI
             if (System.IO.Path.GetExtension(fileName) == ".md")
             {
                 adapter.MdFilePath = fileName.Substring(0, fileName.LastIndexOf("\\"));
-                panel1.Visible = false;
 
                 //准备工作
                 //清除图片文件列表
@@ -124,8 +121,6 @@ namespace ArknightsWiki.UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //隐去底部的面板
-            panel1.Visible = false;
             //获取打开文件的路径
             adapter.Filename = Program.fileName;
             //保存标题栏文本
@@ -163,7 +158,6 @@ namespace ArknightsWiki.UI
         /// <returns></returns>
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             webBrowser1.Refresh();
         }
         /// <summary>
@@ -178,20 +172,10 @@ namespace ArknightsWiki.UI
             if (dr == System.Windows.Forms.DialogResult.OK
                 && !string.IsNullOrEmpty(fileName))
             {
-                panel1.Visible = false;
                 adapter.LoadMDFile(fileName, webBrowser1);
                 adapter.CacheMDPictures(fileName);
                 this.Text = captain + "  " + fileName;
             }
-        }
-        /// <summary>
-        /// 打开设置窗体
-        /// </summary>
-        /// <returns></returns>
-        private void configToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            SetupForm frm_setup = new SetupForm();
-            frm_setup.Show();
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -332,12 +316,6 @@ namespace ArknightsWiki.UI
             Application.Exit();
         }
 
-        private void 登录ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = new LoginForm();
-            loginForm.ShowDialog();
-        }
-
         private void 主界面ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MainPage mainPage = new MainPage();
@@ -346,9 +324,16 @@ namespace ArknightsWiki.UI
 
         private void 全屏ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
             SendKeys.Send("{F10}");
             webBrowser1.Refresh();
+        }
+
+        private void 登录ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.ShowDialog();
+            if(loginForm.user != null)
+                user = loginForm.user;
         }
     }
 }

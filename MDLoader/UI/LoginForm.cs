@@ -1,16 +1,14 @@
-﻿using System;
+﻿using ArknightsWiki.Wiki;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ArknightsWiki.Arknights;
-using ArknightsWiki.Wiki;
 
 namespace ArknightsWiki.UI
 {
@@ -19,16 +17,10 @@ namespace ArknightsWiki.UI
         private string _username = "";
         private string _password = "";
         DBManager _dbManager;
-        User user;
+        public User user;
         public LoginForm()
         {
             InitializeComponent();
-        }
-
-        private void btn_cancel_Click(object sender, EventArgs e)
-        {
-            // 取消登录,关闭登录窗口
-            Close();
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -40,7 +32,7 @@ namespace ArknightsWiki.UI
             _dbManager.OpenDB();
             SqlDataReader reader = _dbManager.SelectData("Users",
                                         $"userID='{_username}' and userPwd='{_password}'");
-            
+
             if (reader.Read())
             {
                 // 登录成功
@@ -49,6 +41,7 @@ namespace ArknightsWiki.UI
                                 reader["userPwd"].ToString(),
                                 reader["userEmail"].ToString());
                 MessageBox.Show("登陆成功!");
+                Close();
             }
             else
             {
@@ -56,6 +49,22 @@ namespace ArknightsWiki.UI
                 MessageBox.Show("账号或密码错误,请检查后重新输入.");
             }
             _dbManager.CloseDB();
+        }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            // 取消登录,关闭登录窗口
+            Close();
+        }
+
+        private void btn_register_Click(object sender, EventArgs e)
+        {
+            RegisterForm registerForm = new RegisterForm();
+            registerForm.Show();
+            if (registerForm.user != null)
+                user = registerForm.user;
+            MessageBox.Show($"您的UID为{user.userID}，系统将自动登录。");
+            Close();
         }
     }
 }

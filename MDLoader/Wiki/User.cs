@@ -23,10 +23,10 @@ namespace ArknightsWiki.Wiki
 
         public override string ToString()
         {
-            return "\'" + userID + "\'," +
+            return "(\'" + userID + "\'," +
                 "\'" + userPwd + "\'," +
                 "\'" + userName + "\'," +
-                "\'" + userEmail + "\'";
+                "\'" + userEmail + "\')";
         }
     }
 }

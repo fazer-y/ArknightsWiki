@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 
 namespace ArknightsWiki.Editor
 {
-    class Adapter
+    public class Adapter
     {
         //图片路径表
         public DataTable dt_UploadPic = new DataTable();

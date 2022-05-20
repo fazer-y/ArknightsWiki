@@ -65,7 +65,7 @@ namespace ArknightsWiki.Properties {
         /// </summary>
         public static System.Drawing.Bitmap _760px_活动预告_三周年庆典_29 {
             get {
-                object obj = ResourceManager.GetObject("760px-活动预告_三周年庆典_29", resourceCulture);
+                object obj = ResourceManager.GetObject("_760px_活动预告_三周年庆典_29", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +76,16 @@ namespace ArknightsWiki.Properties {
         public static System.Drawing.Bitmap EnemiesIcon {
             get {
                 object obj = ResourceManager.GetObject("EnemiesIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap icon_min {
+            get {
+                object obj = ResourceManager.GetObject("icon_min", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

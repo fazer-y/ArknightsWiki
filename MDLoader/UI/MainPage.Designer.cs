@@ -30,8 +30,6 @@ namespace ArknightsWiki.UI
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_recruit = new ArknightsWiki.WinformEx.ButtonEx();
             this.btn_materail = new ArknightsWiki.WinformEx.ButtonEx();
@@ -41,27 +39,10 @@ namespace ArknightsWiki.UI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Location = new System.Drawing.Point(115, 456);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(282, 232);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Location = new System.Drawing.Point(493, 456);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(278, 232);
-            this.groupBox2.TabIndex = 7;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.ImageLocation = "0,0";
             this.pictureBox1.Location = new System.Drawing.Point(53, 19);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(10);
@@ -78,7 +59,7 @@ namespace ArknightsWiki.UI
             this.btn_recruit.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_recruit.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_recruit.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_recruit.Location = new System.Drawing.Point(619, 276);
+            this.btn_recruit.Location = new System.Drawing.Point(661, 311);
             this.btn_recruit.Name = "btn_recruit";
             this.btn_recruit.Size = new System.Drawing.Size(120, 120);
             this.btn_recruit.TabIndex = 4;
@@ -94,7 +75,7 @@ namespace ArknightsWiki.UI
             this.btn_materail.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_materail.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_materail.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_materail.Location = new System.Drawing.Point(493, 276);
+            this.btn_materail.Location = new System.Drawing.Point(507, 311);
             this.btn_materail.Name = "btn_materail";
             this.btn_materail.Size = new System.Drawing.Size(120, 120);
             this.btn_materail.TabIndex = 3;
@@ -110,7 +91,7 @@ namespace ArknightsWiki.UI
             this.btn_operation.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_operation.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_operation.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_operation.Location = new System.Drawing.Point(367, 276);
+            this.btn_operation.Location = new System.Drawing.Point(355, 311);
             this.btn_operation.Name = "btn_operation";
             this.btn_operation.Size = new System.Drawing.Size(120, 120);
             this.btn_operation.TabIndex = 2;
@@ -126,7 +107,7 @@ namespace ArknightsWiki.UI
             this.btn_operator.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_operator.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_operator.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_operator.Location = new System.Drawing.Point(115, 276);
+            this.btn_operator.Location = new System.Drawing.Point(53, 311);
             this.btn_operator.Name = "btn_operator";
             this.btn_operator.Size = new System.Drawing.Size(120, 120);
             this.btn_operator.TabIndex = 1;
@@ -142,7 +123,7 @@ namespace ArknightsWiki.UI
             this.btn_enemies.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_enemies.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_enemies.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_enemies.Location = new System.Drawing.Point(241, 276);
+            this.btn_enemies.Location = new System.Drawing.Point(200, 311);
             this.btn_enemies.Name = "btn_enemies";
             this.btn_enemies.Size = new System.Drawing.Size(120, 120);
             this.btn_enemies.TabIndex = 0;
@@ -155,9 +136,8 @@ namespace ArknightsWiki.UI
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(850, 700);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(849, 551);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_recruit);
             this.Controls.Add(this.btn_materail);
@@ -180,7 +160,5 @@ namespace ArknightsWiki.UI
         private WinformEx.ButtonEx btn_materail;
         private WinformEx.ButtonEx btn_recruit;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
