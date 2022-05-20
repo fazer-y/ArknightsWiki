@@ -21,12 +21,13 @@ namespace ArknightsWiki.UI
         public MainFrame()
         {
             InitializeComponent();
+            editorform = new EditorForm();
+            mainpage = new MainPage();
         }
 
         private void MainFrame_Load(object sender, EventArgs e)
         {
-            editorform = new EditorForm();
-            mainpage = new MainPage();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -104,5 +105,14 @@ namespace ArknightsWiki.UI
             toolTip.SetToolTip(this.btn_close, "关闭");
         }
         #endregion
+
+        private void btn_operator_Click(object sender, EventArgs e)
+        {
+            editorform.fileName = "C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\Resources\\WikiPages\\干员档案——阿米娅.md";
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(editorform);
+            editorform.webBrowser1.Refresh();
+            editorform.Show();
+        }
     }
 }

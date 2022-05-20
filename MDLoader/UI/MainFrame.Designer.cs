@@ -35,7 +35,7 @@ namespace ArknightsWiki.UI
             this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_operator = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -48,9 +48,9 @@ namespace ArknightsWiki.UI
             this.btn_read = new System.Windows.Forms.Button();
             this.btn_history = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button8 = new System.Windows.Forms.Button();
             this.btn_min = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -64,7 +64,7 @@ namespace ArknightsWiki.UI
             this.tableLayoutPanel1.Controls.Add(this.button7, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.button5, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.button4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btn_operator, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.button6, 0, 5);
@@ -115,16 +115,17 @@ namespace ArknightsWiki.UI
             this.button4.Text = "敌人档案";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_operator
             // 
-            this.button2.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(3, 90);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 60);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "干员资料";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_operator.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_operator.Location = new System.Drawing.Point(3, 90);
+            this.btn_operator.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btn_operator.Name = "btn_operator";
+            this.btn_operator.Size = new System.Drawing.Size(194, 60);
+            this.btn_operator.TabIndex = 1;
+            this.btn_operator.Text = "干员资料";
+            this.btn_operator.UseVisualStyleBackColor = true;
+            this.btn_operator.Click += new System.EventHandler(this.btn_operator_Click);
             // 
             // button1
             // 
@@ -249,6 +250,15 @@ namespace ArknightsWiki.UI
             this.flowLayoutPanel1.Size = new System.Drawing.Size(262, 49);
             this.flowLayoutPanel1.TabIndex = 13;
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(3, 3);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
             // btn_min
             // 
             this.btn_min.BackColor = System.Drawing.Color.Transparent;
@@ -276,15 +286,6 @@ namespace ArknightsWiki.UI
             this.btn_close.Text = "×";
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.closePictureBox_Click);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(3, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // MainFrame
             // 
@@ -323,7 +324,7 @@ namespace ArknightsWiki.UI
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_operator;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel pnl_main;

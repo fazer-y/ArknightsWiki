@@ -19,15 +19,14 @@ namespace ArknightsWiki.UI
     [System.Runtime.InteropServices.ComVisible(true)]
     public partial class EditorForm : Form
     {   
-        // 用户
-        User user = null;
         //editor.md的C#适配层
-        Adapter adapter = new Adapter();
+        public Adapter adapter = new Adapter();
         //标题栏内容
         String captain = "";
         //初始化webbrowser控件
-        WebBrowserEx webBrowser1 = new WebBrowserEx();
+        public WebBrowserEx webBrowser1 = new WebBrowserEx();
         HtmlElement editor;
+        public string fileName = "";
 
         public EditorForm()
         {
@@ -122,7 +121,7 @@ namespace ArknightsWiki.UI
         private void Form1_Load(object sender, EventArgs e)
         {
             //获取打开文件的路径
-            adapter.Filename = Program.fileName;
+            adapter.Filename = fileName;
             //保存标题栏文本
             captain = this.Text;
             //设置新的标题栏，显示打开的文件
@@ -183,12 +182,12 @@ namespace ArknightsWiki.UI
             HtmlDocument doc = webBrowser1.Document;
             editor = doc.GetElementById("test-editormd");
             //参数方式打开md文件
-            if (!(Program.fileName == ""))
+            if (!(fileName == ""))
             {
-                adapter.LoadMDFile(Program.fileName, webBrowser1);
-                adapter.CacheMDPictures(Program.fileName);
+                adapter.LoadMDFile(fileName, webBrowser1);
+                adapter.CacheMDPictures(fileName);
 
-                adapter.MdFilePath= Program.fileName.Substring(0, Program.fileName.LastIndexOf("\\"));
+                adapter.MdFilePath= fileName.Substring(0, fileName.LastIndexOf("\\"));
             }else
             {
                 //显示md语法简介
@@ -198,6 +197,7 @@ namespace ArknightsWiki.UI
                 adapter.Filename = "";
             }
             adapter.SetUserSideMD(webBrowser1);
+            fullscreen();
         }
         /// <summary>
         /// 同步浏览器窗体与主窗体大小
@@ -316,24 +316,14 @@ namespace ArknightsWiki.UI
             Application.Exit();
         }
 
-        private void 主界面ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-            MainPage mainPage = new MainPage();
-            mainPage.ShowDialog();
+
         }
 
-        private void 全屏ToolStripMenuItem_Click(object sender, EventArgs e)
+        public void fullscreen()
         {
             SendKeys.Send("{F10}");
-            webBrowser1.Refresh();
-        }
-
-        private void 登录ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = new LoginForm();
-            loginForm.ShowDialog();
-            if(loginForm.user != null)
-                user = loginForm.user;
         }
     }
 }
