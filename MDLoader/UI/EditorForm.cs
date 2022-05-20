@@ -325,5 +325,9 @@ namespace ArknightsWiki.UI
         {
             SendKeys.Send("{F10}");
         }
+        public void readSource()
+        {
+            SendKeys.Send("{F9}");
+        }
     }
 }

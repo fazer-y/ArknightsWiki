@@ -21,6 +21,14 @@ namespace ArknightsWiki.Wiki
             this.userEmail = userEmail;
         }
 
+        public User(User user)
+        {
+            this.userID=user.userID;
+            this.userPwd=user.userPwd;
+            this.userName = user.userName;
+            this.userEmail=user.userEmail;
+        }
+
         public override string ToString()
         {
             return "(\'" + userID + "\'," +

@@ -19,6 +19,7 @@ namespace ArknightsWiki.UI
         public RegisterForm()
         {
             InitializeComponent();
+            TopLevel = false;
         }
 
         private void btn_register_Click(object sender, EventArgs e)
@@ -35,12 +36,17 @@ namespace ArknightsWiki.UI
                 string uid = string.Format("{0:0000000000}", count);
                 user = new User(uid, pwd, nickName, email);
                 dBManager.InsertData("Users", user.ToString());
-                MessageBox.Show("注册成功！");
+                MessageBox.Show($"注册成功!\n您的UID为{ user.userID}，系统将自动登录。");
             }
             else
             {
                 MessageBox.Show("信息不全，请检查后重试！");
             }
+        }
+
+        private void btn_cancle_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
         }
     }
 }

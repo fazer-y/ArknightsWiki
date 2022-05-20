@@ -7,7 +7,7 @@ using System.Data;
 
 namespace ArknightsWiki
 {
-    internal class DBManager
+    public class DBManager
     {
         // 服务器名
         private string serverName = "";
@@ -99,5 +99,22 @@ namespace ArknightsWiki
             return result;
         }
 
+        public bool UpdateData(string tableName,
+                string value, string options = "*")
+        {
+            string selectSqlString = "";
+            if (options != "")
+                selectSqlString = $"update {tableName} set {value} where {options}";
+            else
+                selectSqlString = $"update {tableName} set {value}";
+            SqlCommand cmd = new SqlCommand
+            {
+                CommandType = CommandType.Text,
+                CommandText = selectSqlString,
+                Connection = connection
+            };
+            cmd.ExecuteNonQuery();  // 执行增 删 改 操作
+            return true;
+        }
     }
 }

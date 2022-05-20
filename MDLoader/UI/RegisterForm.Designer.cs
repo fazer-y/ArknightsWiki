@@ -119,14 +119,16 @@
             this.btn_cancle.TabIndex = 7;
             this.btn_cancle.Text = "取消注册";
             this.btn_cancle.UseVisualStyleBackColor = false;
+            this.btn_cancle.Click += new System.EventHandler(this.btn_cancle_Click);
             // 
-            // registerForm
+            // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ArknightsWiki.Properties.Resources.loginBG;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(849, 566);
             this.Controls.Add(this.btn_cancle);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.tb_email);
@@ -136,7 +138,7 @@
             this.Controls.Add(this.lbl_nickName);
             this.Controls.Add(this.tb_nickName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "registerForm";
+            this.Name = "RegisterForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "registerForm";

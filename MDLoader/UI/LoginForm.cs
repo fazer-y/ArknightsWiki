@@ -18,9 +18,12 @@ namespace ArknightsWiki.UI
         private string _password = "";
         DBManager _dbManager;
         public User user;
-        public LoginForm()
+        public MainFrame owner;
+        public LoginForm(MainFrame owner)
         {
+            this.owner = owner;
             InitializeComponent();
+            TopLevel = false;
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -41,7 +44,12 @@ namespace ArknightsWiki.UI
                                 reader["userPwd"].ToString(),
                                 reader["userEmail"].ToString());
                 MessageBox.Show("登陆成功!");
-                Close();
+                owner.user = new User(user);
+                owner.btn_login.Text = "个人中心";
+                owner.btn_login.Click -= btn_login_Click;
+                owner.btn_login.Click += owner.btn_login_personal_Click;
+                owner.btn_mainPage_Click(sender, e);
+                this.Visible = false;
             }
             else
             {
@@ -54,17 +62,17 @@ namespace ArknightsWiki.UI
         private void btn_cancel_Click(object sender, EventArgs e)
         {
             // 取消登录,关闭登录窗口
-            Close();
+            this.Visible = false;
         }
 
-        private void btn_register_Click(object sender, EventArgs e)
-        {
-            RegisterForm registerForm = new RegisterForm();
-            registerForm.Show();
-            if (registerForm.user != null)
-                user = registerForm.user;
-            MessageBox.Show($"您的UID为{user.userID}，系统将自动登录。");
-            Close();
-        }
+        //private void btn_register_Click(object sender, EventArgs e)
+        //{
+        //    RegisterForm registerForm = new RegisterForm();
+        //    registerForm.Show();
+        //    if (registerForm.user != null)
+        //        user = registerForm.user;
+        //    MessageBox.Show($"您的UID为{user.userID}，系统将自动登录。");
+        //    this.Visible = false;
+        //}
     }
 }

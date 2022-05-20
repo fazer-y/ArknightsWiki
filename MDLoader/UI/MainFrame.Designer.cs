@@ -36,7 +36,7 @@ namespace ArknightsWiki.UI
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.btn_operator = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_mainPage = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.pnl_main = new System.Windows.Forms.Panel();
@@ -48,7 +48,7 @@ namespace ArknightsWiki.UI
             this.btn_read = new System.Windows.Forms.Button();
             this.btn_history = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btn_login = new System.Windows.Forms.Button();
             this.btn_min = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
@@ -65,10 +65,10 @@ namespace ArknightsWiki.UI
             this.tableLayoutPanel1.Controls.Add(this.button5, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.button4, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.btn_operator, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btn_mainPage, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.button6, 0, 5);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 108);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 118);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -127,17 +127,17 @@ namespace ArknightsWiki.UI
             this.btn_operator.UseVisualStyleBackColor = true;
             this.btn_operator.Click += new System.EventHandler(this.btn_operator_Click);
             // 
-            // button1
+            // btn_mainPage
             // 
-            this.button1.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(3, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "首页";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_mainPage.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_mainPage.Location = new System.Drawing.Point(3, 10);
+            this.btn_mainPage.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btn_mainPage.Name = "btn_mainPage";
+            this.btn_mainPage.Size = new System.Drawing.Size(194, 60);
+            this.btn_mainPage.TabIndex = 0;
+            this.btn_mainPage.Text = "首页";
+            this.btn_mainPage.UseVisualStyleBackColor = true;
+            this.btn_mainPage.Click += new System.EventHandler(this.btn_mainPage_Click);
             // 
             // button3
             // 
@@ -164,7 +164,7 @@ namespace ArknightsWiki.UI
             // pnl_main
             // 
             this.pnl_main.BackColor = System.Drawing.Color.Transparent;
-            this.pnl_main.Location = new System.Drawing.Point(222, 108);
+            this.pnl_main.Location = new System.Drawing.Point(225, 118);
             this.pnl_main.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.pnl_main.Name = "pnl_main";
             this.pnl_main.Size = new System.Drawing.Size(849, 566);
@@ -175,7 +175,7 @@ namespace ArknightsWiki.UI
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.listB_hotRank);
             this.panel1.Controls.Add(this.lbl_hotWiki);
-            this.panel1.Location = new System.Drawing.Point(1080, 108);
+            this.panel1.Location = new System.Drawing.Point(1080, 118);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(208, 348);
             this.panel1.TabIndex = 2;
@@ -213,29 +213,31 @@ namespace ArknightsWiki.UI
             // btn_readSource
             // 
             this.btn_readSource.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_readSource.Location = new System.Drawing.Point(1080, 518);
+            this.btn_readSource.Location = new System.Drawing.Point(1080, 530);
             this.btn_readSource.Name = "btn_readSource";
-            this.btn_readSource.Size = new System.Drawing.Size(124, 26);
+            this.btn_readSource.Size = new System.Drawing.Size(134, 30);
             this.btn_readSource.TabIndex = 10;
             this.btn_readSource.Text = "查看页面源代码";
             this.btn_readSource.UseVisualStyleBackColor = true;
+            this.btn_readSource.Click += new System.EventHandler(this.btn_readSource_Click);
             // 
             // btn_read
             // 
             this.btn_read.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_read.Location = new System.Drawing.Point(1080, 489);
+            this.btn_read.Location = new System.Drawing.Point(1080, 490);
             this.btn_read.Name = "btn_read";
-            this.btn_read.Size = new System.Drawing.Size(124, 26);
+            this.btn_read.Size = new System.Drawing.Size(134, 30);
             this.btn_read.TabIndex = 11;
             this.btn_read.Text = "阅读";
             this.btn_read.UseVisualStyleBackColor = true;
+            this.btn_read.Click += new System.EventHandler(this.btn_read_Click);
             // 
             // btn_history
             // 
             this.btn_history.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_history.Location = new System.Drawing.Point(1080, 547);
+            this.btn_history.Location = new System.Drawing.Point(1080, 570);
             this.btn_history.Name = "btn_history";
-            this.btn_history.Size = new System.Drawing.Size(124, 26);
+            this.btn_history.Size = new System.Drawing.Size(134, 30);
             this.btn_history.TabIndex = 12;
             this.btn_history.Text = "查看历史";
             this.btn_history.UseVisualStyleBackColor = true;
@@ -244,20 +246,23 @@ namespace ArknightsWiki.UI
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.button8);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(848, 0);
+            this.flowLayoutPanel1.Controls.Add(this.btn_login);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(972, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(262, 49);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(186, 49);
             this.flowLayoutPanel1.TabIndex = 13;
             // 
-            // button8
+            // btn_login
             // 
-            this.button8.Location = new System.Drawing.Point(3, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_login.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_login.Location = new System.Drawing.Point(3, 3);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(125, 45);
+            this.btn_login.TabIndex = 1;
+            this.btn_login.Text = "尚未登录";
+            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // btn_min
             // 
@@ -325,9 +330,9 @@ namespace ArknightsWiki.UI
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btn_operator;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_mainPage;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Panel pnl_main;
+        public System.Windows.Forms.Panel pnl_main;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox listB_hotRank;
         private System.Windows.Forms.Label lbl_hotWiki;
@@ -340,6 +345,6 @@ namespace ArknightsWiki.UI
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btn_min;
         private System.Windows.Forms.Button btn_close;
-        private Button button8;
+        public Button btn_login;
     }
 }
