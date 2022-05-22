@@ -131,9 +131,11 @@ namespace ArknightsWiki.Editor
             try
             {
                 //读取md文件内容
-                StreamWriter sr = new StreamWriter(file);
+                FileStream stream = new FileStream(file, FileMode.Append, FileAccess.Write);
+                StreamWriter sr = new StreamWriter(stream);
                 sr.Write(Mdcontent);
                 sr.Close();
+                stream.Close();
                 return true;
             }
             catch (Exception ee)

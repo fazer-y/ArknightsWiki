@@ -38,6 +38,7 @@
             this.btn_change = new System.Windows.Forms.Button();
             this.btn_save = new System.Windows.Forms.Button();
             this.tb_email = new System.Windows.Forms.TextBox();
+            this.btn_cancle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +47,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(178, 153);
+            this.label1.Location = new System.Drawing.Point(192, 153);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 25);
             this.label1.TabIndex = 0;
@@ -56,7 +57,7 @@
             // 
             this.tb_nickName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_nickName.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_nickName.Location = new System.Drawing.Point(331, 151);
+            this.tb_nickName.Location = new System.Drawing.Point(397, 151);
             this.tb_nickName.Name = "tb_nickName";
             this.tb_nickName.Size = new System.Drawing.Size(301, 27);
             this.tb_nickName.TabIndex = 17;
@@ -67,7 +68,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(178, 91);
+            this.label2.Location = new System.Drawing.Point(192, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(147, 25);
             this.label2.TabIndex = 18;
@@ -78,7 +79,7 @@
             this.lbl_ID.AutoSize = true;
             this.lbl_ID.BackColor = System.Drawing.Color.Transparent;
             this.lbl_ID.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_ID.Location = new System.Drawing.Point(358, 91);
+            this.lbl_ID.Location = new System.Drawing.Point(392, 91);
             this.lbl_ID.Name = "lbl_ID";
             this.lbl_ID.Size = new System.Drawing.Size(90, 25);
             this.lbl_ID.TabIndex = 19;
@@ -90,7 +91,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(178, 215);
+            this.label3.Location = new System.Drawing.Point(192, 215);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(147, 25);
             this.label3.TabIndex = 20;
@@ -100,7 +101,7 @@
             // 
             this.tb_pwd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_pwd.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_pwd.Location = new System.Drawing.Point(331, 215);
+            this.tb_pwd.Location = new System.Drawing.Point(397, 213);
             this.tb_pwd.Name = "tb_pwd";
             this.tb_pwd.Size = new System.Drawing.Size(301, 27);
             this.tb_pwd.TabIndex = 21;
@@ -110,7 +111,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(178, 292);
+            this.label4.Location = new System.Drawing.Point(192, 292);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(147, 25);
             this.label4.TabIndex = 22;
@@ -138,11 +139,11 @@
             this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_save.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_save.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_save.Location = new System.Drawing.Point(436, 371);
+            this.btn_save.Location = new System.Drawing.Point(570, 371);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(128, 35);
             this.btn_save.TabIndex = 24;
-            this.btn_save.Text = "保存";
+            this.btn_save.Text = "保存修改";
             this.btn_save.UseVisualStyleBackColor = false;
             this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
@@ -150,10 +151,25 @@
             // 
             this.tb_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_email.Font = new System.Drawing.Font("幼圆", 16.30189F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_email.Location = new System.Drawing.Point(331, 290);
+            this.tb_email.Location = new System.Drawing.Point(397, 290);
             this.tb_email.Name = "tb_email";
             this.tb_email.Size = new System.Drawing.Size(301, 27);
             this.tb_email.TabIndex = 25;
+            // 
+            // btn_cancle
+            // 
+            this.btn_cancle.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cancle.FlatAppearance.BorderSize = 0;
+            this.btn_cancle.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_cancle.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_cancle.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_cancle.Location = new System.Drawing.Point(378, 371);
+            this.btn_cancle.Name = "btn_cancle";
+            this.btn_cancle.Size = new System.Drawing.Size(128, 35);
+            this.btn_cancle.TabIndex = 26;
+            this.btn_cancle.Text = "取消修改";
+            this.btn_cancle.UseVisualStyleBackColor = false;
+            this.btn_cancle.Click += new System.EventHandler(this.btn_cancle_Click);
             // 
             // PersonalForm
             // 
@@ -161,7 +177,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(849, 566);
+            this.ClientSize = new System.Drawing.Size(933, 566);
+            this.Controls.Add(this.btn_cancle);
             this.Controls.Add(this.tb_email);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.btn_change);
@@ -193,5 +210,6 @@
         private System.Windows.Forms.Button btn_change;
         private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.TextBox tb_email;
+        private System.Windows.Forms.Button btn_cancle;
     }
 }

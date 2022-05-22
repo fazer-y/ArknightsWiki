@@ -55,21 +55,6 @@
             this.menuStrip1.TabIndex = 22;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // newToolStripMenuItem
-            // 
-            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F2)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
-            this.newToolStripMenuItem.Text = "文件(&F)";
-            // 
-            // 新建ToolStripMenuItem
-            // 
-            this.新建ToolStripMenuItem.Name = "新建ToolStripMenuItem";
-            this.新建ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.新建ToolStripMenuItem.Size = new System.Drawing.Size(220, 24);
-            this.新建ToolStripMenuItem.Text = "新建";
-            this.新建ToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
-            // 
             // 打开ToolStripMenuItem
             // 
             this.打开ToolStripMenuItem.Name = "打开ToolStripMenuItem";
@@ -77,23 +62,6 @@
             this.打开ToolStripMenuItem.Size = new System.Drawing.Size(220, 24);
             this.打开ToolStripMenuItem.Text = "打开";
             this.打开ToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
-            // 
-            // 保存ToolStripMenuItem
-            // 
-            this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
-            this.保存ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(220, 24);
-            this.保存ToolStripMenuItem.Text = "保存";
-            this.保存ToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            // 
-            // 另存为ToolStripMenuItem
-            // 
-            this.另存为ToolStripMenuItem.Name = "另存为ToolStripMenuItem";
-            this.另存为ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.S)));
-            this.另存为ToolStripMenuItem.Size = new System.Drawing.Size(220, 24);
-            this.另存为ToolStripMenuItem.Text = "另存为...";
-            this.另存为ToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click_1);
             // 
             // 退出ToolStripMenuItem
             // 

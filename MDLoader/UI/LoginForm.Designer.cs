@@ -49,7 +49,7 @@ namespace ArknightsWiki.UI
             this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cancel.Font = new System.Drawing.Font("微软雅黑", 12.22642F);
             this.btn_cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_cancel.Location = new System.Drawing.Point(274, 371);
+            this.btn_cancel.Location = new System.Drawing.Point(317, 371);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(109, 40);
             this.btn_cancel.TabIndex = 7;
@@ -60,7 +60,7 @@ namespace ArknightsWiki.UI
             // tb_pwd
             // 
             this.tb_pwd.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_pwd.Location = new System.Drawing.Point(396, 293);
+            this.tb_pwd.Location = new System.Drawing.Point(436, 299);
             this.tb_pwd.Name = "tb_pwd";
             this.tb_pwd.PasswordChar = '*';
             this.tb_pwd.Size = new System.Drawing.Size(149, 31);
@@ -69,7 +69,7 @@ namespace ArknightsWiki.UI
             // tb_userName
             // 
             this.tb_userName.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_userName.Location = new System.Drawing.Point(396, 224);
+            this.tb_userName.Location = new System.Drawing.Point(436, 230);
             this.tb_userName.Name = "tb_userName";
             this.tb_userName.Size = new System.Drawing.Size(149, 31);
             this.tb_userName.TabIndex = 8;
@@ -82,7 +82,7 @@ namespace ArknightsWiki.UI
             this.btn_register.Font = new System.Drawing.Font("幼圆", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_register.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btn_register.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_register.Location = new System.Drawing.Point(608, 483);
+            this.btn_register.Location = new System.Drawing.Point(708, 524);
             this.btn_register.Name = "btn_register";
             this.btn_register.Size = new System.Drawing.Size(213, 30);
             this.btn_register.TabIndex = 6;
@@ -96,7 +96,7 @@ namespace ArknightsWiki.UI
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_login.Font = new System.Drawing.Font("微软雅黑", 12.22642F);
             this.btn_login.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_login.Location = new System.Drawing.Point(436, 371);
+            this.btn_login.Location = new System.Drawing.Point(476, 371);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(109, 40);
             this.btn_login.TabIndex = 5;
@@ -111,7 +111,7 @@ namespace ArknightsWiki.UI
             this.lbl_UserName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_UserName.Font = new System.Drawing.Font("幼圆", 16.30189F);
             this.lbl_UserName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_UserName.Location = new System.Drawing.Point(269, 230);
+            this.lbl_UserName.Location = new System.Drawing.Point(312, 236);
             this.lbl_UserName.Name = "lbl_UserName";
             this.lbl_UserName.Size = new System.Drawing.Size(103, 25);
             this.lbl_UserName.TabIndex = 0;
@@ -123,7 +123,7 @@ namespace ArknightsWiki.UI
             this.lbl_Pwd.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Pwd.Font = new System.Drawing.Font("幼圆", 16.30189F);
             this.lbl_Pwd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_Pwd.Location = new System.Drawing.Point(269, 299);
+            this.lbl_Pwd.Location = new System.Drawing.Point(312, 305);
             this.lbl_Pwd.Name = "lbl_Pwd";
             this.lbl_Pwd.Size = new System.Drawing.Size(103, 25);
             this.lbl_Pwd.TabIndex = 1;
@@ -133,11 +133,11 @@ namespace ArknightsWiki.UI
             // 
             this.lbl_loginHead.AutoSize = true;
             this.lbl_loginHead.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_loginHead.Font = new System.Drawing.Font("微软雅黑", 18.33962F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_loginHead.Font = new System.Drawing.Font("微软雅黑", 25.81132F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lbl_loginHead.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_loginHead.Location = new System.Drawing.Point(299, 172);
+            this.lbl_loginHead.Location = new System.Drawing.Point(308, 60);
             this.lbl_loginHead.Name = "lbl_loginHead";
-            this.lbl_loginHead.Size = new System.Drawing.Size(196, 35);
+            this.lbl_loginHead.Size = new System.Drawing.Size(277, 50);
             this.lbl_loginHead.TabIndex = 8;
             this.lbl_loginHead.Text = "ArknightsWiki";
             // 
@@ -147,7 +147,7 @@ namespace ArknightsWiki.UI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
-            this.ClientSize = new System.Drawing.Size(833, 525);
+            this.ClientSize = new System.Drawing.Size(933, 566);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_login);

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -16,20 +17,26 @@ namespace ArknightsWiki.UI
     public partial class MainFrame : Form
     {
         public User user = null;
+        public string wikiPageID = "";
         private EditorForm editorform;
         private MainPage mainpage;
         private LoginForm loginform;
         private PersonalForm personalForm;
         private RegisterForm registerform;
+        private OperatorForm operatorform;
         DBManager dbManager;
         public MainFrame()
         {
             InitializeComponent();
             dbManager = new DBManager("127.0.0.1", "ArkWiki", "fazer", "zxc123456..");
-            editorform = new EditorForm();
             mainpage = new MainPage();
             loginform = new LoginForm(this);
             registerform = new RegisterForm();
+            operatorform = new OperatorForm();
+
+            pnl_main.Controls.Add(mainpage);
+            mainpage.Show();
+            this.btn_readSource.Enabled = false;
         }
 
         private void MainFrame_Load(object sender, EventArgs e)
@@ -42,6 +49,8 @@ namespace ArknightsWiki.UI
             //pnl_main.Controls.Add(editorform);
             //SendKeys.Send("{F10}");
             //editorform.Show();
+            changeSidePanel("mainPage");
+            pnl_editorBtn.Visible = false;
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(mainpage);
             mainpage.Show();
@@ -51,6 +60,7 @@ namespace ArknightsWiki.UI
         {
 
         }
+        #region
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
         [System.Runtime.InteropServices.DllImport("user32.dll")]
@@ -76,7 +86,6 @@ namespace ArknightsWiki.UI
         const int MOUSEEVENTF_MIDDLEUP = 0x0040;  
         //标示是否采用绝对坐标
         const int MOUSEEVENTF_ABSOLUTE = 0x8000;
-        #region 窗体操作
 
         /// <summary>
         /// 窗体拖动
@@ -129,13 +138,36 @@ namespace ArknightsWiki.UI
         }
         #endregion
 
+        private void changeSidePanel(string option)
+        {
+            if (option == "mainPage")
+            {
+                pnl_side.Controls.Clear();
+                pnl_side.Controls.Add(pnl_hotWiki);
+                pnl_wikiDetail.Visible = false;
+                pnl_hotWiki.Visible = true;
+            }
+            else if (option == "wikiPage")
+            {
+                pnl_side.Controls.Clear();
+                pnl_side.Controls.Add(pnl_wikiDetail);
+                pnl_wikiDetail.Visible = true;
+                pnl_hotWiki.Visible = false;
+            }
+        }
+
         private void btn_operator_Click(object sender, EventArgs e)
         {
-            editorform.fileName = "C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\Resources\\WikiPages\\干员档案——阿米娅.md";
+            //editorform.fileName = "C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\Resources\\WikiPages\\干员档案——阿米娅.md";
+            //pnl_main.Controls.Clear();
+            //pnl_main.Controls.Add(editorform);
+            //editorform.webBrowser1.Refresh();
+            //editorform.Show();
+            pnl_editorBtn.Visible = false;
             pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(editorform);
-            editorform.webBrowser1.Refresh();
-            editorform.Show();
+            pnl_main.Controls.Add(operatorform);
+            operatorform.oprMD += loadMD;
+            operatorform.Show();
         }
 
         private void btn_readSource_Click(object sender, EventArgs e)
@@ -174,7 +206,72 @@ namespace ArknightsWiki.UI
         {
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(registerform);
+            registerform.register += registerGetUser;
             registerform.Show();
+        }
+
+        public void registerGetUser(User user)
+        {
+            this.user = new User(user);
+            btn_login.Text = "个人中心";
+            btn_login.Click -= btn_login_Click;
+            btn_login.Click += btn_login_personal_Click;
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(mainpage);
+            btn_readSource.Enabled = true;
+            mainpage.Show();
+        }
+
+        public void loadMD(string item, string name)
+        {
+            editorform = new EditorForm(this);
+            dbManager.OpenDB();
+            SqlDataReader reader = null;
+            switch (item)
+            {
+                case "Operators":
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='干员资料'", "wikiID, wikiPath");
+                    break;
+                case "Enemies":
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='敌人档案'", "wikiID, wikiPath");
+                    break;
+                case "Operations":
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='关卡一览'", "wikiID, wikiPath");
+                    break;
+                case "Material":
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='道具资料'", "wikiID, wikiPath");
+                    break;
+                default:
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}'", "wikiID, wikiPath");
+                    break;
+            }
+
+            if (reader.Read())
+            {
+                editorform.fileName = $"C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\bin\\Debug\\"
+                    + reader["wikiPath"];
+                wikiPageID = reader["wikiID"].ToString();
+            }
+            dbManager.CloseDB();
+
+            dbManager.OpenDB();
+            dbManager.UpdateData("wikiPages", $"wikiPageViews=wikiPageViews+1", $"wikiID='{wikiPageID}'");
+
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(editorform);
+            editorform.webBrowser1.Refresh();
+            changeSidePanel("wikiPage");
+            pnl_editorBtn.Visible = true;
+            editorform.Show();
+            dbManager.CloseDB();
+        }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+
+            string newWikiPath = editorform.SaveMD(out DateTime changeTime);
+            dbManager.OpenDB();
+            dbManager.UpdateData("wikiPages", $"wikiPath='{newWikiPath}, wikiLastChangeTime={changeTime}', wikiContributors=wikiContributors+{user.userName}", $"wikiID='{wikiPageID}'");
         }
     }
 }

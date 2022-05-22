@@ -100,7 +100,7 @@ namespace ArknightsWiki
         }
 
         public bool UpdateData(string tableName,
-                string value, string options = "*")
+                string value, string options = "")
         {
             string selectSqlString = "";
             if (options != "")

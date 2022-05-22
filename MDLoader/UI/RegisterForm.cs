@@ -12,8 +12,10 @@ using System.Windows.Forms;
 
 namespace ArknightsWiki.UI
 {
+    public delegate void GetUser(User user);
     public partial class RegisterForm : Form
     {
+        public event GetUser register;
         DBManager dBManager;
         public User user = null;
         public RegisterForm()
@@ -31,12 +33,15 @@ namespace ArknightsWiki.UI
                 string email = tb_email.Text;
                 dBManager = new DBManager("127.0.0.1", "ArkWiki", "fazer", "zxc123456..");
                 dBManager.OpenDB();
-                SqlDataReader reader = dBManager.SelectData("Users", "", "count(*)");
-                int count = (int)reader[""];
+                SqlDataReader reader = dBManager.SelectData("Users", "", "*");
+                int count = 0;
+                while (reader.Read())
+                    count++;
                 string uid = string.Format("{0:0000000000}", count);
                 user = new User(uid, pwd, nickName, email);
                 dBManager.InsertData("Users", user.ToString());
                 MessageBox.Show($"注册成功!\n您的UID为{ user.userID}，系统将自动登录。");
+                register(user);
             }
             else
             {

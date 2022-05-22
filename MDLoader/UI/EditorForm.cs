@@ -27,9 +27,10 @@ namespace ArknightsWiki.UI
         public WebBrowserEx webBrowser1 = new WebBrowserEx();
         HtmlElement editor;
         public string fileName = "";
-
-        public EditorForm()
+        MainFrame mainFrame = null;
+        public EditorForm(MainFrame owner)
         {
+            mainFrame = owner;
             InitializeComponent();
             webBrowser1.Parent = this.panel2;
             webBrowser1.ScrollBarsEnabled = false;
@@ -112,9 +113,7 @@ namespace ArknightsWiki.UI
                 this.Text = captain + "  " + fileName;
             }else if ((System.IO.Path.GetExtension(fileName) == ".png")||(System.IO.Path.GetExtension(fileName) == ".jpg"))
             {
-
                 MessageBox.Show("对不起，仅支持md文件编辑");
-
             }
         }
 
@@ -175,6 +174,21 @@ namespace ArknightsWiki.UI
                 adapter.CacheMDPictures(fileName);
                 this.Text = captain + "  " + fileName;
             }
+        }
+
+        public void LoadMD()
+        {
+            HtmlDocument doc = webBrowser1.Document;
+            //参数方式打开md文件
+            if (!(fileName == ""))
+            {
+                adapter.LoadMDFile(fileName, webBrowser1);
+                adapter.CacheMDPictures(fileName);
+
+                adapter.MdFilePath = fileName.Substring(0, fileName.LastIndexOf("\\"));
+            }
+            adapter.SetUserSideMD(webBrowser1);
+            fullscreen();
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -240,41 +254,20 @@ namespace ArknightsWiki.UI
         /// 保存文件
         /// </summary>
         /// <returns></returns>
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        public string SaveMD(out DateTime dateTime)
         {
-            adapter.GetUserSideMD(webBrowser1);  
-            if (adapter.Filename == "")
-            {
-                DialogResult dr = saveFileDialog1.ShowDialog();
-                //获取所打开文件的文件名,如果是多个文件选择FileNames
-                string fileName = saveFileDialog1.FileName;
-                if (dr == System.Windows.Forms.DialogResult.OK && !string.IsNullOrEmpty(fileName))
-                {
-                   adapter.MdFilePath= fileName.Substring(0, fileName.LastIndexOf("\\"));
-                    adapter.Filename = fileName;
-                }
-            }
+            adapter.GetUserSideMD(webBrowser1);
+            // 获取修改时间
+            DateTime currentDateTime = DateTime.Now;
+            dateTime = currentDateTime;
+            string changeTime = currentDateTime.ToString().Replace("/", "_").Replace(" ", "_").Replace(':', '_');
+            string dirPath = fileName.Substring(0, fileName.IndexOf("/"));
+            string oprName = fileName.Substring(fileName.IndexOf("/") + 1, fileName.IndexOf("_") - fileName.IndexOf("/") - 1);
+            adapter.Filename = $"{dirPath}/{oprName}_{changeTime}.md";
             webBrowser1.Refresh();
             adapter.SaveFile(adapter.Filename);
-            this.Text = captain + "  " + adapter.Filename;
-        }
-        /// <summary>
-        /// 另存为
-        /// </summary>
-        /// <returns></returns>
-        private void saveAsToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            adapter.Filename = "";
-            saveToolStripMenuItem_Click(sender, e);
-        }
-        /// <summary>
-        /// 新建文件
-        /// </summary>
-        /// <returns></returns>
-        private void newToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            adapter.Clear(webBrowser1);
-            this.Text = captain;
+
+            return $"WikiPages/{oprName}_{changeTime}.md";
         }
         /// <summary>
         /// 当editor.md文本发生变化时（从webbrowser的js中回调该函数）
@@ -285,6 +278,7 @@ namespace ArknightsWiki.UI
             if (adapter.Filename == "") return;
             try
             {
+                mainFrame.btn_save.Visible = true;
                 adapter.GetUserSideMD(webBrowser1);
                 List<string> updatedlist = adapter.CacheMDPictures(adapter.Filename);
                 HtmlDocument doc = webBrowser1.Document;

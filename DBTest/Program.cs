@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace DBTest
 {
@@ -14,11 +15,24 @@ namespace DBTest
         {
             DBManager dBManager = new DBManager("127.0.0.1", "ArkWiki", "fazer", "zxc123456..");
             dBManager.OpenDB();
-            SqlDataReader reader =  dBManager.SelectData("Users");
+            SqlDataReader reader = dBManager.SelectData("WikiPages", $"wikiTitle like '%12F' and wikiTags='干员资料'", "wikiPath"); ;
+            int count = 1;
             while(reader.Read())
             {
-                Console.WriteLine(reader["oprName"]);
+                Console.WriteLine($"{count}"+reader["wikiPath"]);
+                count++;
             }
+            DateTime currentDateTime = DateTime.Now;
+            Console.WriteLine(count);
+            string times = currentDateTime.ToString().Replace("/", "_").Replace(" ", "_").Replace(':', '_');
+            Console.WriteLine(times);
+            FileStream stream = new FileStream("../test.txt", FileMode.Append, FileAccess.Write);
+            string fileName = @"C:\Users\23887\Desktop\ArkWiki\References\md-fileloader-master\Program\MDLoader\bin\Debug\WikiPages/《假日终结》_2022_05_24_22_43_56.md";
+            string changeTime = currentDateTime.ToString().Replace("/", "_").Replace(" ", "_").Replace(':', '_');
+            string dirPath = fileName.Substring(0, fileName.IndexOf("/"));
+            string oprName = fileName.Substring(fileName.IndexOf("/") + 1, fileName.IndexOf("_") - fileName.IndexOf("/") - 1);
+            fileName = $"{dirPath}/{oprName}_{changeTime}.md";
+            Console.WriteLine(fileName);
             Console.ReadKey();
         }
     }

@@ -65,7 +65,7 @@ namespace ArknightsWiki.UI
                 user.userEmail = email;
                 MessageBox.Show("信息修改成功！");
             }
-            else 
+            else
             {
                 MessageBox.Show("信息格式有误，请检查后再次尝试！");
                 this.tb_nickName.Text = user.userName;
@@ -73,6 +73,20 @@ namespace ArknightsWiki.UI
                 this.tb_email.Text = user.userEmail;
             }
             dbManager.CloseDB();
+        }
+
+        private void btn_cancle_Click(object sender, EventArgs e)
+        {
+            this.tb_nickName.Text = user.userName;
+            this.tb_pwd.Text = user.userPwd;
+            this.tb_email.Text = user.userEmail;
+
+            this.btn_save.Enabled = false;
+            this.btn_cancle.Enabled = false;
+            this.tb_email.Enabled = false;
+            this.tb_nickName.Enabled = false;
+            this.tb_pwd.Enabled = false;
+            this.btn_change.Enabled = true;
         }
     }
 }

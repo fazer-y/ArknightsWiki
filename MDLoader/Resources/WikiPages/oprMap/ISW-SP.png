@@ -1,0 +1,813 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="zh-Hans-CN" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>首页 - PRTS - 玩家自由构筑的明日方舟中文Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"200ec0d2e4d5ad5125b2d4bf","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"首页","wgTitle":"首页","wgCurRevisionId":204506,"wgRevisionId":204506,"wgArticleId":1,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"zh-cn","wgPageContentModel":"wikitext","wgRelevantPageName":"首页","wgRelevantArticleId":1,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":!0,"wgVisualEditor":{"pageLanguageCode":"zh-Hans-CN","pageLanguageDir":"ltr",
+"pageVariantFallbacks":"zh-cn"},"wgMFDisplayWikibaseDescriptions":{"search":!1,"nearby":!1,"watchlist":!1,"tagline":!1},"wgULSAcceptLanguageList":["zh-cn","zh"],"wgULSCurrentAutonym":"中文（中国大陆）‎","srfFilteredConfig":null,"wgEditSubmitButtonLabelPublish":!1,"wgULSPosition":"personal"};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.pt":"ready","ext.srf.styles":"ready","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready"};RLPAGEMODULES=["ext.smw.style","ext.smw.tooltips","smw.entityexaminer","site","mediawiki.page.startup","mediawiki.page.ready","skins.vector.legacy.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.gadget.copyUrl","ext.gadget.Filterable","ext.gadget.commentEmoji","ext.gadget.Carousel","ext.gadget.Popup","ext.gadget.Edittools",
+"ext.gadget.HeimuToggle","ext.uls.interface"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"variant":"zh-cn"});
+});});</script>
+<link rel="stylesheet" href="/load.php?lang=zh-cn&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?lang=zh-cn&amp;modules=ext.srf.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?lang=zh-cn&amp;modules=ext.uls.pt%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?lang=zh-cn&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<style>#mw-indicator-mw-helplink {display:none;}</style>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?lang=zh-cn&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.3"/>
+<meta property="og:image" content="http://prts.wiki/images/c/c0/Mpbutton-mask.png"/>
+<meta name="description" content="PRTS是一个非盈利性质的明日方舟资料Wiki网站"/>
+<meta name="keywords" content="PRTS,明日方舟,Mooncell,Arknights,明日方舟wiki,明日方舟百科,明日方舟攻略,明日方舟图鉴,明日方舟,明日方舟资料站"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="alternate" type="application/rdf+xml" title="首页" href="/index.php?title=%E7%89%B9%E6%AE%8A:%E5%AF%BC%E5%87%BARDF/%E9%A6%96%E9%A1%B5&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="PRTS (zh-cn)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//prts.wiki/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+<link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/5.15.2/css/all.min.css" type="text/css" rel="stylesheet" />
+<link href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/5.15.2/css/v4-shims.min.css" type="text/css" rel="stylesheet" />
+<link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/animate.css/3.7.2/animate.min.css" type="text/css" rel="stylesheet" />
+<meta name="theme-color" content="#343434">
+<link rel="apple-touch-icon" href="/ioslogo.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').then(function(registration){console.log('ServiceWorker registration successful with scope: ',registration.scope)}).catch(function(err){console.log('ServiceWorker registration failed: ',err)})})}</script>
+<script data-ad-client="ca-pub-3703762592545424" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158174062-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158174062-1');
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e1369c7d981281aa581e68b669c5a75c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="https://s3.pstatp.com/cdn/expire-1-M/lazysizes/4.1.8/lazysizes.min.js" type="application/javascript"></script>
+<style type="text/css">.skin-vector .mw-body{margin-left:11em !important;padding:1.25em 1.5em 1.5em 1.5em !important}
+.skin-vector #mw-panel{padding-left:0 !important;width:10.5em !important}
+.skin-vector #left-navigation,.skin-vector #content{margin-left:11em}
+div#MenuSidebar{margin-bottom:5rem;position:absolute;top:200px;width:100%}
+div#MenuSidebar a.external{background:none;padding-right:auto}
+div#MenuSidebar>:first-child{margin-top:0px;border-top:2px solid #f4c430}
+div#MenuSidebar>:first-child>:first-child{box-shadow:none}
+div#MenuSidebar>ul{list-style:none none;width:100%;margin:0px;background-color:rgba(20,20,20,0.6);border-top:2px solid #f4c430;border-bottom-right-radius:5px}
+div#MenuSidebar ul{position:relative;font-size:0.9rem}
+div#MenuSidebar>ul>li ul{display:block;opacity:0;pointer-events:none;visibility:hidden;transition:0.2s all ease-in-out;z-index:1;background-color:#373737;width:unset !important;white-space:nowrap}
+div#MenuSidebar>ul>li ul a,div#MenuSidebar>ul>li ul b{padding-right:18px}
+div#MenuSidebar>ul ul{list-style:none none;position:absolute;left:100%;width:100%;top:0px;margin:0px;z-index:1;background-color:#333;box-shadow:-1px 2px 10px 0px rgba(0,0,0,0.4),-1px -2px 10px 0px rgba(0,0,0,0.4)}
+div#MenuSidebar ul li:first-child{box-shadow:none}
+div#MenuSidebar > p{padding:8px 10px;margin:0px;cursor:default;color:#f4c430;font-weight:bold;margin-top:8px;background-color:rgba(30,30,30,0.6)}
+div#MenuSidebar>ul li:hover>ul{display:block;opacity:1;pointer-events:auto;visibility:visible}
+div#MenuSidebar li{position:relative;margin:0px;box-shadow:inset 0 1px rgba(244,196,48,0.5);transition:0.15s all ease-in;z-index:1}
+div#MenuSidebar li b,div#MenuSidebar li a{padding:5px 0px;padding-left:18px;display:block;width:auto;height:100%;font-weight:normal}
+div#MenuSidebar a{transition:all 0.15s ease-in;color:#eaeaea}
+div#MenuSidebar a:hover,div#MenuSidebar b:hover{color:black;background-color:#f4c430;text-decoration:none !important}
+div#MenuSidebar b{cursor:default}
+div#MenuSidebar li.child>a::after,div#MenuSidebar li.child>b::after{float:right;content:"\f0da";font-family:'Font Awesome 5 Free';font-weight:900;display:inherit;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:100%;font-size:1rem;padding-top:2%;margin-right:3px}
+div#MenuSidebar a.selflink{font-weight:bold;color:#f4c430;cursor:default}
+div#MenuSidebar a.selflink:hover{background-color:inherit;color:#f4c430}
+div#MenuSidebar>ul>li:last-child>a,div#MenuSidebar>ul>li:last-child>b{border-bottom-right-radius:5px}
+div#MenuSidebar a.selflink::before{content:"";display:block;position:absolute;left:0px;top:50%;transform:translateY(-50%);border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:6px solid #f4c430}
+#MenuSidebar .copyUrl::after{content:"\f0c1";font-family:'Font Awesome 5 Free';font-weight:900;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;font-size:70%;margin-left:.4em;color:var(--production);pointer-events:auto;cursor:pointer}</style>
+<meta property="og:title" content="首页"/>
+<meta property="og:site_name" content="PRTS"/>
+<meta property="og:url" content="http://prts.wiki/w/%E9%A6%96%E9%A1%B5"/>
+<meta property="og:description" content="PRTS是一个非盈利性质的明日方舟资料Wiki网站"/>
+<meta property="article:tag" content="PRTS,明日方舟,Mooncell,Arknights,明日方舟wiki,明日方舟百科,明日方舟攻略,明日方舟图鉴,明日方舟,明日方舟资料站"/>
+<meta property="article:modified_time" content="2022-01-27T06:20:23Z"/>
+<meta property="article:published_time" content="2022-01-27T06:20:23Z"/>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"article","name":"\u9996\u9875 - PRTS - \u73a9\u5bb6\u81ea\u7531\u6784\u7b51\u7684\u660e\u65e5\u65b9\u821f\u4e2d\u6587Wiki","headline":"\u9996\u9875 - PRTS - \u73a9\u5bb6\u81ea\u7531\u6784\u7b51\u7684\u660e\u65e5\u65b9\u821f\u4e2d\u6587Wiki","mainEntityOfPage":"\u9996\u9875","identifier":"http:\/\/prts.wiki\/w\/%E9%A6%96%E9%A1%B5","url":"http:\/\/prts.wiki\/w\/%E9%A6%96%E9%A1%B5","description":"PRTS\u662f\u4e00\u4e2a\u975e\u76c8\u5229\u6027\u8d28\u7684\u660e\u65e5\u65b9\u821f\u8d44\u6599Wiki\u7f51\u7ad9","keywords":"PRTS,\u660e\u65e5\u65b9\u821f,Mooncell,Arknights,\u660e\u65e5\u65b9\u821fwiki,\u660e\u65e5\u65b9\u821f\u767e\u79d1,\u660e\u65e5\u65b9\u821f\u653b\u7565,\u660e\u65e5\u65b9\u821f\u56fe\u9274,\u660e\u65e5\u65b9\u821f,\u660e\u65e5\u65b9\u821f\u8d44\u6599\u7ad9","dateModified":"2022-01-27T06:20:23Z","datePublished":"2022-01-27T06:20:23Z","image":{"@type":"ImageObject","url":"http:\/\/prts.wiki\/ak.png"},"author":{"@type":"Organization","name":"PRTS","url":"\/\/prts.wiki","logo":{"@type":"ImageObject","url":"http:\/\/prts.wiki\/ak.png","caption":"PRTS"}},"publisher":{"@type":"Organization","name":"PRTS","url":"\/\/prts.wiki","logo":{"@type":"ImageObject","url":"http:\/\/prts.wiki\/ak.png","caption":"PRTS"}},"potentialAction":{"@type":"SearchAction","target":"http:\/\/prts.wiki\/index.php?title=%E7%89%B9%E6%AE%8A:Search&search={search_term}","query-input":"required name=search_term"}}</script>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-首页 rootpage-首页 skin-vector action-view skin-vector-legacy minerva--history-page-action-enabled">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><div id="localNotice" lang="zh-Hans-CN" dir="ltr"><div class="nomobile"></div></div></div>
+	<div class="mw-indicators mw-body-content">
+	<div id="mw-indicator-smw-entity-examiner" class="mw-indicator"><div class="smw-entity-examiner smw-indicator-vertical-bar-loader" data-subject="首页#0##" data-dir="ltr" data-uselang="" title="Running an examiner in the background"></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading" lang="zh-Hans-CN">首页</h1>
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">来自PRTS</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+		<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+		<div id="mw-content-text" lang="zh-Hans-CN" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><style>.skin-vector h2{border-bottom:2px solid #343434;}.skin-minerva h3{border-bottom:2px solid #343434;}.slick-next,.slick-prev{text-shadow:0 5px 10px black;}.carousel-indicator li button::before{box-shadow:0 5px 10px 0px #000000;}.mp-operators{font-size:16px;color:#343434;font-weight:bold;}.mp-operators-content{display:inline-block;margin-right:8px;}.mp-operators-title{border-bottom:2px solid #343434;width:100%;}.mp-operators-icons{margin-top:4px;}.mp-status-light{animation:6s ease 0s infinite status-light;}@keyframes status-light{0%{opacity:0;}30%{opacity:1;}70%{opacity:1;}100%{opacity:0;}}.weekly-indicator{text-align:center;width:95px;height:22px;line-height:22px;font-size:22px;position:absolute;bottom:24px;color:white;}.mp-bili-follow-btn a{padding:8px 16px;background:#00a1d6;box-shadow:0 4px 4px rgba(127,127,127,.3);background-image:none !important;}.mp-bili-follow-btn a:hover{background:#00b5e5;}.mp-siteinfo-btn{margin-left:8px;}.mp-siteinfo-btn a{display:inline-block;color:#fff !important;font-size:16px;border-radius:4px;transition:0.2s;text-decoration:none;margin-top:2px;margin-bottom:6px;}.mp-siteinfo-btn a:hover{text-decoration:none;}.mp-bili-charge-btn a{padding:8px 16px;background:#f25d8e;box-shadow:0 4px 4px rgba(255,112,159,.3);}.mp-bili-charge-btn a:hover{background:#ff709f;}.mp-double-donate-btn a{padding:8px;background:linear-gradient(to right,#44b549,#00aaee);box-shadow:0 4px 4px rgba(127,127,127,.3);}.mp-double-donate-btn a:hover{background:linear-gradient(to right,#88cf8b,#5cc8f4);}.mp-m-siteinfo-btn{margin-left:2px;}.mp-m-siteinfo-btn a{display:inline-block;color:#fff !important;font-size:12px;border-radius:3px;transition:0.2s;text-decoration:none;margin-top:1px;margin-bottom:1px;}.mp-m-siteinfo-btn a:hover{text-decoration:none;}.mp-m-bili-charge-btn a{padding:4px 8px;background:#f25d8e;box-shadow:0 2px 2px rgba(255,112,159,.3);}.mp-m-bili-charge-btn a:hover{background:#ff709f;}.mp-m-double-donate-btn a{padding:4px;background:linear-gradient(to right,#44b549,#00aaee);box-shadow:0 2px 2px rgba(127,127,127,.3);}.mp-m-double-donate-btn a:hover{background:linear-gradient(to right,#88cf8b,#5cc8f4);}.mp-m-bili-follow-btn a{padding:4px 8px;background:#00a1d6;box-shadow:0 2px 2px rgba(127,127,127,.3);background-image:none !important;}.mp-m-bili-follow-btn a:hover{background:#00b5e5;}.mp-container-left{display:inline-block;width:58%;}.mp-extranav ul,.mp-siteinfo ul{margin-left:40px;}.skin-minerva .mp-extranav ul{margin-top:5px;}.mp-mobile-extranav ul,.mp-mobile-siteinfo ul{margin-left:5%;}.mp-extranav li,.mp-siteinfo li{margin-bottom:0.2em;font-size:1.1em;}.mp-mobile-extranav ul li,.mp-mobile-siteinfo ul li{margin-top:10px;margin-bottom:0;}.mp-mobile-extranav li{font-size:small;}.mp-extranav ul,.mp-mobile-extranav ul{display:grid;grid-template-columns:1fr 1fr;}.mp-extranav a,.mp-extranav a:visited{color:#024490;}.mp-extranav{width:95%;}.mp-extranav ul{grid-template-columns:1fr;}.mp-mobile-common{margin:18px 1% 0 1%;background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);padding:8px;}.mp-mobile-common h3{display:block !important;font-weight:normal;color:#4487DF;border-bottom:1px solid #4487DF;padding:0;margin-bottom:8px;}.mp-container-right{display:inline-block;width:41%;vertical-align:top;}.mp-gachapool-image a > img{width:100%;max-width:800px;height:100%;}.mp-event-image a > img{width:100%;max-width:800px;height:100%;}.mp-operator-image{margin:0 0 0.5em 2.0em;}.mp-container-right h3 .mw-editsection{display:none;}.mp-today p{margin-left:30px !important;position:relative;}.mp-mobile-today-container p{margin:4px 2px 0px 26px;font-size:small;position:relative;}.mp-today p:before,.mp-mobile-today-container p:before{content:"\f22d";-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;font-family:'Font Awesome 5 Free';font-weight:900;width:20px;text-align:center;margin-right:4px;position:absolute;left:-24px;top:4px;}.mp-today p.mp-today-cn:before,.mp-mobile-today-container p.mp-today-cn:before{content:"";display:inline-block;background:url(/images/4/44/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E6%97%97-%E5%B0%8F.png) no-repeat;width:18px;height:12px;border:1px solid #c8ccd1;}.mp-today p.mp-today-jp:before,.mp-mobile-today-container p.mp-today-jp:before{content:"";display:inline-block;background:url(/images/c/c7/%E6%97%A5%E6%9C%AC%E5%9B%BD%E6%97%97-%E5%B0%8F.png) no-repeat;width:18px;height:12px;border:1px solid #c8ccd1;}.mp-today p.mp-today-us:before,.mp-mobile-today-container p.mp-today-us:before{content:"";display:inline-block;background:url(/images/2/27/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E6%97%97-%E5%B0%8F.png) no-repeat;width:18px;height:12px;border:1px solid #c8ccd1;}.mp-today div.mp-today-jp:before,.mp-mobile-today-container div.mp-today-jp:before{content:"";display:inline-block;background:url(/images/c/c7/%E6%97%A5%E6%9C%AC%E5%9B%BD%E6%97%97-%E5%B0%8F.png) no-repeat;width:18px;height:12px;border:1px solid #c8ccd1;}.mp-today p{margin-left:2%;margin-right:2%;}.skin-minerva .mp-siteinfo{margin-top:5px;}.mp-extranav ul,.mp-siteinfo ul,.mp-mobile-extranav ul,.mp-mobile-siteinfo ul{list-style-type:disc;list-style-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAACXBIWXMAAD2EAAA9hAHVrK90AAAF+mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTA2LTE0VDIwOjA5OjMzKzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMC0wNi0xNFQyMDozMTo1MyswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMC0wNi0xNFQyMDozMTo1MyswODowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpiZTcwNmNjZi1mZWNmLTVmNDItYWJjNi1jYjA3MjI3NGY5M2YiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo4MGU2Nzg3OS04ODNhLTRlNGUtOGY2Yi02MDM2NDQ4MGRkZmEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4YTYzYzI3Ni01MjMwLTFhNDctODc0OS1lZjcxYmM5YmFkY2MiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjhhNjNjMjc2LTUyMzAtMWE0Ny04NzQ5LWVmNzFiYzliYWRjYyIgc3RFdnQ6d2hlbj0iMjAyMC0wNi0xNFQyMDowOTozMyswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpiZTcwNmNjZi1mZWNmLTVmNDItYWJjNi1jYjA3MjI3NGY5M2YiIHN0RXZ0OndoZW49IjIwMjAtMDYtMTRUMjA6MzE6NTMrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5z1LIYAAACwklEQVQ4y62US2gTURSGT17No0mTmKR5NG0ek0fzbt7QJm2alYJd1ARJcJO4qBAXRZeuClm6EJfixqVSBRGyMVsfCxciuhIsFER3ImorQu31vyNKZpKCCwc+Zpi5559z7n/OJcYY/Q9odnZ2DJvNNh0MBs+3220/njfUavVlk8mkMxqNZ/x+vxPfKBAISKCpqakxVCpVwuV2H+RyuQ2T0XhLp9O9MhgMFiJ67vP5mrFYjKLRqARaXFyUEI/HaX5+voYgJgjCOb1ev6tUKl8jI/yWPrjd7muhUIh4VqNMFFpYWGhyIafT+c1utx9ZrdZjLD7UaDRsZmbmusPhUOA9jUJcfZRIJEIej+cKF0IWDBkxrVbLzGYz4+/m5ubuYo1WHkeZTFpCNrukFoTgbR40CWT0AhmYYAKNQjqdVo5GpVLesVgsbGVl5bjRaLBqtcrLFDPDfr2FixZAoxACJKAEOoUrlUrdbLVaXwqFglgW3GSG6ekH8UQiki8UKJvLSRgTQurk9XoJNp9FKd9Hy0JJ20vZLOXy+XGhLD7IKRaLXGxHvj92m+1RNBIxhQSB5FC5XB6jUqkY0AL35ULY1DdwzIf+Ijli38BSsZw/QMSLfXkpF8Kmfka3p9fW1ggGiPBnrCdCqmRDQ9XW1wkOUbPZpNXV1RQCP9Xrdba8vCwRS6fTp2u12r8JIXiDB/X7fdbtdhk6m1v/FRyhjJ1MJkPJZJLgqDgNaI3fQi6Xi8K4Y7LFBXD/aqfTYXt7ezwDMROMxwGEfuDvuwjU8rHgppwohCMhg4/PuMg7sLm5Ke/s9xCpYN5OFsLUbyObn/v7+2wwGDDMEAuHw0yhUIyNCoRuTBTCiyrOoY+9Xo/x69LWFjtp3jg4nw5LpdKFv0J4WILVHdR/D9k8gVPDarUyREsMMf1DTP8kHmPPniLmIdZdxGmR+AVyGTWoivTwXwAAAABJRU5ErkJggg==);}@media (max-width:1500px){.mp-container-left,.mp-container-right{width:98%;}.mp-container-right>div{margin-left:1%;margin-right:1%;display:inline-block;vertical-align:top;}.mp-container-right img{max-width:98%;}}</style></p><div class="nomobile"><center><div class="carousel-container" id="carousel-scaler-container-main" style="height:330px; max-height:330px; max-width:100%;"><div id="carousel-scaler-main" style="position: relative; transform-origin: top left;"><div class="carousel" style="height:300px;width: 936px;box-shadow:0px 5px 7px 0px rgba(0,0,0,0.5);overflow: hidden;"><div class="carousel-item"><a href="/w/%E6%84%9A%E4%BA%BA%E5%8F%B7"><span style="background-image:url(//prts.wiki/images/0/0a/%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A_%E4%B8%89%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8_02.jpg);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E6%84%9A%E4%BA%BA%E5%8F%B7"><span style="background:url(//prts.wiki/images/0/0a/%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A_%E4%B8%89%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8_02.jpg) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div><div class="carousel-item"><a href="/w/%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB"><span style="background-image:url(//prts.wiki/images/b/bd/%E4%B8%BB%E9%A2%98%E5%9B%BE_%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB.png);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB"><span style="background:url(//prts.wiki/images/b/bd/%E4%B8%BB%E9%A2%98%E5%9B%BE_%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB.png) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div>
+<div class="carousel-item"><a href="/w/%E6%B5%B7%E8%9A%80"><span style="background-image:url(//prts.wiki/images/1/15/%E6%B5%B7%E8%9A%80.jpg);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E6%B5%B7%E8%9A%80"><span style="background:url(//prts.wiki/images/1/15/%E6%B5%B7%E8%9A%80.jpg) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div><div class="carousel-item"><a href="/w/%E5%AF%BB%E8%AE%BF%E6%A8%A1%E6%8B%9F/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079"><span style="background-image:url(//prts.wiki/images/c/cf/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079.jpg);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E5%AF%BB%E8%AE%BF%E6%A8%A1%E6%8B%9F/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079"><span style="background:url(//prts.wiki/images/c/cf/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079.jpg) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div></div></div></div></center><div style="margin-bottom:12px;"><div style="display:block; position:relative; left:50%; transform:translateX(-50%); overflow:hidden; background: none; width:825px;height:140px;" class="nomobile">
+  <div style="display:block; position:absolute; left:86px; top:35px; overflow:hidden; background: linear-gradient(to right, #091263, #51a4d3, #091263 );width:728px;height:90px; box-shadow:1px 1px 2px rgba(127,127,127,0.5),1px -1px 2px rgba(127,127,127,0.5),-1px 1px 2px rgba(127,127,127,0.5),-1px -1px 2px rgba(127,127,127,0.5);"><div style="position:absolute; bottom:50%; right:0; width:728px; transform:translateY(50%); color:#F2F1EB; font-size:20px; font-weight:bolder; text-align:center;text-shadow:0px 0px 2px black, 1px 1px 2px rgba(0,0,0,0.6);"></div></div>
+<p><ins class="adsbygoogle" style="display:block; width:728px; height:90px; position:absolute; left:86px; top:35px" data-ad-client="ca-pub-3703762592545424" data-ad-slot="6185248135"></ins><script>__VECTOR_MENU_SIDE_BAR_MOUNTED__=function(){(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-3703762592545424",});}</script>
+</p>
+  <div style="position:absolute; bottom:0; left:0px;"><img alt="CC-ads.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="95" height="120" data-src="/images/thumb/c/c6/CC-ads.png/95px-CC-ads.png" class="lazyload" data-srcset="/images/thumb/c/c6/CC-ads.png/143px-CC-ads.png 1.5x, /images/thumb/c/c6/CC-ads.png/191px-CC-ads.png 2x" /></div>
+  <div style="display:block; position:absolute; right:20px; top: 10px;">下方可能显示赞助商链接。<span style="border-bottom:dashed 1px #0645ad;"><a href="/w/PRTS:%E5%B9%BF%E5%91%8A" title="PRTS:广告">了解详情</a></span></div>
+</div></div><div id="mpbutton-container"><div id="mpbutton-scaler"><div class="mpbutton"><div class="mpbutton-icon" style="background-position: 0px 0px;"></div><div class="mpbutton-label zh" lang="zh">干员档案</div><div class="mpbutton-label en" lang="en">OPERATORS</div><div class="mpbutton-mask"><a href="/w/%E5%B9%B2%E5%91%98%E4%B8%80%E8%A7%88" title="干员一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -96px 0px;"></div><div class="mpbutton-label zh" lang="zh">敌人档案</div><div class="mpbutton-label en" lang="en">ENEMIES</div><div class="mpbutton-mask"><a href="/w/%E6%95%8C%E4%BA%BA%E4%B8%80%E8%A7%88" title="敌人一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -384px 0px;"></div><div class="mpbutton-label zh" lang="zh">道具资料</div><div class="mpbutton-label en" lang="en">DEPOT</div><div class="mpbutton-mask"><a href="/w/%E9%81%93%E5%85%B7%E4%B8%80%E8%A7%88" title="道具一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -288px -96px;"></div><div class="mpbutton-label zh" lang="zh">后勤技能</div><div class="mpbutton-label en" lang="en">LOGISTICS</div><div class="mpbutton-mask"><a href="/w/%E5%90%8E%E5%8B%A4%E6%8A%80%E8%83%BD%E4%B8%80%E8%A7%88" title="后勤技能一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -192px 0px;"></div><div class="mpbutton-label zh" lang="zh">关卡一览</div><div class="mpbutton-label en" lang="en">OPERATIONS</div><div class="mpbutton-mask"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88" title="关卡一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -96px -192px;"></div><div class="mpbutton-label zh" lang="zh">剧情记录</div><div class="mpbutton-label en" lang="en">STORIES</div><div class="mpbutton-mask"><a href="/w/%E5%89%A7%E6%83%85%E4%B8%80%E8%A7%88" title="剧情一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -192px -192px;"></div><div class="mpbutton-label zh" lang="zh">家具一览</div><div class="mpbutton-label en" lang="en">FURNITURE</div><div class="mpbutton-mask"><a href="/w/%E5%AE%B6%E5%85%B7%E4%B8%80%E8%A7%88" title="家具一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: 0px -192px;"></div><div class="mpbutton-label zh" lang="zh">时装回廊</div><div class="mpbutton-label en" lang="en">OUTFITS</div><div class="mpbutton-mask"><a href="/w/%E6%97%B6%E8%A3%85%E5%9B%9E%E5%BB%8A" title="时装回廊"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -384px -96px;"></div><div class="mpbutton-label zh" lang="zh">采购中心</div><div class="mpbutton-label en" lang="en">STORE</div><div class="mpbutton-mask"><a href="/w/%E9%87%87%E8%B4%AD%E4%B8%AD%E5%BF%83" title="采购中心"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -96px -96px;"></div><div class="mpbutton-label zh" lang="zh">卡池一览</div><div class="mpbutton-label en" lang="en">HEADHUNTS</div><div class="mpbutton-mask"><a href="/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88" title="卡池一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -288px 0px;"></div><div class="mpbutton-label zh" lang="zh">活动一览</div><div class="mpbutton-label en" lang="en">EVENTS</div><div class="mpbutton-mask"><a href="/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88" title="活动一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: 0px -96px;"></div><div class="mpbutton-label zh" lang="zh">公招计算</div><div class="mpbutton-label en" lang="en">RECRUIT</div><div class="mpbutton-mask"><a href="https://prts.wiki/w/CHAR?filter=AAACAAAEQAAAAAAAAAAAAAAAAAAAA" target="_blank" rel="nofollow noreferrer noopener"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div></div></div><style>.mpbutton{display:inline-block;position:relative;width:150px;height:150px;overflow:hidden;margin:2px;background-color:#343434;transition:0.5s;}.mpbutton-icon{position:absolute;width:96px;height:96px;left:27px;top:16px;overflow:hidden;background:url(https://static.prts.wiki/Mpbuttons.4DCFB205.png);filter:drop-shadow(0px 18px 6px rgba(255,255,255,0.5));}.mpbutton-label{position:absolute;width:100%;bottom:20px;font-size:15px;color:white;text-align:center;font-weight:900;font-family:"微软雅黑",sans-serif;letter-spacing:2px;transition:0.5s;}.mpbutton-mask{position:absolute;left:0;top:0;width:150px;height:150px;}.mpbutton:hover{background-color:var(--additon-title);}.mpbutton:hover .mpbutton-label.zh,.mpbutton-label.en{opacity:0;}.mpbutton:hover .mpbutton-label.en,.mpbutton-label.zh{opacity:1;}#mpbutton-container{max-width:100%;overflow:hidden;}#mpbutton-scaler{position:relative;left:50%;transform-origin:top left;transform:translateX(-50%);display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;width:920px;}</style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+    var container = document.getElementById('mpbutton-container');
+    var scaler = document.getElementById('mpbutton-scaler');
+    var containerWidth = container.offsetWidth
+    if (containerWidth < 920) {
+      scaler.style.transform = 'scale(' + (containerWidth / 920) + ')';
+      scaler.style.left = 0;
+      container.style.height = (308 * containerWidth / 920) + 'px';
+//      $('#mpbutton-scaler').css({
+//        'transform': 'scale(' + (containerWidth / 920) + ')',
+//        'left': '0'
+//      });
+//      $('#mpbutton-container').css('height', (308 * containerWidth / 920) + 'px');
+    }
+
+});
+</script>
+<h2><span id="今日信息"></span><span class="mw-headline" id=".E4.BB.8A.E6.97.A5.E4.BF.A1.E6.81.AF">今日信息</span></h2>
+<div class="mp-container-left">
+<table class="wikitable" style="border-color:#343434;text-align:center;width:100%;max-width:800px;color:white;table-layout:fixed;background-color:#343434;">
+<tbody><tr>
+<td colspan="4" style="border-color:#343434;background:#324c65;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集#物资筹备"><img alt="道具 高级作战记录.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="63" data-src="/images/thumb/0/03/%E9%81%93%E5%85%B7_%E9%AB%98%E7%BA%A7%E4%BD%9C%E6%88%98%E8%AE%B0%E5%BD%95.png/80px-%E9%81%93%E5%85%B7_%E9%AB%98%E7%BA%A7%E4%BD%9C%E6%88%98%E8%AE%B0%E5%BD%95.png" class="lazyload" data-srcset="/images/thumb/0/03/%E9%81%93%E5%85%B7_%E9%AB%98%E7%BA%A7%E4%BD%9C%E6%88%98%E8%AE%B0%E5%BD%95.png/120px-%E9%81%93%E5%85%B7_%E9%AB%98%E7%BA%A7%E4%BD%9C%E6%88%98%E8%AE%B0%E5%BD%95.png 1.5x, /images/thumb/0/03/%E9%81%93%E5%85%B7_%E9%AB%98%E7%BA%A7%E4%BD%9C%E6%88%98%E8%AE%B0%E5%BD%95.png/160px-%E9%81%93%E5%85%B7_%E9%AB%98%E7%BA%A7%E4%BD%9C%E6%88%98%E8%AE%B0%E5%BD%95.png 2x" /></a>
+</td>
+<td colspan="4" style="border-color:#343434;background:#343434;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集#物资筹备"><img alt="道具 技巧概要·卷3.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="85" data-src="/images/thumb/4/4c/%E9%81%93%E5%85%B7_%E6%8A%80%E5%B7%A7%E6%A6%82%E8%A6%81%C2%B7%E5%8D%B73.png/80px-%E9%81%93%E5%85%B7_%E6%8A%80%E5%B7%A7%E6%A6%82%E8%A6%81%C2%B7%E5%8D%B73.png" class="lazyload" data-srcset="/images/thumb/4/4c/%E9%81%93%E5%85%B7_%E6%8A%80%E5%B7%A7%E6%A6%82%E8%A6%81%C2%B7%E5%8D%B73.png/120px-%E9%81%93%E5%85%B7_%E6%8A%80%E5%B7%A7%E6%A6%82%E8%A6%81%C2%B7%E5%8D%B73.png 1.5x, /images/thumb/4/4c/%E9%81%93%E5%85%B7_%E6%8A%80%E5%B7%A7%E6%A6%82%E8%A6%81%C2%B7%E5%8D%B73.png/160px-%E9%81%93%E5%85%B7_%E6%8A%80%E5%B7%A7%E6%A6%82%E8%A6%81%C2%B7%E5%8D%B73.png 2x" /></a>
+</td>
+<td colspan="4" style="border-color:#343434;background:#585858;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集#物资筹备"><img alt="道具 龙门币.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="62" data-src="/images/thumb/c/cc/%E9%81%93%E5%85%B7_%E9%BE%99%E9%97%A8%E5%B8%81.png/80px-%E9%81%93%E5%85%B7_%E9%BE%99%E9%97%A8%E5%B8%81.png" class="lazyload" data-srcset="/images/thumb/c/cc/%E9%81%93%E5%85%B7_%E9%BE%99%E9%97%A8%E5%B8%81.png/120px-%E9%81%93%E5%85%B7_%E9%BE%99%E9%97%A8%E5%B8%81.png 1.5x, /images/thumb/c/cc/%E9%81%93%E5%85%B7_%E9%BE%99%E9%97%A8%E5%B8%81.png/160px-%E9%81%93%E5%85%B7_%E9%BE%99%E9%97%A8%E5%B8%81.png 2x" /></a>
+</td>
+<td colspan="4" style="border-color:#343434;background:#585858;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集#物资筹备"><img alt="道具 采购凭证.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="65" data-src="/images/thumb/0/0f/%E9%81%93%E5%85%B7_%E9%87%87%E8%B4%AD%E5%87%AD%E8%AF%81.png/80px-%E9%81%93%E5%85%B7_%E9%87%87%E8%B4%AD%E5%87%AD%E8%AF%81.png" class="lazyload" data-srcset="/images/thumb/0/0f/%E9%81%93%E5%85%B7_%E9%87%87%E8%B4%AD%E5%87%AD%E8%AF%81.png/120px-%E9%81%93%E5%85%B7_%E9%87%87%E8%B4%AD%E5%87%AD%E8%AF%81.png 1.5x, /images/thumb/0/0f/%E9%81%93%E5%85%B7_%E9%87%87%E8%B4%AD%E5%87%AD%E8%AF%81.png/160px-%E9%81%93%E5%85%B7_%E9%87%87%E8%B4%AD%E5%87%AD%E8%AF%81.png 2x" /></a>
+</td>
+<td colspan="4" style="border-color:#343434;background:#343434;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集#物资筹备"><img alt="道具 碳素.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="52" data-src="/images/thumb/0/01/%E9%81%93%E5%85%B7_%E7%A2%B3%E7%B4%A0.png/80px-%E9%81%93%E5%85%B7_%E7%A2%B3%E7%B4%A0.png" class="lazyload" data-srcset="/images/thumb/0/01/%E9%81%93%E5%85%B7_%E7%A2%B3%E7%B4%A0.png/120px-%E9%81%93%E5%85%B7_%E7%A2%B3%E7%B4%A0.png 1.5x, /images/thumb/0/01/%E9%81%93%E5%85%B7_%E7%A2%B3%E7%B4%A0.png/160px-%E9%81%93%E5%85%B7_%E7%A2%B3%E7%B4%A0.png 2x" /></a>
+</td></tr>
+<tr>
+<td colspan="4" style="border-color:#343434;background:#3e5f84;"><i class="fa-square fas" style="font-size:;height:;color:var(--limited);"></i> 常驻
+</td>
+<td colspan="4" style="border-color:#343434;background:#484848;"><i class="fa-square fas" style="font-size:;height:;color:grey;"></i> 二三五日
+</td>
+<td colspan="4" style="border-color:#343434;background:#808080;"><i class="fa-square fas" style="font-size:;height:;color:var(--limited);"></i> 二四六日
+</td>
+<td colspan="4" style="border-color:#343434;background:#808080;"><i class="fa-square fas" style="font-size:;height:;color:var(--limited);"></i> 一四六日
+</td>
+<td colspan="4" style="border-color:#343434;background:#484848;"><i class="fa-square fas" style="font-size:;height:;color:grey;"></i> 一三五六
+</td></tr>
+<tr>
+<td colspan="5" style="border-color:#343434;background:#343434;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E8.8A.AF.E7.89.87.E6.90.9C.E7.B4.A2" title="关卡一览/资源收集#芯片搜索"><img alt="摧古拉朽 缩略.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="80" data-src="/images/thumb/b/bd/%E6%91%A7%E5%8F%A4%E6%8B%89%E6%9C%BD_%E7%BC%A9%E7%95%A5.png/80px-%E6%91%A7%E5%8F%A4%E6%8B%89%E6%9C%BD_%E7%BC%A9%E7%95%A5.png" class="lazyload" data-srcset="/images/thumb/b/bd/%E6%91%A7%E5%8F%A4%E6%8B%89%E6%9C%BD_%E7%BC%A9%E7%95%A5.png/120px-%E6%91%A7%E5%8F%A4%E6%8B%89%E6%9C%BD_%E7%BC%A9%E7%95%A5.png 1.5x, /images/thumb/b/bd/%E6%91%A7%E5%8F%A4%E6%8B%89%E6%9C%BD_%E7%BC%A9%E7%95%A5.png/160px-%E6%91%A7%E5%8F%A4%E6%8B%89%E6%9C%BD_%E7%BC%A9%E7%95%A5.png 2x" /></a>
+</td>
+<td colspan="5" style="border-color:#343434;background:#343434;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E8.8A.AF.E7.89.87.E6.90.9C.E7.B4.A2" title="关卡一览/资源收集#芯片搜索"><img alt="身先士卒 缩略.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="80" data-src="/images/thumb/b/b0/%E8%BA%AB%E5%85%88%E5%A3%AB%E5%8D%92_%E7%BC%A9%E7%95%A5.png/80px-%E8%BA%AB%E5%85%88%E5%A3%AB%E5%8D%92_%E7%BC%A9%E7%95%A5.png" class="lazyload" data-srcset="/images/thumb/b/b0/%E8%BA%AB%E5%85%88%E5%A3%AB%E5%8D%92_%E7%BC%A9%E7%95%A5.png/120px-%E8%BA%AB%E5%85%88%E5%A3%AB%E5%8D%92_%E7%BC%A9%E7%95%A5.png 1.5x, /images/thumb/b/b0/%E8%BA%AB%E5%85%88%E5%A3%AB%E5%8D%92_%E7%BC%A9%E7%95%A5.png/160px-%E8%BA%AB%E5%85%88%E5%A3%AB%E5%8D%92_%E7%BC%A9%E7%95%A5.png 2x" /></a>
+</td>
+<td colspan="5" style="border-color:#343434;background:#585858;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E8.8A.AF.E7.89.87.E6.90.9C.E7.B4.A2" title="关卡一览/资源收集#芯片搜索"><img alt="固若金汤 缩略.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="80" data-src="/images/thumb/9/92/%E5%9B%BA%E8%8B%A5%E9%87%91%E6%B1%A4_%E7%BC%A9%E7%95%A5.png/80px-%E5%9B%BA%E8%8B%A5%E9%87%91%E6%B1%A4_%E7%BC%A9%E7%95%A5.png" class="lazyload" data-srcset="/images/thumb/9/92/%E5%9B%BA%E8%8B%A5%E9%87%91%E6%B1%A4_%E7%BC%A9%E7%95%A5.png/120px-%E5%9B%BA%E8%8B%A5%E9%87%91%E6%B1%A4_%E7%BC%A9%E7%95%A5.png 1.5x, /images/thumb/9/92/%E5%9B%BA%E8%8B%A5%E9%87%91%E6%B1%A4_%E7%BC%A9%E7%95%A5.png/160px-%E5%9B%BA%E8%8B%A5%E9%87%91%E6%B1%A4_%E7%BC%A9%E7%95%A5.png 2x" /></a>
+</td>
+<td colspan="5" style="border-color:#343434;background:#585858;"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E8.8A.AF.E7.89.87.E6.90.9C.E7.B4.A2" title="关卡一览/资源收集#芯片搜索"><img alt="势不可挡 缩略.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="80" height="80" data-src="/images/thumb/f/f6/%E5%8A%BF%E4%B8%8D%E5%8F%AF%E6%8C%A1_%E7%BC%A9%E7%95%A5.png/80px-%E5%8A%BF%E4%B8%8D%E5%8F%AF%E6%8C%A1_%E7%BC%A9%E7%95%A5.png" class="lazyload" data-srcset="/images/thumb/f/f6/%E5%8A%BF%E4%B8%8D%E5%8F%AF%E6%8C%A1_%E7%BC%A9%E7%95%A5.png/120px-%E5%8A%BF%E4%B8%8D%E5%8F%AF%E6%8C%A1_%E7%BC%A9%E7%95%A5.png 1.5x, /images/thumb/f/f6/%E5%8A%BF%E4%B8%8D%E5%8F%AF%E6%8C%A1_%E7%BC%A9%E7%95%A5.png/160px-%E5%8A%BF%E4%B8%8D%E5%8F%AF%E6%8C%A1_%E7%BC%A9%E7%95%A5.png 2x" /></a>
+</td></tr>
+<tr>
+<td colspan="5" style="border-color:#343434;background:#484848;"><i class="fa-square fas" style="font-size:;height:;color:grey;"></i> 一二五六
+</td>
+<td colspan="5" style="border-color:#343434;background:#484848;"><i class="fa-square fas" style="font-size:;height:;color:grey;"></i> 二三六日
+</td>
+<td colspan="5" style="border-color:#343434;background:#808080;"><i class="fa-square fas" style="font-size:;height:;color:var(--limited);"></i> 一四五日
+</td>
+<td colspan="5" style="border-color:#343434;background:#808080;"><i class="fa-square fas" style="font-size:;height:;color:var(--limited);"></i> 三四六日
+</td></tr></tbody></table></div>
+<div class="mp-container-right"><div class="mp-today"><p class="mp-today-cn">现在时间：<span style="font-weight:bold"><span class='wgTimeClock' id='+8,M月d日(周D) hh:mm,日,一,二,三,四,五,六'></span></span>。</p>
+<p>可获取 <strong><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集">作战记录&amp;采购凭证&amp;龙门币</a></strong> 和 <strong><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E8.8A.AF.E7.89.87.E6.90.9C.E7.B4.A2" title="关卡一览/资源收集">医疗、重装、先锋、辅助芯片</a></strong></p>  <p class="mp-today-cn"><b>全局剿灭模拟开放中</b>，<span class="CDScontainer" style="display:inline" data-time="1653854340"></span>后结束。</p>   <script>
+document.addEventListener("DOMContentLoaded", function () {
+  CountDownShort();
+  var i = window.setInterval(function () {
+    if (new Date().getSeconds() == 0) {
+      window.clearInterval(i);
+      CountDownShort();
+      window.setInterval(CountDownShort, 60000);
+    }
+  }, 1000);
+});
+function CountDownShort() {
+  var a = document.getElementsByClassName("CDScontainer");
+  if (a.length == 0) {
+    return;
+  }
+  var ct = new Date().getTime() / 1000;
+  for (var i = 0; i < a.length; i++) {
+    var s = parseInt(a[i].getAttribute("data-time"), 10);
+    if (s > ct) {
+      var delta = s - ct;
+      var t = "";
+      if (delta > 86400) {
+        t += Math.floor(delta / 86400) + "天";
+        delta = delta % 86400;
+      }
+      if (delta > 3600) {
+        t += Math.floor(delta / 3600) + "小时";
+        delta = delta % 3600;
+      }
+      if (delta > 60) {
+        t += Math.floor(delta / 60) + "分钟";
+      }
+      a[i].innerHTML = t;
+    } else {
+      if (a[i].innerHTML != "") {
+        a[i].innerHTML = "";
+      }
+    }
+  }
+}
+
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  Date.prototype.Format = function (format) {
+    //author: meizz
+    var fmt = format[1];
+    var o = {
+      "M+": this.getMonth() + 1, //月份
+      "d+": this.getDate(), //日
+      "h+": this.getHours(), //小时
+      "m+": this.getMinutes(), //分
+      "s+": this.getSeconds(), //秒
+      "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+      S: this.getMilliseconds(), //毫秒
+      D: format[this.getDay() + 2],
+    };
+    if (/(y+)/.test(fmt))
+      fmt = fmt.replace(
+        RegExp.$1,
+        (this.getFullYear() + "").substr(4 - RegExp.$1.length)
+      );
+    for (var k in o)
+      if (new RegExp("(" + k + ")").test(fmt))
+        fmt = fmt.replace(
+          RegExp.$1,
+          RegExp.$1.length == 1
+            ? o[k]
+            : ("00" + o[k]).substr(("" + o[k]).length)
+        );
+    return fmt;
+  };
+  widgetTimeUpdater();
+  var timeInterval = window.setInterval(function () {
+    if (new Date().getSeconds() == 0) {
+      window.clearInterval(timeInterval);
+      widgetTimeUpdater();
+      console.log(window.setInterval(widgetTimeUpdater, 60000));
+    }
+  }, 1000);
+});
+function widgetTimeUpdater() {
+  var clockArray = document.getElementsByClassName("wgTimeClock");
+  var offset_GMT = new Date().getTimezoneOffset();
+  var nowDate = new Date().getTime();
+  for (var i = 0; i < clockArray.length; i++) {
+    clockArray[i].innerHTML = new Date(
+      nowDate +
+        offset_GMT * 60 * 1000 +
+        clockArray[i].id.split(",")[0] * 60 * 60 * 1000
+    ).Format(clockArray[i].id.split(","));
+  }
+}</script></div></div>
+<h2><span id="亮点干员"></span><span class="mw-headline" id=".E4.BA.AE.E7.82.B9.E5.B9.B2.E5.91.98">亮点干员</span></h2>
+<div class="mp-operators"><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-birthday-cake fas" style="font-size:;height:;color:;"></i> 今天生日</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/末药" title="末药"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/d/d9/%E5%A4%B4%E5%83%8F_%E6%9C%AB%E8%8D%AF.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/4c/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_3.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%8C%BB%E7%96%97.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/赫拉格" title="赫拉格"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/c/cd/%E5%A4%B4%E5%83%8F_%E8%B5%AB%E6%8B%89%E6%A0%BC.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-user-plus fas" style="font-size:;height:;color:;"></i> 近期新增</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/流明" title="流明"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/7/72/%E5%A4%B4%E5%83%8F_%E6%B5%81%E6%98%8E.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%8C%BB%E7%96%97.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/艾丽妮" title="艾丽妮"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/5/57/%E5%A4%B4%E5%83%8F_%E8%89%BE%E4%B8%BD%E5%A6%AE.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/归溟幽灵鲨" title="归溟幽灵鲨"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%A4%B4%E5%83%8F_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/f/f1/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E7%89%B9%E7%A7%8D.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/掠风" title="掠风"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/5/5c/%E5%A4%B4%E5%83%8F_%E6%8E%A0%E9%A3%8E.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/c/c7/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BE%85%E5%8A%A9.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-tags fas" style="font-size:;height:;color:;"></i> 凭证兑换</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/推进之王" title="推进之王"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/b/ba/%E5%A4%B4%E5%83%8F_%E6%8E%A8%E8%BF%9B%E4%B9%8B%E7%8E%8B.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/78/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%85%88%E9%94%8B.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/贾维" title="贾维"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/2/2a/%E5%A4%B4%E5%83%8F_%E8%B4%BE%E7%BB%B4.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/78/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%85%88%E9%94%8B.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-tshirt fas" style="font-size:;height:;color:;"></i> 新增时装</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/Lancet-2" title="Lancet-2"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/6/6c/%E5%A4%B4%E5%83%8F_Lancet-2_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/6/62/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_0.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%8C%BB%E7%96%97.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/霜叶" title="霜叶"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/d/d4/%E5%A4%B4%E5%83%8F_%E9%9C%9C%E5%8F%B6_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/4c/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_3.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/苇草" title="苇草"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/a/aa/%E5%A4%B4%E5%83%8F_%E8%8B%87%E8%8D%89_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/78/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%85%88%E9%94%8B.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/龙舌兰" title="龙舌兰"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/b/b7/%E5%A4%B4%E5%83%8F_%E9%BE%99%E8%88%8C%E5%85%B0_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/极光" title="极光"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/e/e6/%E5%A4%B4%E5%83%8F_%E6%9E%81%E5%85%89_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/3/3c/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E9%87%8D%E8%A3%85.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/灵知" title="灵知"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/2/22/%E5%A4%B4%E5%83%8F_%E7%81%B5%E7%9F%A5_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/c/c7/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BE%85%E5%8A%A9.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/浊心斯卡蒂" title="浊心斯卡蒂"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/8/86/%E5%A4%B4%E5%83%8F_%E6%B5%8A%E5%BF%83%E6%96%AF%E5%8D%A1%E8%92%82_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/c/c7/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BE%85%E5%8A%A9.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/泥岩" title="泥岩"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/f/f4/%E5%A4%B4%E5%83%8F_%E6%B3%A5%E5%B2%A9_skin2.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/3/3c/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E9%87%8D%E8%A3%85.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div></div>
+<h2><span id="近期新增"></span><span class="mw-headline" id=".E8.BF.91.E6.9C.9F.E6.96.B0.E5.A2.9E">近期新增</span></h2>
+<div class="mp-extranav">
+<div class="mp-container-left">
+<h3><span id="新增关卡"></span><span class="mw-headline" id=".E6.96.B0.E5.A2.9E.E5.85.B3.E5.8D.A1">新增关卡</span></h3>
+<ul><li><a href="/w/%E5%8D%A1%E8%A5%BF%E7%B1%B3%E5%B0%94_%E9%BB%91%E5%A4%9C%E9%94%A6%E6%A0%87%E7%A7%80" title="卡西米尔 黑夜锦标秀">卡西米尔 黑夜锦标秀</a></li>
+<li><a href="/w/CE-6_%E5%AE%9E%E9%AA%8C%E5%8E%9F%E4%BB%B6%E6%8A%BC%E8%BF%90" title="CE-6 实验原件押运">CE-6 实验原件押运</a></li>
+<li><a href="/w/LS-6_%E8%BF%90%E5%8A%A8%E6%88%98%E6%BC%94%E4%B9%A0" title="LS-6 运动战演习">LS-6 运动战演习</a></li>
+<li><a href="/w/SN-1_%E4%B8%AD%E5%BF%83%E5%B9%BF%E5%9C%BA" title="SN-1 中心广场">SN-1 中心广场</a></li>
+<li><a href="/w/SN-2_%E5%B9%BF%E5%9C%BA%E5%8D%97%E8%B7%AF" title="SN-2 广场南路">SN-2 广场南路</a></li>
+<li><a href="/w/SN-TR-1_%E6%83%A9%E6%88%92%E5%86%9B%E5%89%8D%E7%BA%BF%E5%9F%BA%E5%9C%B0" title="SN-TR-1 惩戒军前线基地">SN-TR-1 惩戒军前线基地</a></li>
+<li><a href="/w/SN-3_%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%A5%E9%81%93" title="SN-3 安静的步道">SN-3 安静的步道</a></li>
+<li><a href="/w/SN-4_%E7%81%AF%E5%A1%94%E5%85%A5%E5%8F%A3" title="SN-4 灯塔入口">SN-4 灯塔入口</a></li>
+<li><a href="/w/SN-5_%E7%81%AF%E5%A1%94%E6%8E%A7%E5%88%B6%E5%AE%A4" title="SN-5 灯塔控制室">SN-5 灯塔控制室</a></li>
+<li><a href="/w/SN-6_%E4%B8%AD%E5%A4%AE%E9%80%9A%E9%81%93" title="SN-6 中央通道">SN-6 中央通道</a></li>
+<li><a href="/w/SN-7_%E9%BB%84%E9%87%91%E5%9B%9E%E5%BB%8A" title="SN-7 黄金回廊">SN-7 黄金回廊</a></li>
+<li><a href="/w/SN-8_%E8%A7%82%E6%B5%8B%E6%89%80" title="SN-8 观测所">SN-8 观测所</a></li>
+<li><a href="/w/SN-9_%E4%BF%A1%E5%8F%B7%E7%81%AF%E7%BB%84" title="SN-9 信号灯组">SN-9 信号灯组</a></li>
+<li><a href="/w/SN-10_%E7%A4%BC%E4%BB%AA%E5%B9%BF%E5%9C%BA" title="SN-10 礼仪广场">SN-10 礼仪广场</a></li>
+<li><a href="/w/SN-EX-1_%E5%88%9D%E7%99%BB%E9%99%86" title="SN-EX-1 初登陆">SN-EX-1 初登陆</a></li>
+<li><a href="/w/SN-EX-2_%E8%8D%92%E9%87%8E%E6%97%85%E9%80%94" title="SN-EX-2 荒野旅途">SN-EX-2 荒野旅途</a></li>
+<li><a href="/w/SN-EX-3_%E4%BB%A3%E7%90%86%E4%BA%BA" title="SN-EX-3 代理人">SN-EX-3 代理人</a></li>
+<li><a href="/w/SN-EX-4_%E5%A0%82%E7%9A%87%E5%AE%AB%E6%AE%BF" title="SN-EX-4 堂皇宫殿">SN-EX-4 堂皇宫殿</a></li>
+<li><a href="/w/SN-EX-5_%E6%84%9A%E4%BA%BA%E4%B9%8B%E8%88%B9" title="SN-EX-5 愚人之船">SN-EX-5 愚人之船</a></li>
+<li><a href="/w/SN-EX-6_%E8%BF%9C%E6%9C%9B%E7%81%AF%E5%A1%94" title="SN-EX-6 远望灯塔">SN-EX-6 远望灯塔</a></li>
+<li><a href="/w/SN-EX-7_%E4%BC%8F%E6%B3%A2%E5%B7%A8%E6%B8%AF" title="SN-EX-7 伏波巨港">SN-EX-7 伏波巨港</a></li>
+<li><a href="/w/SN-EX-8_%E9%9D%99%E8%B0%A7%E6%96%AD%E7%AB%A0" title="SN-EX-8 静谧断章">SN-EX-8 静谧断章</a></li>
+<li><a href="/w/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F_%E6%8A%9A%E6%85%B0%E4%BC%A4%E7%97%9B" title="悖论模拟 抚慰伤痛">悖论模拟 抚慰伤痛</a></li>
+<li><a href="/w/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F_%E8%80%90%E5%BF%83%EF%BC%81" title="悖论模拟 耐心！">悖论模拟 耐心！</a></li>
+<li><a href="/w/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F_%E5%BF%83%E6%80%81%E5%B9%B3%E5%92%8C" title="悖论模拟 心态平和">悖论模拟 心态平和</a></li></ul>
+</div>
+<div class="mp-container-right">
+<h3><span id="新增家具"></span><span class="mw-headline" id=".E6.96.B0.E5.A2.9E.E5.AE.B6.E5.85.B7">新增家具</span></h3>
+<p><b>主题</b><br />
+<span style="display:inline-block; width:150px;"><a href="/w/愚人号会客室" title="愚人号会客室"><img class="lazyload" data-src="//prts.wiki/images/b/b7/%E4%B8%BB%E9%A2%98_%E6%84%9A%E4%BA%BA%E5%8F%B7%E4%BC%9A%E5%AE%A2%E5%AE%A4.png" style="width:86%; height:100%; margin:7%; box-shadow:0px 0px 10px gray;"></a></span><br />
+<b>单件</b><br />
+</p>
+<span class="mc-tooltips"><span style="display:inline-block;"><span><a href="/w/周年庆典转盘" title="周年庆典转盘"><span style="display:inline-block;position:relative;"><img class="lazyload" data-src="//prts.wiki/images/3/3a/%E5%AE%B6%E5%85%B7_%E8%83%8C%E6%99%AF_R2.png" style="min-width:0% !important;" width="150px"><img class="lazyload" data-src="//prts.wiki/images/f/f4/%E5%AE%B6%E5%85%B7_%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8%E8%BD%AC%E7%9B%98.png" style="position:absolute;left:8%;top:17.3%;width:84%;min-width:0% !important;"></span></a></span></span><span class="nomobile" style="display:none" data-size="300"><div style="position:relative;height:22px;min-width:250px"><span style="background:#343434;color:#fff;position:absolute;top:0;left:0;">&#160;&#160;周年庆典转盘&#160;&#160;</span><span style="position:absolute;top:0;right:0;"><span style="line-height:18px"><img alt="图标 氛围值.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="19" height="18" data-src="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/19px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png" class="lazyload" data-srcset="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/28px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 1.5x, /images/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 2x" /></span> <b>90</b></span></div><p>&#160;&#160;为了纪念明日方舟开服三周年特别定做的转盘。指针落下的位置便是幸福，而你一定知道它将落在何处。</p></span></span><span class="mc-tooltips"><span style="display:inline-block;"><span><a href="/w/饰牌《忍耐》" title="饰牌《忍耐》"><span style="display:inline-block;position:relative;"><img class="lazyload" data-src="//prts.wiki/images/3/3a/%E5%AE%B6%E5%85%B7_%E8%83%8C%E6%99%AF_R2.png" style="min-width:0% !important;" width="150px"><img class="lazyload" data-src="//prts.wiki/images/6/66/%E5%AE%B6%E5%85%B7_%E9%A5%B0%E7%89%8C%E3%80%8A%E5%BF%8D%E8%80%90%E3%80%8B.png" style="position:absolute;left:8%;top:17.3%;width:84%;min-width:0% !important;"></span></a></span></span><span class="nomobile" style="display:none" data-size="300"><div style="position:relative;height:22px;min-width:250px"><span style="background:#343434;color:#fff;position:absolute;top:0;left:0;">&#160;&#160;饰牌《忍耐》&#160;&#160;</span><span style="position:absolute;top:0;right:0;"><span style="line-height:18px"><img alt="图标 氛围值.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="19" height="18" data-src="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/19px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png" class="lazyload" data-srcset="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/28px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 1.5x, /images/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 2x" /></span> <b>75</b></span></div><p>&#160;&#160;“经过长时间理性分析后做出的抉择，有时与冲动行事的后果并无区别。”</p></span></span><span class="mc-tooltips"><span style="display:inline-block;"><span><a href="/w/卡西米尔的回声（竞技场）" title="卡西米尔的回声（竞技场）"><span style="display:inline-block;position:relative;"><img class="lazyload" data-src="//prts.wiki/images/3/3a/%E5%AE%B6%E5%85%B7_%E8%83%8C%E6%99%AF_R2.png" style="min-width:0% !important;" width="150px"><img class="lazyload" data-src="//prts.wiki/images/7/7b/%E5%AE%B6%E5%85%B7_%E5%8D%A1%E8%A5%BF%E7%B1%B3%E5%B0%94%E7%9A%84%E5%9B%9E%E5%A3%B0%EF%BC%88%E7%AB%9E%E6%8A%80%E5%9C%BA%EF%BC%89.png" style="position:absolute;left:8%;top:17.3%;width:84%;min-width:0% !important;"></span></a></span></span><span class="nomobile" style="display:none" data-size="300"><div style="position:relative;height:22px;min-width:250px"><span style="background:#343434;color:#fff;position:absolute;top:0;left:0;">&#160;&#160;卡西米尔的回声（竞技场）&#160;&#160;</span><span style="position:absolute;top:0;right:0;"><span style="line-height:18px"><img alt="图标 氛围值.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="19" height="18" data-src="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/19px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png" class="lazyload" data-srcset="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/28px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 1.5x, /images/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 2x" /></span> <b>105</b></span></div><p>&#160;&#160;完成卡西米尔黑夜锦标秀剿灭并提交报告后获得的纪念品。竞技场的余音似乎还在耳边回响。</p></span></span>
+</div>
+</div>
+<h2><span id="网站信息"></span><span class="mw-headline" id=".E7.BD.91.E7.AB.99.E4.BF.A1.E6.81.AF">网站信息</span></h2>
+<div class="mp-siteinfo">
+<ul><li>网站域名：</li></ul>
+<dl><dd><dl><dd>prts.wiki（主要）　ak.mooncell.wiki（备用）</dd></dl></dd></dl>
+<ul><li>关注&amp;支持</li></ul>
+<dl><dd><dl><dd><span class="mp-bili-charge-btn mp-siteinfo-btn"><a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99#B.E7.AB.99.E5.85.85.E7.94.B5.E8.AE.A1.E5.88.92" title="PRTS:如何帮助我们完善网站"><i class="fa-bolt fas" style="font-size:;height:;color:;"></i> B站充电</a></span><span class="mp-double-donate-btn mp-siteinfo-btn"><a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99#.E7.9B.B4.E6.8E.A5.E7.9A.84.E7.BB.8F.E6.B5.8E.E8.B5.84.E5.8A.A9" title="PRTS:如何帮助我们完善网站"><i class="fa-weixin fab" style="font-size:;height:;color:;"></i>　打赏　<i class="fa-alipay fab" style="font-size:;height:;color:;"></i></a></span></dd></dl></dd></dl>
+<ul><li>了解更多</li></ul>
+<dl><dd><dl><dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E4%BA%A4%E6%B5%81%E7%BE%A4%E7%BB%84" title="PRTS:交流群组">PRTS:交流群组</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E6%94%B6%E6%94%AF%E4%B8%80%E8%A7%88" title="PRTS:收支一览">PRTS:收支一览</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99" title="PRTS:如何帮助我们完善网站">PRTS:如何帮助我们完善网站</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E8%AF%84%E8%AE%BA%E9%A1%BB%E7%9F%A5" title="PRTS:评论须知">PRTS:评论须知</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E6%8E%88%E6%9D%83%E4%B8%80%E8%A7%88" title="PRTS:授权一览">PRTS:授权一览</a></dd></dl></dd></dl>
+</div></div>
+<div class="nodesktop">
+<center><div class="carousel-container" id="carousel-scaler-container-main" style="height:330px; max-height:330px; max-width:100%;"><div id="carousel-scaler-main" style="position: relative; transform-origin: top left;"><div class="carousel" style="height:300px;width: 936px;box-shadow:0px 5px 7px 0px rgba(0,0,0,0.5);overflow: hidden;"><div class="carousel-item"><a href="/w/%E6%84%9A%E4%BA%BA%E5%8F%B7"><span style="background-image:url(//prts.wiki/images/0/0a/%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A_%E4%B8%89%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8_02.jpg);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E6%84%9A%E4%BA%BA%E5%8F%B7"><span style="background:url(//prts.wiki/images/0/0a/%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A_%E4%B8%89%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8_02.jpg) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div><div class="carousel-item"><a href="/w/%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB"><span style="background-image:url(//prts.wiki/images/b/bd/%E4%B8%BB%E9%A2%98%E5%9B%BE_%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB.png);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB"><span style="background:url(//prts.wiki/images/b/bd/%E4%B8%BB%E9%A2%98%E5%9B%BE_%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB.png) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div>
+<div class="carousel-item"><a href="/w/%E6%B5%B7%E8%9A%80"><span style="background-image:url(//prts.wiki/images/1/15/%E6%B5%B7%E8%9A%80.jpg);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E6%B5%B7%E8%9A%80"><span style="background:url(//prts.wiki/images/1/15/%E6%B5%B7%E8%9A%80.jpg) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div><div class="carousel-item"><a href="/w/%E5%AF%BB%E8%AE%BF%E6%A8%A1%E6%8B%9F/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079"><span style="background-image:url(//prts.wiki/images/c/cf/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079.jpg);background-size:100% auto;filter:blur(20px);"></span></a><a href="/w/%E5%AF%BB%E8%AE%BF%E6%A8%A1%E6%8B%9F/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079"><span style="background:url(//prts.wiki/images/c/cf/%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A079.jpg) center no-repeat;background-size:auto 100%;filter:drop-shadow(0 0 10px black)"></span></a></div></div></div></div></center><div class="nodesktop" style="position:relative">
+<center style="font-size:10px; margin-bottom:2px;">下方可能显示赞助商链接。<span style="border-bottom:dashed 1px #0645ad"><a href="/w/PRTS:%E5%B9%BF%E5%91%8A" title="PRTS:广告">了解详情</a></span></center><center><div style="display:block; width:320px; height:50px"><ins class="adsbygoogle" style="display:block; width:320px; height:50px" data-ad-client="ca-pub-3703762592545424" data-ad-slot="3559084799"></ins><script>__VECTOR_MENU_SIDE_BAR_MOUNTED__=function(){(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-3703762592545424",});}</script></div></center>
+</div>
+<div id="mpbutton-container"><div id="mpbutton-scaler"><div class="mpbutton"><div class="mpbutton-icon" style="background-position: 0px 0px;"></div><div class="mpbutton-label zh" lang="zh">干员档案</div><div class="mpbutton-label en" lang="en">OPERATORS</div><div class="mpbutton-mask"><a href="/w/%E5%B9%B2%E5%91%98%E4%B8%80%E8%A7%88" title="干员一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -96px 0px;"></div><div class="mpbutton-label zh" lang="zh">敌人档案</div><div class="mpbutton-label en" lang="en">ENEMIES</div><div class="mpbutton-mask"><a href="/w/%E6%95%8C%E4%BA%BA%E4%B8%80%E8%A7%88" title="敌人一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -384px 0px;"></div><div class="mpbutton-label zh" lang="zh">道具资料</div><div class="mpbutton-label en" lang="en">DEPOT</div><div class="mpbutton-mask"><a href="/w/%E9%81%93%E5%85%B7%E4%B8%80%E8%A7%88" title="道具一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -288px -96px;"></div><div class="mpbutton-label zh" lang="zh">后勤技能</div><div class="mpbutton-label en" lang="en">LOGISTICS</div><div class="mpbutton-mask"><a href="/w/%E5%90%8E%E5%8B%A4%E6%8A%80%E8%83%BD%E4%B8%80%E8%A7%88" title="后勤技能一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -192px 0px;"></div><div class="mpbutton-label zh" lang="zh">关卡一览</div><div class="mpbutton-label en" lang="en">OPERATIONS</div><div class="mpbutton-mask"><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88" title="关卡一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -96px -192px;"></div><div class="mpbutton-label zh" lang="zh">剧情记录</div><div class="mpbutton-label en" lang="en">STORIES</div><div class="mpbutton-mask"><a href="/w/%E5%89%A7%E6%83%85%E4%B8%80%E8%A7%88" title="剧情一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -192px -192px;"></div><div class="mpbutton-label zh" lang="zh">家具一览</div><div class="mpbutton-label en" lang="en">FURNITURE</div><div class="mpbutton-mask"><a href="/w/%E5%AE%B6%E5%85%B7%E4%B8%80%E8%A7%88" title="家具一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: 0px -192px;"></div><div class="mpbutton-label zh" lang="zh">时装回廊</div><div class="mpbutton-label en" lang="en">OUTFITS</div><div class="mpbutton-mask"><a href="/w/%E6%97%B6%E8%A3%85%E5%9B%9E%E5%BB%8A" title="时装回廊"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -384px -96px;"></div><div class="mpbutton-label zh" lang="zh">采购中心</div><div class="mpbutton-label en" lang="en">STORE</div><div class="mpbutton-mask"><a href="/w/%E9%87%87%E8%B4%AD%E4%B8%AD%E5%BF%83" title="采购中心"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -96px -96px;"></div><div class="mpbutton-label zh" lang="zh">卡池一览</div><div class="mpbutton-label en" lang="en">HEADHUNTS</div><div class="mpbutton-mask"><a href="/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88" title="卡池一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: -288px 0px;"></div><div class="mpbutton-label zh" lang="zh">活动一览</div><div class="mpbutton-label en" lang="en">EVENTS</div><div class="mpbutton-mask"><a href="/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88" title="活动一览"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div><div class="mpbutton"><div class="mpbutton-icon" style="background-position: 0px -96px;"></div><div class="mpbutton-label zh" lang="zh">公招计算</div><div class="mpbutton-label en" lang="en">RECRUIT</div><div class="mpbutton-mask"><a href="https://prts.wiki/w/CHAR?filter=AAACAAAEQAAAAAAAAAAAAAAAAAAAA" target="_blank" rel="nofollow noreferrer noopener"><img alt="Mpbutton-mask.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="150" height="150" data-src="/images/c/c0/Mpbutton-mask.png" class="lazyload" /></a></div></div></div></div><style>.mpbutton{display:inline-block;position:relative;width:150px;height:150px;overflow:hidden;margin:2px;background-color:#343434;transition:0.5s;}.mpbutton-icon{position:absolute;width:96px;height:96px;left:27px;top:16px;overflow:hidden;background:url(https://static.prts.wiki/Mpbuttons.4DCFB205.png);filter:drop-shadow(0px 18px 6px rgba(255,255,255,0.5));}.mpbutton-label{position:absolute;width:100%;bottom:20px;font-size:15px;color:white;text-align:center;font-weight:900;font-family:"微软雅黑",sans-serif;letter-spacing:2px;transition:0.5s;}.mpbutton-mask{position:absolute;left:0;top:0;width:150px;height:150px;}.mpbutton:hover{background-color:var(--additon-title);}.mpbutton:hover .mpbutton-label.zh,.mpbutton-label.en{opacity:0;}.mpbutton:hover .mpbutton-label.en,.mpbutton-label.zh{opacity:1;}#mpbutton-container{max-width:100%;overflow:hidden;}#mpbutton-scaler{position:relative;left:50%;transform-origin:top left;transform:translateX(-50%);display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;width:920px;}</style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+    var container = document.getElementById('mpbutton-container');
+    var scaler = document.getElementById('mpbutton-scaler');
+    var containerWidth = container.offsetWidth
+    if (containerWidth < 920) {
+      scaler.style.transform = 'scale(' + (containerWidth / 920) + ')';
+      scaler.style.left = 0;
+      container.style.height = (308 * containerWidth / 920) + 'px';
+//      $('#mpbutton-scaler').css({
+//        'transform': 'scale(' + (containerWidth / 920) + ')',
+//        'left': '0'
+//      });
+//      $('#mpbutton-container').css('height', (308 * containerWidth / 920) + 'px');
+    }
+
+});
+</script>
+<h3><span id="今日信息_2"></span><span class="mw-headline" id=".E4.BB.8A.E6.97.A5.E4.BF.A1.E6.81.AF_2">今日信息</span></h3>
+<div class="mp-today"><p class="mp-today-cn">现在时间：<span style="font-weight:bold"><span class='wgTimeClock' id='+8,M月d日(周D) hh:mm,日,一,二,三,四,五,六'></span></span>。</p>
+<p>可获取 <strong><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E7.89.A9.E8.B5.84.E7.AD.B9.E5.A4.87" title="关卡一览/资源收集">作战记录&amp;采购凭证&amp;龙门币</a></strong> 和 <strong><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86#.E8.8A.AF.E7.89.87.E6.90.9C.E7.B4.A2" title="关卡一览/资源收集">医疗、重装、先锋、辅助芯片</a></strong></p>  <p class="mp-today-cn"><b>全局剿灭模拟开放中</b>，<span class="CDScontainer" style="display:inline" data-time="1653854340"></span>后结束。</p>   <script>
+document.addEventListener("DOMContentLoaded", function () {
+  CountDownShort();
+  var i = window.setInterval(function () {
+    if (new Date().getSeconds() == 0) {
+      window.clearInterval(i);
+      CountDownShort();
+      window.setInterval(CountDownShort, 60000);
+    }
+  }, 1000);
+});
+function CountDownShort() {
+  var a = document.getElementsByClassName("CDScontainer");
+  if (a.length == 0) {
+    return;
+  }
+  var ct = new Date().getTime() / 1000;
+  for (var i = 0; i < a.length; i++) {
+    var s = parseInt(a[i].getAttribute("data-time"), 10);
+    if (s > ct) {
+      var delta = s - ct;
+      var t = "";
+      if (delta > 86400) {
+        t += Math.floor(delta / 86400) + "天";
+        delta = delta % 86400;
+      }
+      if (delta > 3600) {
+        t += Math.floor(delta / 3600) + "小时";
+        delta = delta % 3600;
+      }
+      if (delta > 60) {
+        t += Math.floor(delta / 60) + "分钟";
+      }
+      a[i].innerHTML = t;
+    } else {
+      if (a[i].innerHTML != "") {
+        a[i].innerHTML = "";
+      }
+    }
+  }
+}
+
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  Date.prototype.Format = function (format) {
+    //author: meizz
+    var fmt = format[1];
+    var o = {
+      "M+": this.getMonth() + 1, //月份
+      "d+": this.getDate(), //日
+      "h+": this.getHours(), //小时
+      "m+": this.getMinutes(), //分
+      "s+": this.getSeconds(), //秒
+      "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+      S: this.getMilliseconds(), //毫秒
+      D: format[this.getDay() + 2],
+    };
+    if (/(y+)/.test(fmt))
+      fmt = fmt.replace(
+        RegExp.$1,
+        (this.getFullYear() + "").substr(4 - RegExp.$1.length)
+      );
+    for (var k in o)
+      if (new RegExp("(" + k + ")").test(fmt))
+        fmt = fmt.replace(
+          RegExp.$1,
+          RegExp.$1.length == 1
+            ? o[k]
+            : ("00" + o[k]).substr(("" + o[k]).length)
+        );
+    return fmt;
+  };
+  widgetTimeUpdater();
+  var timeInterval = window.setInterval(function () {
+    if (new Date().getSeconds() == 0) {
+      window.clearInterval(timeInterval);
+      widgetTimeUpdater();
+      console.log(window.setInterval(widgetTimeUpdater, 60000));
+    }
+  }, 1000);
+});
+function widgetTimeUpdater() {
+  var clockArray = document.getElementsByClassName("wgTimeClock");
+  var offset_GMT = new Date().getTimezoneOffset();
+  var nowDate = new Date().getTime();
+  for (var i = 0; i < clockArray.length; i++) {
+    clockArray[i].innerHTML = new Date(
+      nowDate +
+        offset_GMT * 60 * 1000 +
+        clockArray[i].id.split(",")[0] * 60 * 60 * 1000
+    ).Format(clockArray[i].id.split(","));
+  }
+}</script></div>
+<h3><span id="亮点干员_2"></span><span class="mw-headline" id=".E4.BA.AE.E7.82.B9.E5.B9.B2.E5.91.98_2">亮点干员</span></h3>
+<div class="mp-operators"><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-birthday-cake fas" style="font-size:;height:;color:;"></i> 今天生日</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/末药" title="末药"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/d/d9/%E5%A4%B4%E5%83%8F_%E6%9C%AB%E8%8D%AF.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/4c/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_3.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%8C%BB%E7%96%97.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/赫拉格" title="赫拉格"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/c/cd/%E5%A4%B4%E5%83%8F_%E8%B5%AB%E6%8B%89%E6%A0%BC.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-user-plus fas" style="font-size:;height:;color:;"></i> 近期新增</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/流明" title="流明"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/7/72/%E5%A4%B4%E5%83%8F_%E6%B5%81%E6%98%8E.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%8C%BB%E7%96%97.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/艾丽妮" title="艾丽妮"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/5/57/%E5%A4%B4%E5%83%8F_%E8%89%BE%E4%B8%BD%E5%A6%AE.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/归溟幽灵鲨" title="归溟幽灵鲨"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%A4%B4%E5%83%8F_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/f/f1/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E7%89%B9%E7%A7%8D.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/掠风" title="掠风"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/5/5c/%E5%A4%B4%E5%83%8F_%E6%8E%A0%E9%A3%8E.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/c/c7/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BE%85%E5%8A%A9.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-tags fas" style="font-size:;height:;color:;"></i> 凭证兑换</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/推进之王" title="推进之王"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/b/ba/%E5%A4%B4%E5%83%8F_%E6%8E%A8%E8%BF%9B%E4%B9%8B%E7%8E%8B.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/78/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%85%88%E9%94%8B.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/贾维" title="贾维"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/2/2a/%E5%A4%B4%E5%83%8F_%E8%B4%BE%E7%BB%B4.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/78/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%85%88%E9%94%8B.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div><div class="mp-operators-content"><div class="mp-operators-title"><i class="fa-tshirt fas" style="font-size:;height:;color:;"></i> 新增时装</div><div class="mp-operators-icons"><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/Lancet-2" title="Lancet-2"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/6/6c/%E5%A4%B4%E5%83%8F_Lancet-2_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/6/62/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_0.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/b/be/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%8C%BB%E7%96%97.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/霜叶" title="霜叶"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/d/d4/%E5%A4%B4%E5%83%8F_%E9%9C%9C%E5%8F%B6_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/4c/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_3.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/苇草" title="苇草"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/a/aa/%E5%A4%B4%E5%83%8F_%E8%8B%87%E8%8D%89_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/78/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E5%85%88%E9%94%8B.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/龙舌兰" title="龙舌兰"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/b/b7/%E5%A4%B4%E5%83%8F_%E9%BE%99%E8%88%8C%E5%85%B0_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/7/7d/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BF%91%E5%8D%AB.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/极光" title="极光"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/e/e6/%E5%A4%B4%E5%83%8F_%E6%9E%81%E5%85%89_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/8/81/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_4.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/3/3c/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E9%87%8D%E8%A3%85.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/灵知" title="灵知"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/2/22/%E5%A4%B4%E5%83%8F_%E7%81%B5%E7%9F%A5_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/c/c7/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BE%85%E5%8A%A9.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/浊心斯卡蒂" title="浊心斯卡蒂"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/8/86/%E5%A4%B4%E5%83%8F_%E6%B5%8A%E5%BF%83%E6%96%AF%E5%8D%A1%E8%92%82_skin1.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/c/c7/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E8%BE%85%E5%8A%A9.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span><span style="display:inline-block;text-align:center;vertical-align:top;"><span><a href="/w/泥岩" title="泥岩"><span style="display:inline-block;position:relative;"><img id="charicon" class="lazyload" data-src="//prts.wiki/images/f/f4/%E5%A4%B4%E5%83%8F_%E6%B3%A5%E5%B2%A9_skin2.png" style="min-width:0% !important;" width="80px"><img id="levlicon" style="position:absolute;bottom:0%;right: 0px; height:18%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/4/46/%E7%A8%80%E6%9C%89%E5%BA%A6_%E9%BB%84_5.png"><img id="typeicon" style="position:absolute;top:0px;left:0px; height:25%;min-width:0% !important;" class="lazyload" data-src="//prts.wiki/images/3/3c/%E5%9B%BE%E6%A0%87_%E8%81%8C%E4%B8%9A_%E9%87%8D%E8%A3%85.png"><img id="eliteicon" style="position:absolute;bottom:0px;left:0px;width:40%; display:inline-block;background: linear-gradient(90deg,transparent 0%,transparent 30%,black 30%,black 70%,transparent 70%,transparent 100%);min-width:0% !important;" class="lazyload" data-src=""><span style="display:inline-block;position:absolute;right:0px;top:0px;line-height:1;"><span style="background-color:#A40000;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#FEFBFB;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">限</span><span style="background-color:#FFC107;padding:.2em;font-size:8pt;font-weight:bold;line-height:1;color:#000;text-align:center;vertical-align:baseline;border-radius:.25em;display:none;display:!important;">兑</span></span></span></a></span></span></div></div></div>
+<div class="mp-extranav">
+<h3><span id="新增关卡_2"></span><span class="mw-headline" id=".E6.96.B0.E5.A2.9E.E5.85.B3.E5.8D.A1_2">新增关卡</span></h3>
+<ul><li><a href="/w/%E5%8D%A1%E8%A5%BF%E7%B1%B3%E5%B0%94_%E9%BB%91%E5%A4%9C%E9%94%A6%E6%A0%87%E7%A7%80" title="卡西米尔 黑夜锦标秀">卡西米尔 黑夜锦标秀</a></li>
+<li><a href="/w/CE-6_%E5%AE%9E%E9%AA%8C%E5%8E%9F%E4%BB%B6%E6%8A%BC%E8%BF%90" title="CE-6 实验原件押运">CE-6 实验原件押运</a></li>
+<li><a href="/w/LS-6_%E8%BF%90%E5%8A%A8%E6%88%98%E6%BC%94%E4%B9%A0" title="LS-6 运动战演习">LS-6 运动战演习</a></li>
+<li><a href="/w/SN-1_%E4%B8%AD%E5%BF%83%E5%B9%BF%E5%9C%BA" title="SN-1 中心广场">SN-1 中心广场</a></li>
+<li><a href="/w/SN-2_%E5%B9%BF%E5%9C%BA%E5%8D%97%E8%B7%AF" title="SN-2 广场南路">SN-2 广场南路</a></li>
+<li><a href="/w/SN-TR-1_%E6%83%A9%E6%88%92%E5%86%9B%E5%89%8D%E7%BA%BF%E5%9F%BA%E5%9C%B0" title="SN-TR-1 惩戒军前线基地">SN-TR-1 惩戒军前线基地</a></li>
+<li><a href="/w/SN-3_%E5%AE%89%E9%9D%99%E7%9A%84%E6%AD%A5%E9%81%93" title="SN-3 安静的步道">SN-3 安静的步道</a></li>
+<li><a href="/w/SN-4_%E7%81%AF%E5%A1%94%E5%85%A5%E5%8F%A3" title="SN-4 灯塔入口">SN-4 灯塔入口</a></li>
+<li><a href="/w/SN-5_%E7%81%AF%E5%A1%94%E6%8E%A7%E5%88%B6%E5%AE%A4" title="SN-5 灯塔控制室">SN-5 灯塔控制室</a></li>
+<li><a href="/w/SN-6_%E4%B8%AD%E5%A4%AE%E9%80%9A%E9%81%93" title="SN-6 中央通道">SN-6 中央通道</a></li>
+<li><a href="/w/SN-7_%E9%BB%84%E9%87%91%E5%9B%9E%E5%BB%8A" title="SN-7 黄金回廊">SN-7 黄金回廊</a></li>
+<li><a href="/w/SN-8_%E8%A7%82%E6%B5%8B%E6%89%80" title="SN-8 观测所">SN-8 观测所</a></li>
+<li><a href="/w/SN-9_%E4%BF%A1%E5%8F%B7%E7%81%AF%E7%BB%84" title="SN-9 信号灯组">SN-9 信号灯组</a></li>
+<li><a href="/w/SN-10_%E7%A4%BC%E4%BB%AA%E5%B9%BF%E5%9C%BA" title="SN-10 礼仪广场">SN-10 礼仪广场</a></li>
+<li><a href="/w/SN-EX-1_%E5%88%9D%E7%99%BB%E9%99%86" title="SN-EX-1 初登陆">SN-EX-1 初登陆</a></li>
+<li><a href="/w/SN-EX-2_%E8%8D%92%E9%87%8E%E6%97%85%E9%80%94" title="SN-EX-2 荒野旅途">SN-EX-2 荒野旅途</a></li>
+<li><a href="/w/SN-EX-3_%E4%BB%A3%E7%90%86%E4%BA%BA" title="SN-EX-3 代理人">SN-EX-3 代理人</a></li>
+<li><a href="/w/SN-EX-4_%E5%A0%82%E7%9A%87%E5%AE%AB%E6%AE%BF" title="SN-EX-4 堂皇宫殿">SN-EX-4 堂皇宫殿</a></li>
+<li><a href="/w/SN-EX-5_%E6%84%9A%E4%BA%BA%E4%B9%8B%E8%88%B9" title="SN-EX-5 愚人之船">SN-EX-5 愚人之船</a></li>
+<li><a href="/w/SN-EX-6_%E8%BF%9C%E6%9C%9B%E7%81%AF%E5%A1%94" title="SN-EX-6 远望灯塔">SN-EX-6 远望灯塔</a></li>
+<li><a href="/w/SN-EX-7_%E4%BC%8F%E6%B3%A2%E5%B7%A8%E6%B8%AF" title="SN-EX-7 伏波巨港">SN-EX-7 伏波巨港</a></li>
+<li><a href="/w/SN-EX-8_%E9%9D%99%E8%B0%A7%E6%96%AD%E7%AB%A0" title="SN-EX-8 静谧断章">SN-EX-8 静谧断章</a></li>
+<li><a href="/w/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F_%E6%8A%9A%E6%85%B0%E4%BC%A4%E7%97%9B" title="悖论模拟 抚慰伤痛">悖论模拟 抚慰伤痛</a></li>
+<li><a href="/w/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F_%E8%80%90%E5%BF%83%EF%BC%81" title="悖论模拟 耐心！">悖论模拟 耐心！</a></li>
+<li><a href="/w/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F_%E5%BF%83%E6%80%81%E5%B9%B3%E5%92%8C" title="悖论模拟 心态平和">悖论模拟 心态平和</a></li></ul>
+<h3><span id="新增家具_2"></span><span class="mw-headline" id=".E6.96.B0.E5.A2.9E.E5.AE.B6.E5.85.B7_2">新增家具</span></h3>
+<h4><span id="主题"></span><span class="mw-headline" id=".E4.B8.BB.E9.A2.98">主题</span></h4>
+<p><span style="display:inline-block; width:150px;"><a href="/w/愚人号会客室" title="愚人号会客室"><img class="lazyload" data-src="//prts.wiki/images/b/b7/%E4%B8%BB%E9%A2%98_%E6%84%9A%E4%BA%BA%E5%8F%B7%E4%BC%9A%E5%AE%A2%E5%AE%A4.png" style="width:86%; height:100%; margin:7%; box-shadow:0px 0px 10px gray;"></a></span>
+</p>
+<h4><span id="单件"></span><span class="mw-headline" id=".E5.8D.95.E4.BB.B6">单件</span></h4>
+<span class="mc-tooltips"><span style="display:inline-block;"><span><a href="/w/周年庆典转盘" title="周年庆典转盘"><span style="display:inline-block;position:relative;"><img class="lazyload" data-src="//prts.wiki/images/3/3a/%E5%AE%B6%E5%85%B7_%E8%83%8C%E6%99%AF_R2.png" style="min-width:0% !important;" width="150px"><img class="lazyload" data-src="//prts.wiki/images/f/f4/%E5%AE%B6%E5%85%B7_%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8%E8%BD%AC%E7%9B%98.png" style="position:absolute;left:8%;top:17.3%;width:84%;min-width:0% !important;"></span></a></span></span><span class="nomobile" style="display:none" data-size="300"><div style="position:relative;height:22px;min-width:250px"><span style="background:#343434;color:#fff;position:absolute;top:0;left:0;">&#160;&#160;周年庆典转盘&#160;&#160;</span><span style="position:absolute;top:0;right:0;"><span style="line-height:18px"><img alt="图标 氛围值.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="19" height="18" data-src="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/19px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png" class="lazyload" data-srcset="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/28px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 1.5x, /images/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 2x" /></span> <b>90</b></span></div><p>&#160;&#160;为了纪念明日方舟开服三周年特别定做的转盘。指针落下的位置便是幸福，而你一定知道它将落在何处。</p></span></span><span class="mc-tooltips"><span style="display:inline-block;"><span><a href="/w/饰牌《忍耐》" title="饰牌《忍耐》"><span style="display:inline-block;position:relative;"><img class="lazyload" data-src="//prts.wiki/images/3/3a/%E5%AE%B6%E5%85%B7_%E8%83%8C%E6%99%AF_R2.png" style="min-width:0% !important;" width="150px"><img class="lazyload" data-src="//prts.wiki/images/6/66/%E5%AE%B6%E5%85%B7_%E9%A5%B0%E7%89%8C%E3%80%8A%E5%BF%8D%E8%80%90%E3%80%8B.png" style="position:absolute;left:8%;top:17.3%;width:84%;min-width:0% !important;"></span></a></span></span><span class="nomobile" style="display:none" data-size="300"><div style="position:relative;height:22px;min-width:250px"><span style="background:#343434;color:#fff;position:absolute;top:0;left:0;">&#160;&#160;饰牌《忍耐》&#160;&#160;</span><span style="position:absolute;top:0;right:0;"><span style="line-height:18px"><img alt="图标 氛围值.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="19" height="18" data-src="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/19px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png" class="lazyload" data-srcset="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/28px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 1.5x, /images/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 2x" /></span> <b>75</b></span></div><p>&#160;&#160;“经过长时间理性分析后做出的抉择，有时与冲动行事的后果并无区别。”</p></span></span><span class="mc-tooltips"><span style="display:inline-block;"><span><a href="/w/卡西米尔的回声（竞技场）" title="卡西米尔的回声（竞技场）"><span style="display:inline-block;position:relative;"><img class="lazyload" data-src="//prts.wiki/images/3/3a/%E5%AE%B6%E5%85%B7_%E8%83%8C%E6%99%AF_R2.png" style="min-width:0% !important;" width="150px"><img class="lazyload" data-src="//prts.wiki/images/7/7b/%E5%AE%B6%E5%85%B7_%E5%8D%A1%E8%A5%BF%E7%B1%B3%E5%B0%94%E7%9A%84%E5%9B%9E%E5%A3%B0%EF%BC%88%E7%AB%9E%E6%8A%80%E5%9C%BA%EF%BC%89.png" style="position:absolute;left:8%;top:17.3%;width:84%;min-width:0% !important;"></span></a></span></span><span class="nomobile" style="display:none" data-size="300"><div style="position:relative;height:22px;min-width:250px"><span style="background:#343434;color:#fff;position:absolute;top:0;left:0;">&#160;&#160;卡西米尔的回声（竞技场）&#160;&#160;</span><span style="position:absolute;top:0;right:0;"><span style="line-height:18px"><img alt="图标 氛围值.png" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" decoding="async" width="19" height="18" data-src="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/19px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png" class="lazyload" data-srcset="/images/thumb/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png/28px-%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 1.5x, /images/5/50/%E5%9B%BE%E6%A0%87_%E6%B0%9B%E5%9B%B4%E5%80%BC.png 2x" /></span> <b>105</b></span></div><p>&#160;&#160;完成卡西米尔黑夜锦标秀剿灭并提交报告后获得的纪念品。竞技场的余音似乎还在耳边回响。</p></span></span>
+</div>
+<h3><span id="网站信息_2"></span><span class="mw-headline" id=".E7.BD.91.E7.AB.99.E4.BF.A1.E6.81.AF_2">网站信息</span></h3>
+<div class="mp-siteinfo">
+<ul><li>网站域名：</li></ul>
+<dl><dd><dl><dd>prts.wiki（主要）　ak.mooncell.wiki（备用）</dd></dl></dd></dl>
+<ul><li>关注&amp;支持</li></ul>
+<dl><dd><dl><dd><span class="mp-bili-charge-btn mp-siteinfo-btn"><a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99#B.E7.AB.99.E5.85.85.E7.94.B5.E8.AE.A1.E5.88.92" title="PRTS:如何帮助我们完善网站"><i class="fa-bolt fas" style="font-size:;height:;color:;"></i> B站充电</a></span><span class="mp-double-donate-btn mp-siteinfo-btn"><a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99#.E7.9B.B4.E6.8E.A5.E7.9A.84.E7.BB.8F.E6.B5.8E.E8.B5.84.E5.8A.A9" title="PRTS:如何帮助我们完善网站"><i class="fa-weixin fab" style="font-size:;height:;color:;"></i>　打赏　<i class="fa-alipay fab" style="font-size:;height:;color:;"></i></a></span></dd></dl></dd></dl>
+<ul><li>了解更多</li></ul>
+<dl><dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E4%BA%A4%E6%B5%81%E7%BE%A4%E7%BB%84" title="PRTS:交流群组">PRTS:交流群组</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E6%94%B6%E6%94%AF%E4%B8%80%E8%A7%88" title="PRTS:收支一览">PRTS:收支一览</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99" title="PRTS:如何帮助我们完善网站">PRTS:如何帮助我们完善网站</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E8%AF%84%E8%AE%BA%E9%A1%BB%E7%9F%A5" title="PRTS:评论须知">PRTS:评论须知</a></dd>
+<dd><i class="fa-genderless fas" style="font-size:;height:;color:;"></i> <a href="/w/PRTS:%E6%8E%88%E6%9D%83%E4%B8%80%E8%A7%88" title="PRTS:授权一览">PRTS:授权一览</a></dd></dl>
+</div></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20220505060110
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.683 seconds
+Real time usage: 0.944 seconds
+Preprocessor visited node count: 7751/1000000
+Post‐expand include size: 103846/2097152 bytes
+Template argument size: 5758/2097152 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 40/5000000 bytes
+Lua time usage: 0.060/7 seconds
+Lua virtual size: 8.74 MB/50 MB
+Lua estimated memory usage: 0 bytes
+ExtLoops count: 0
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  857.406      1 -total
+ 62.47%  535.625      2 首页/亮点干员
+ 37.40%  320.683      1 首页/mobile
+ 30.53%  261.751      8 模板:首页/亮点干员图标
+ 25.44%  218.152      2 首页/亮点干员/新增皮肤
+ 24.87%  213.237      2 模板:首页/亮点干员图标/皮肤
+ 15.21%  130.374      2 首页/亮点干员/今天生日
+ 12.15%  104.135      2 首页/亮点干员/近期新增
+ 10.29%   88.254      2 模板:首页轮播
+  9.46%   81.086      2 模板:当前信息
+-->
+
+<!-- Saved in parser cache with key ak-ak:pcache:idhash:1-0!dateformat=default and timestamp 20220505060109 and revision id 204506
+ -->
+</div><div id="MenuSidebar" style="display:none"><ul><li><a class='copyUrl' data-clipboard-text="https://prts.wiki/id/1">复制短链接</a></li>
+<li><a href="/w/PRTS:%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC%E5%AE%8C%E5%96%84%E7%BD%91%E7%AB%99#.E8.B5.84.E5.8A.A9.E6.88.91.E4.BB.AC.E6.94.B9.E5.96.84.E8.AE.BF.E9.97.AE.E8.B4.A8.E9.87.8F" title="PRTS:如何帮助我们完善网站">支持我们</a></li>
+<li><a href="/w/PRTS:%E5%8F%8D%E9%A6%88%E4%B8%8E%E5%BB%BA%E8%AE%AE" title="PRTS:反馈与建议">反馈与建议</a></li></ul>
+<p>热门页面
+</p>
+<ul><li class="mw-empty-elt"></li>
+<li><b>当前活动</b>
+<ul><li><a href="/w/%E6%84%9A%E4%BA%BA%E5%8F%B7" title="愚人号">SideStory「愚人号」</a></li>
+<li><a href="/w/%E5%82%80%E5%BD%B1%E4%B8%8E%E7%8C%A9%E7%BA%A2%E5%AD%A4%E9%92%BB" title="傀影与猩红孤钻">集成战略 #2「傀影与猩红孤钻」</a></li></ul></li>
+<li><b>新增干员<span style="padding-left:10px;"><span style="font-size:10px;color: #ffffff;background: red;padding-right: 2px;padding-left: 2px;border-radius: 5px;">NEW</span></span></b>
+<ul><li><a href="/w/%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8" title="归溟幽灵鲨">归溟幽灵鲨</a></li>
+<li><a href="/w/%E8%89%BE%E4%B8%BD%E5%A6%AE" title="艾丽妮">艾丽妮</a></li>
+<li><a href="/w/%E6%B5%81%E6%98%8E" title="流明">流明</a></li>
+<li><a href="/w/%E6%8E%A0%E9%A3%8E" title="掠风">掠风</a></li></ul></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E4%B8%80%E8%A7%88" title="干员一览">干员一览</a></li></ul>
+<p>菜单
+</p>
+<ul><li><b>通用</b>
+<ul><li><a href="/w/%E5%B9%B2%E5%91%98%E4%B8%80%E8%A7%88" title="干员一览">干员一览</a></li>
+<li><a href="/w/%E6%95%8C%E4%BA%BA%E4%B8%80%E8%A7%88" title="敌人一览">敌人一览</a></li>
+<li><a href="/w/%E9%81%93%E5%85%B7%E4%B8%80%E8%A7%88" title="道具一览">道具一览</a></li>
+<li><a href="/w/%E5%90%8E%E5%8B%A4%E6%8A%80%E8%83%BD%E4%B8%80%E8%A7%88" title="后勤技能一览">后勤技能</a></li>
+<li><a href="/w/%E5%85%B3%E5%8D%A1%E4%B8%80%E8%A7%88" title="关卡一览">关卡一览</a></li>
+<li><a href="/w/%E5%89%A7%E6%83%85%E4%B8%80%E8%A7%88" title="剧情一览">剧情记录</a></li>
+<li><a href="/w/%E5%AE%B6%E5%85%B7%E4%B8%80%E8%A7%88" title="家具一览">家具一览</a></li>
+<li><a href="/w/%E6%97%B6%E8%A3%85%E5%9B%9E%E5%BB%8A" title="时装回廊">时装回廊</a></li>
+<li><a href="/w/%E9%87%87%E8%B4%AD%E4%B8%AD%E5%BF%83" title="采购中心">采购中心</a></li>
+<li><a href="/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88" title="卡池一览">卡池一览</a></li>
+<li><a href="/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88" title="活动一览">活动一览</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://prts.wiki/w/CHAR?filter=AAACAAAEQAAAAAAAAAAAAAAAAAAAA">公招计算</a></li></ul></li>
+<li><b>档案</b>
+<ul><li><a href="/w/%E7%94%BB%E5%B8%88%E4%B8%80%E8%A7%88" title="画师一览">画师一览</a></li>
+<li><a href="/w/%E9%85%8D%E9%9F%B3%E4%B8%80%E8%A7%88" title="配音一览">配音一览</a></li>
+<li><a href="/w/%E5%88%86%E6%94%AF%E4%B8%80%E8%A7%88" title="分支一览">分支一览</a></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E5%AF%86%E5%BD%95%E4%B8%80%E8%A7%88" title="干员密录一览">干员密录</a></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E6%A8%A1%E7%BB%84%E4%B8%80%E8%A7%88" title="干员模组一览">干员模组</a></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E7%BC%96%E5%8F%B7%E4%B8%80%E8%A7%88" title="干员编号一览">干员编号</a></li>
+<li><a href="/w/%E8%A7%92%E8%89%B2%E7%9C%9F%E5%90%8D" title="角色真名">角色真名</a></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E9%A2%84%E5%91%8A" title="干员预告">干员预告</a></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E4%B8%93%E7%B2%BE" title="干员专精">干员专精</a></li>
+<li><a href="/w/%E5%B9%B2%E5%91%98%E5%89%A7%E6%83%85%E4%B8%80%E8%A7%88" title="干员剧情一览">干员剧情一览</a></li>
+<li><a href="/w/%E6%A1%A3%E6%A1%88%E4%BF%A1%E6%81%AF%E4%B8%80%E8%A7%88" title="档案信息一览">档案信息一览</a></li></ul></li>
+<li><b>玩法</b>
+<ul><li><a href="/w/%E5%8D%B1%E6%9C%BA%E5%90%88%E7%BA%A6" title="危机合约">危机合约</a></li>
+<li><a href="/w/%E9%9B%86%E6%88%90%E6%88%98%E7%95%A5" title="集成战略">集成战略</a></li>
+<li><a href="/w/%E5%A4%9A%E7%BB%B4%E5%90%88%E4%BD%9C" title="多维合作">多维合作</a></li>
+<li><a href="/w/%E8%8D%B7%E8%B0%9F%E4%BC%8A%E6%99%BA%E5%A2%83" title="荷谟伊智境">联锁竞赛</a></li></ul></li>
+<li><b>系统</b>
+<ul><li><a href="/w/%E7%BD%97%E5%BE%B7%E5%B2%9B%E5%9F%BA%E5%BB%BA" title="罗德岛基建">基建</a></li>
+<li><a href="/w/%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8" title="任务列表">任务列表</a></li>
+<li><a href="/w/%E9%82%AE%E4%BB%B6%E8%AE%B0%E5%BD%95" title="邮件记录">邮件记录</a></li>
+<li><a href="/w/%E9%A6%96%E9%A1%B5%E5%9C%BA%E6%99%AF%E4%B8%80%E8%A7%88" title="首页场景一览">首页场景</a></li>
+<li><a href="/w/%E5%85%89%E8%8D%A3%E4%B9%8B%E8%B7%AF" title="光荣之路">光荣之路</a></li>
+<li><a href="/w/%E6%83%85%E6%8A%A5%E5%A4%84%E7%90%86%E5%AE%A4" title="情报处理室">情报处理室</a></li></ul></li>
+<li><b>扩展</b>
+<ul><li><a href="/w/%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80" title="游戏数据基础">基础数据</a></li>
+<li><a href="/w/%E4%BD%9C%E6%88%98%E6%9C%BA%E5%88%B6" title="作战机制">作战机制</a></li>
+<li><a href="/w/%E6%96%B0%E4%BA%BA%E5%85%A5%E9%97%A8" title="新人入门">新人入门</a></li>
+<li><a href="/w/%E8%B4%B4%E5%A3%AB%E4%B8%80%E8%A7%88" title="贴士一览">贴士一览</a></li>
+<li><a href="/w/%E8%AF%8D%E6%B1%87%E4%B8%80%E8%A7%88" class="mw-redirect" title="词汇一览">词汇一览</a></li>
+<li><a href="/w/%E5%88%B6%E4%BD%9C%E7%BB%84%E9%80%9A%E8%AE%AF" title="制作组通讯">制作组通讯</a></li>
+<li><a href="/w/%E5%89%A7%E6%83%85%E8%A7%92%E8%89%B2%E4%B8%80%E8%A7%88" title="剧情角色一览">剧情角色一览</a></li>
+<li><a href="/w/%E6%B8%B8%E6%88%8F%E5%86%85%E5%AE%B9%E5%89%8D%E7%9E%BB" title="游戏内容前瞻">游戏内容前瞻</a></li>
+<li><a href="/w/%E5%89%A7%E6%83%85%E8%B5%84%E6%BA%90%E6%A6%82%E8%A7%88" title="剧情资源概览">剧情资源概览</a></li>
+<li><a href="/w/%E5%88%86%E7%B1%BB:%E6%B1%87%E6%80%BB" title="分类:汇总">各类信息汇总</a></li></ul></li>
+<li><b>趣味</b>
+<ul><li><a href="/w/%E6%B3%B0%E6%8B%89%E5%A4%A7%E5%85%B8:Index" title="泰拉大典:Index">泰拉大典</a></li>
+<li><a href="/w/%E9%9F%B3%E4%B9%90%E9%89%B4%E8%B5%8F" title="音乐鉴赏">音乐鉴赏</a></li>
+<li><a href="/w/%E5%88%86%E7%B1%BB:%E5%AF%BB%E8%AE%BF%E6%A8%A1%E6%8B%9F" title="分类:寻访模拟">寻访模拟</a></li>
+<li><a href="/w/%E8%A1%8D%E7%94%9F%E4%BD%9C%E5%93%81" title="衍生作品">衍生作品</a></li>
+<li><a href="/w/%E5%85%89%E8%8D%A3%E4%B9%8B%E8%B7%AF%E6%A8%A1%E6%8B%9F%E5%99%A8" title="光荣之路模拟器">光荣之路模拟器</a></li></ul></li>
+<li><a href="/w/%E7%89%B9%E6%AE%8A:%E9%9A%8F%E6%9C%BA" title="特殊:随机">随机页面</a></li></ul>
+<p>探索
+</p>
+<ul class="mooncell-link"><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://fgo.wiki">Mooncell主站</a></li></ul>
+<ul><li><b>官方网站</b>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://ak.hypergryph.com">明日方舟简中服官网</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://monster-siren.hypergryph.com/">塞壬唱片</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://terra-historicus.hypergryph.com/">泰拉记事社</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.arknights.jp">明日方舟日服官网</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.arknights.global">明日方舟美服官网</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://ak.txwy.tw/">明日方舟台服官网</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.arknights.kr">明日方舟韩服官网</a></li></ul></li>
+<li><b>友情链接</b>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://riesa.cn">拖把日记</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gfwiki.org">少前百科GFwiki</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://penguin-stats.cn">企鹅物流数据统计</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.bigfun.cn/forum/31/new">Bigfun社区-明日方舟版块</a></li></ul></li></ul>
+<p>管理与编辑
+</p>
+<ul><li><a href="/w/%E7%89%B9%E6%AE%8A:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="特殊:最近更改">最近更改</a></li>
+<li><a href="/w/PRTS:%E7%BC%96%E8%BE%91%E6%8C%87%E5%8D%97" class="mw-redirect" title="PRTS:编辑指南">编辑指南</a></li>
+<li><a href="/w/PRTS:%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81" title="PRTS:常用代码">常用代码</a></li>
+<li><a href="/w/%E5%88%86%E7%B1%BB:PRTS%E6%A8%A1%E6%9D%BF" title="分类:PRTS模板">模板一览</a></li>
+<li><a href="/w/%E7%89%B9%E6%AE%8A:%E8%B4%A1%E7%8C%AE%E5%BE%97%E5%88%86" title="特殊:贡献得分">贡献分数</a></li>
+<li><a href="/w/PRTS:%E6%94%B6%E6%94%AF%E4%B8%80%E8%A7%88" title="PRTS:收支一览">收支一览</a></li></ul>
+<p>Languages
+</p>
+<ul><li><script src="https://s2.pstatp.com/cdn/expire-1-M/js-cookie/2.2.0/js.cookie.min.js" type="application/javascript"></script>
+<script>
+function changeUserLang(langCode) { 
+var params = { action: 'options', change: 'language=' + langCode, format: 'json'};
+api = new mw.Api();
+api.postWithToken( 'csrf', params ).done( function( data ) {
+    window.location.reload();
+});
+}
+
+function changeAnonLang(langCode) { 
+    Cookies.set('ak_aklanguage', langCode);
+    window.location.reload();
+}
+
+function changeLang(langCode){
+    var username = mw.config.get("wgUserName");
+    if ( !!username ) {
+        changeUserLang( langCode );
+    }
+    else {
+        changeAnonLang( langCode );
+    }
+}
+</script>
+<a id="switcher-ja" onclick="changeLang('ja')">日本語</a></li>
+<li><a id="switcher-en" onclick="changeLang('en')">English</a></li>
+<li><a id="switcher-zh-cn" onclick="changeLang('zh-cn')">中文</a></li></ul><p id="vmsTB">工具</p><ul id="MSToolbox"></ul><div><div style="width:80%;margin:0 auto;margin-top:20px"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3703762592545424" data-ad-slot="2056115646" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>__VECTOR_MENU_SIDE_BAR_MOUNTED__=function(){(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-3703762592545424",});}</script></div></div></div><script>window.addEventListener("DOMContentLoaded",(function(){document.querySelector("#MSToolbox").innerHTML=document.querySelector("#p-tb ul").innerHTML,document.querySelectorAll("#mw-panel > *:not(#p-logo)").forEach((function(e){return e.remove()}));for(var e=document.querySelectorAll("#MenuSidebar li>ul"),n=0;n<e.length;n++)e[n].parentElement.classList.add("child");e=document.querySelectorAll("#MenuSidebar > ul#MSToolbox > li");for(var o=0;o<e.length;o++)""===e[o].innerHTML&&e[o].parentNode.removeChild(e[o]);var r=document.querySelector("#MenuSidebar");r.setAttribute("style",""),document.querySelector("#mw-panel").appendChild(r),window.__VECTOR_MENU_SIDE_BAR_MOUNTED__&&window.__VECTOR_MENU_SIDE_BAR_MOUNTED__()}));</script></div><div class="printfooter">取自“<a dir="ltr" href="http://prts.wiki/index.php?title=首页&amp;oldid=204506">http://prts.wiki/index.php?title=首页&amp;oldid=204506</a>”</div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>导航菜单</h2>
+	<div id="mw-head">
+		<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" role="navigation" 
+	 >
+	<h3 id="p-personal-label">
+		<span>个人工具</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-uls" class="active"><a href="#" class="uls-trigger">中文（中国大陆）‎</a></li><li id="pt-createaccount"><a href="/index.php?title=%E7%89%B9%E6%AE%8A:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E9%A6%96%E9%A1%B5" title="建议您创建一个账户并登录，但这不是强制的">创建账户</a></li><li id="pt-login"><a href="/index.php?title=%E7%89%B9%E6%AE%8A:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E9%A6%96%E9%A1%B5" title="我们鼓励您登录；然而，这不是强制性的[o]" accesskey="o">登录</a></li></ul>
+		
+	</div>
+</nav>
+
+
+		<div id="left-navigation">
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" role="navigation" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>名字空间</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="/w/%E9%A6%96%E9%A1%B5" title="查看内容页面[c]" accesskey="c">首页</a></li><li id="ca-talk"><a href="/w/%E8%AE%A8%E8%AE%BA:%E9%A6%96%E9%A1%B5" rel="discussion" title="关于内容页面的讨论[t]" accesskey="t">讨论</a></li></ul>
+		
+	</div>
+</nav>
+
+
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" role="navigation" 
+	 >
+	<input type="checkbox" class="vector-menu-checkbox vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>变种</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+
+		</div>
+		<div id="right-navigation">
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" role="navigation" 
+	 >
+	<h3 id="p-views-label">
+		<span>视图</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="/w/%E9%A6%96%E9%A1%B5">阅读</a></li><li id="ca-viewsource" class="collapsible"><a href="/index.php?title=%E9%A6%96%E9%A1%B5&amp;action=edit" title="本页面受到保护。您可以查看其源代码[e]" accesskey="e">查看源代码</a></li><li id="ca-history" class="collapsible"><a href="/index.php?title=%E9%A6%96%E9%A1%B5&amp;action=history" title="本页面过去的版本[h]" accesskey="h">查看历史</a></li></ul>
+		
+	</div>
+</nav>
+
+
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" role="navigation" 
+	 >
+	<input type="checkbox" class="vector-menu-checkbox vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>更多</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">搜索</label>
+	</h3>
+	<form action="/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="搜索PRTS" title="搜索PRTS[f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="特殊:搜索">
+			<input type="submit" name="fulltext" value="搜索" title="搜索含这些文字的页面" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="前往" title="若相同标题存在，则直接前往该页面" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="访问首页" class="mw-wiki-logo" href="/w/%E9%A6%96%E9%A1%B5"></a>
+	</div>
+	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-tb" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-tb-label" role="navigation" 
+	 >
+	<h3 id="p-tb-label">
+		<span>工具</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="/w/%E7%89%B9%E6%AE%8A:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E9%A6%96%E9%A1%B5" title="所有链接至本页面的wiki页面的列表[j]" accesskey="j">链入页面</a></li><li id="t-recentchangeslinked"><a href="/w/%E7%89%B9%E6%AE%8A:%E6%9C%80%E8%BF%91%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E9%A6%96%E9%A1%B5" rel="nofollow" title="链自本页的页面的最近更改[k]" accesskey="k">相关更改</a></li><li id="t-specialpages"><a href="/w/%E7%89%B9%E6%AE%8A:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="所有特殊页面的列表[q]" accesskey="q">特殊页面</a></li><li id="t-print"><a href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]" accesskey="p">可打印版本</a></li><li id="t-permalink"><a href="/index.php?title=%E9%A6%96%E9%A1%B5&amp;oldid=204506" title="本页面该版本的固定链接">固定链接</a></li><li id="t-info"><a href="/index.php?title=%E9%A6%96%E9%A1%B5&amp;action=info" title="关于此页面的更多信息">页面信息</a></li><li id="t-cite"><a href="/index.php?title=%E7%89%B9%E6%AE%8A:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E9%A6%96%E9%A1%B5&amp;id=204506&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息">引用本页</a></li><li id="t-smwbrowselink"><a href="/w/%E7%89%B9%E6%AE%8A:%E6%B5%8F%E8%A7%88/:%E9%A6%96%E9%A1%B5" rel="search">浏览属性</a></li></ul>
+		
+	</div>
+</nav>
+
+
+	
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> 此页面最后编辑于2022年1月27日 (星期四) 14:20。</li>
+		<li id="footer-info-copyright">本网站是由《明日方舟》游戏爱好者，使用免费开源的 MediaWiki 程序制作。网站所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。<br>网站内使用的游戏图片、动画、音频、文本原文，仅用于更好地表现游戏资料，其版权属于 Arknights/上海鹰角网络科技有限公司。<br>除非另有声明，网站其他内容采用<a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享</a>授权。</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="/w/PRTS:%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96" title="PRTS:隐私政策">隐私政策</a></li>
+		<li id="footer-places-about"><a href="/w/PRTS:%E5%85%B3%E4%BA%8E" title="PRTS:关于">关于PRTS</a></li>
+		<li id="footer-places-disclaimer"><a href="/w/PRTS:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E" title="PRTS:免责声明">免责声明</a></li>
+		<li id="footer-places-mobileview"><a href="//prts.wiki/index.php?title=%E9%A6%96%E9%A1%B5&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">手机版视图</a></li>
+		<li id="footer-places-beian"><a href="https://beian.miit.gov.cn/">京ICP备20024624号-1</a></li>
+		<li id="footer-places-comment"><a href="/w/PRTS:%E8%AF%84%E8%AE%BA%E9%A1%BB%E7%9F%A5" title="PRTS:评论须知">评论须知</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="/resources/assets/licenses/cc-by-nc-sa.png" alt="知识共享署名-非商业性使用-相同方式共享" width="88" height="31" loading="lazy"/></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" target="_blank"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a><a href="//project.mooncell.wiki" target="_blank"><img src="/images/project1.png" alt="a Mooncell project" height="31" width="88" loading="lazy"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAACJVBMVEXe3t62trbLy8vGxsbAwMDX19e6urqsrKxHcEzQ0NC2tratra2oqKixsbHd3eDFxcXe3t7U1NTa2trX19fQ0NDV1dWNjY2dnZ2UlJSUlJTS0tKUlJSWlpbR0dGenp79/f38/Pz+/v7t7e3v7+/u7u7s7Oz19fX29vb6+vr7+/vz8/Pz8/P4+fnw8PD39/gWTq/09PX6+vktX7b/sg8XT7F6mc/f5OwhVrNvkMthhsfT2+j7rQ/M1eZqjcmFotPs7e9Cb722xuFResK/zOObstnu7/Grvd3M1+mNqNY6aLoaUbEaUbZWfsTk6fE2Zrnp7O8bTq0kWLQuYcpcg8Xh5/Byk83a4eukud1/nM+6yeQkWcGwwuDxnRQyYrigttvI0+gpW7XGyttLdsBni8geVLo0Z9XlkCPb4u+QqtcfVLLo7PNHcr73phFGX6HsmBnpkxg6bNwnXcbX3er19vnr7/SVrdhuhLl+j70vVqY6Xqv0oxJVcbQhV76DjKTz9ffQ2evE0OZAbbzu7/PS1uFufrDnrGgpSZjy8/SQnMFddrKuekXSiCsgTKRaaZHejy9yang3VptNaqspWbnmliy3j2/m6OzT3e7x8fL4+v3p6uwaN2re0cifqLiLiZWYhYGYb0xXYn+5g0xwiMKYpc2BcHZmW2srRXpGWIhecKfilz4+WID2+PyosMywqbGqss1aVnLZq33p1sGklZqrp7dkfr7CpY9yg59Ud6QZAAAAH3RSTlPfBN/f39/f2wDf39vV3/7N2rrEz5D5c8ONuHaPuXXDImoxqwAABO1JREFUSMe1kQdz01gQgBXaBS4w9OtHwMFSdPKTUNxkW+61xN2Je4tLHJNOGukkAUINJTzaUIbO9fr7TpLtS44DZiC5b6Sn3dW+TysJaWz4cv9eZFPZu/+bhkakYR88WqP59u3vjxzdDCT7GpCD4qNH3sEGzOhB5MCR/4PmA8j25uZ33t0A23lxff5hZTIzOrz2Ph8qK936l7i1tT7hk8DAoHNsbeLWKjPdQcZ+qvX9tHMNXca1XBDXHtL6x2Bh0HWtuXUo8oTgC1gVpcdsdpew92PUYtjwzFq+E9mJYfXxx1x5l2/l5Vhy0DW6TuyQCZcR2hnswXJM0h+203471u5WKMIE5mDpspIIO8sZTMZiIbczY6+JCaI+/sJZ38qjP28+nQjkx/mcqGJ26rW3iKg/fYphCL1jNk5WbqXI0nBnu00RJ2j9bNRp6MmFS0SYIXLuUlQ5w22qizHr5MTyy2u/3XxVvHHlwtWVa/xTCQIIlEaMzrgswzA5P9BrAciYASqNoiNdjL8b0GYAHN3AGAEgzPSQc9UtYCeyBQAMO2G9PhhzXfp9qdifSCT6Lj788QQnrvWEuNPI2um0LW0D+m4A6E4AnIZOeq7ksQuJvi6eUXRW+8EWXsxNPhkYGJiSXr7Rd1qtVp9MXHkgIurzAkdFxjrj7cmKbN4K5v8RGxT2sJMTpwBflNHhUJgBdoUylzy3TuwIDBRi0hf9p9VtbW3qk30X7q2Je1IybZq7mLVWFKTSADXPoqi9AzVorda0kKTS6KkRbSgaR1GT1h5CObYiW1GU27yc5z6F9Fn/yTYedeLi9AIA6AbgxGIxAMPZcZeUHH9cFavVfY97FaNA/DbazRZVV89/61at2BTlg1JXiFtrYoBmRyd7p6/UP0XxaSDmy4pt0jmuh8qx6wQ2MmRz18TaJCUWO9xisUVhMMsoZZDiGHLLuXUbso2iatP/1HvhYu3n3bh6Pe/LUjZSj1NUJ8lSlNwahRRlMRjmyFDICikVn8+SacomdbZTVj+0mQSxweS1WqpiHK/Ncubs858f9idOJ/qKS1cv+RbFuIbMmHEvTbO4QeF25CxyD62nSbmJ1MUzRrpiwR0RPBJMpnCGxWVGXBn8TkarNGQHjuPrxOeWY4GY9FmxWHy19Gvv+ayYF6f8oYi7i8U93bjFkYokvbhWEFu8Og2ZxrUe3NMpc3vLhqqYpVV4XbwDQkpgoVwYKOR9N5d+eXB5vJevQA0pD7oVqi4WOj16vX6EYSA08WKvyeOZJw1cQ6rsnXOa/RYoM0Kls0zLuVoHhHAHL8YFXkwVCoE8uXhvMVCY8mW5Ci8eKkcgJ9azOl0UajNDFiUpj5JeloEqTgwd/iCUJP0sFMSejkpO96b4zl1fPuYiyd6Vs4GBmHSsJoYmLy/WeBTlis5rlJYrgjhe1s+XOXGEtHJOMl4VB2EHLauKdyG7JBLIc//uslRKkhOrcGJqyiU9z5UkOpVOwiGXSyQizRAfqlRc7Y5KJFnV6FReiWSV7xAWeQd/SOSq6qY18eVHq4vjlyazEJ73ScmJPVxJVKdF9MFwYpFIEL+ehvDOcSH8YXRsAa4XfwS7kd0tLfw7Sp7fl7xJywbYjTTVotfTb+849lEcb0K+2lMN/5o+tons+Rxp+PrQ8U3n0BcNSGPj4W+bPuX5ZLNo+uxwY+PfoLJHX1KXgyMAAAAASUVORK5CYII=" alt="Powered by Semantic MediaWiki" class="smw-footer" width="88" height="31" loading="lazy"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</footer>
+
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.683","walltime":"0.944","ppvisitednodes":{"value":7751,"limit":1000000},"postexpandincludesize":{"value":103846,"limit":2097152},"templateargumentsize":{"value":5758,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":40,"limit":5000000},"timingprofile":["100.00%  857.406      1 -total"," 62.47%  535.625      2 首页/亮点干员"," 37.40%  320.683      1 首页/mobile"," 30.53%  261.751      8 模板:首页/亮点干员图标"," 25.44%  218.152      2 首页/亮点干员/新增皮肤"," 24.87%  213.237      2 模板:首页/亮点干员图标/皮肤"," 15.21%  130.374      2 首页/亮点干员/今天生日"," 12.15%  104.135      2 首页/亮点干员/近期新增"," 10.29%   88.254      2 模板:首页轮播","  9.46%   81.086      2 模板:当前信息"]},"scribunto":{"limitreport-timeusage":{"value":"0.060","limit":"7"},"limitreport-virtmemusage":{"value":9162752,"limit":52428800},"limitreport-estmemusage":0},"loops":{"limitreport-count-unlimited":[0]},"cachereport":{"timestamp":"20220505060110","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":198});});</script></body></html>
