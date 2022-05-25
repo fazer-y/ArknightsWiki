@@ -169,6 +169,9 @@
     <EmbeddedResource Include="UI\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="app.manifest" />
     <None Include="ArkWikiDataSet.xsc">
       <DependentUpon>ArkWikiDataSet.xsd</DependentUpon>

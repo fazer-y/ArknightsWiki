@@ -70,7 +70,7 @@
             this.pnl_data.Location = new System.Drawing.Point(12, 98);
             this.pnl_data.Margin = new System.Windows.Forms.Padding(2);
             this.pnl_data.Name = "pnl_data";
-            this.pnl_data.Size = new System.Drawing.Size(909, 429);
+            this.pnl_data.Size = new System.Drawing.Size(909, 522);
             this.pnl_data.TabIndex = 0;
             // 
             // btn_pre
@@ -140,7 +140,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(933, 566);
+            this.ClientSize = new System.Drawing.Size(933, 631);
             this.Controls.Add(this.btn_searchOpr);
             this.Controls.Add(this.cb_searchItem);
             this.Controls.Add(this.tb_search);

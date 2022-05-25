@@ -73,7 +73,10 @@ namespace ArknightsWiki.UI
             dgv.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             dgv.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.True;
-            dgv.ColumnHeadersHeight = 30;
+            dgv.ReadOnly = true;
+            dgv.ColumnHeadersHeight = 35;
+            dgv.AllowUserToAddRows = false;
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
             dgv.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGVCell_MouseDoubleClick);
 
@@ -83,7 +86,7 @@ namespace ArknightsWiki.UI
             dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "干员标签", DataPropertyName = "oprTags" });
             dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "干员技能", DataPropertyName = "oprSkills" });
 
-            dgv.Columns[0].Width = 95;
+            dgv.Columns[0].Width = 105;
             dgv.Columns[1].Width = 105;
             dgv.Columns[2].Width = 100;
             dgv.Columns[3].Width = 300;
@@ -103,7 +106,7 @@ namespace ArknightsWiki.UI
                 using (MemoryStream oldms = new MemoryStream(bytes))
                 {
                     Image img = Image.FromStream(oldms);
-                    Bitmap bt = new Bitmap(img, new Size(80, 80));
+                    Bitmap bt = new Bitmap(img, new Size(100, 100));
                     using (MemoryStream newms = new MemoryStream())
                     {
                         bt.Save(newms, ImageFormat.Jpeg);

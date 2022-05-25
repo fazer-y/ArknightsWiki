@@ -24,6 +24,8 @@ namespace ArknightsWiki.UI
         private PersonalForm personalForm;
         private RegisterForm registerform;
         private OperatorForm operatorform;
+
+        public DataTable dataTable_history = new DataTable();
         DBManager dbManager;
         public MainFrame()
         {
@@ -37,6 +39,18 @@ namespace ArknightsWiki.UI
             pnl_main.Controls.Add(mainpage);
             mainpage.Show();
             this.btn_readSource.Enabled = false;
+
+            #region 页面历史表设计属性设置
+            dataTable_history.Columns.Add("editTime", typeof(string));
+            dataTable_history.Columns.Add("userID", typeof (string));
+            dgv_history.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dgv_history.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgv_history.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            dgv_history.ReadOnly = true;
+            dgv_history.AllowUserToAddRows = false;
+            dgv_history.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dgv_history.DefaultCellStyle.Font = new Font("Tahoma", 10);
+            #endregion
         }
 
         private void MainFrame_Load(object sender, EventArgs e)
@@ -45,22 +59,13 @@ namespace ArknightsWiki.UI
 
         public void btn_mainPage_Click(object sender, EventArgs e)
         {
-            //pnl_main.Controls.Clear();
-            //pnl_main.Controls.Add(editorform);
-            //SendKeys.Send("{F10}");
-            //editorform.Show();
-            changeSidePanel("mainPage");
             pnl_editorBtn.Visible = false;
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(mainpage);
             mainpage.Show();
         }
 
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-        #region
+        #region 无边框显示
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
         [System.Runtime.InteropServices.DllImport("user32.dll")]
@@ -136,33 +141,10 @@ namespace ArknightsWiki.UI
             toolTip.SetToolTip(this.btn_min, "最小化");
             toolTip.SetToolTip(this.btn_close, "关闭");
         }
-        #endregion
-
-        private void changeSidePanel(string option)
-        {
-            if (option == "mainPage")
-            {
-                pnl_side.Controls.Clear();
-                pnl_side.Controls.Add(pnl_hotWiki);
-                pnl_wikiDetail.Visible = false;
-                pnl_hotWiki.Visible = true;
-            }
-            else if (option == "wikiPage")
-            {
-                pnl_side.Controls.Clear();
-                pnl_side.Controls.Add(pnl_wikiDetail);
-                pnl_wikiDetail.Visible = true;
-                pnl_hotWiki.Visible = false;
-            }
-        }
+        #endregion 
 
         private void btn_operator_Click(object sender, EventArgs e)
         {
-            //editorform.fileName = "C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\Resources\\WikiPages\\干员档案——阿米娅.md";
-            //pnl_main.Controls.Clear();
-            //pnl_main.Controls.Add(editorform);
-            //editorform.webBrowser1.Refresh();
-            //editorform.Show();
             pnl_editorBtn.Visible = false;
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(operatorform);
@@ -224,25 +206,27 @@ namespace ArknightsWiki.UI
 
         public void loadMD(string item, string name)
         {
+            this.Width = 1412;
+            this.btn_expand.Text = "<<";
             editorform = new EditorForm(this);
             dbManager.OpenDB();
             SqlDataReader reader = null;
             switch (item)
             {
                 case "Operators":
-                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='干员资料'", "wikiID, wikiPath");
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='干员资料'", "*");
                     break;
                 case "Enemies":
-                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='敌人档案'", "wikiID, wikiPath");
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='敌人档案'", "*");
                     break;
                 case "Operations":
-                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='关卡一览'", "wikiID, wikiPath");
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='关卡一览'", "*");
                     break;
                 case "Material":
-                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='道具资料'", "wikiID, wikiPath");
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}' and wikiTags='道具资料'", "*");
                     break;
                 default:
-                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}'", "wikiID, wikiPath");
+                    reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}'", "*");
                     break;
             }
 
@@ -251,27 +235,64 @@ namespace ArknightsWiki.UI
                 editorform.fileName = $"C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\bin\\Debug\\"
                     + reader["wikiPath"];
                 wikiPageID = reader["wikiID"].ToString();
+                this.lbl_wikiID.Text = wikiPageID;
+                this.lbl_title.Text = reader["wikiTitle"].ToString();
+                this.tb_contributor.Text = reader["wikiContributors"].ToString();
+                this.tb_wikiTags.Text = reader["wikiTags"].ToString();
+                this.tb_createTime.Text = reader["wikiCreateTime"].ToString();
+                this.tb_changeTime.Text = reader["wikiLastChangeTime"].ToString();
+                this.tb_views.Text = reader["wikiPageviews"].ToString();
             }
             dbManager.CloseDB();
 
+            // 更新浏览量
             dbManager.OpenDB();
             dbManager.UpdateData("wikiPages", $"wikiPageViews=wikiPageViews+1", $"wikiID='{wikiPageID}'");
+            dbManager.CloseDB();
 
+            // 历史版本读取
+            dbManager.OpenDB();
+            reader = dbManager.SelectData("WikiHistory", $"wikiID='{wikiPageID}'");
+
+            dataTable_history.Rows.Clear();
+            while (reader.Read())
+            {
+                dataTable_history.Rows.Add(
+                    reader["editTime"].ToString(),
+                    reader["userID"].ToString());
+            }
+            dgv_history.DataSource = dataTable_history;
+            dgv_history.Columns[0].Width = 140;
+            dgv_history.Columns[1].Width = 95;
+
+            // 显示编辑器页面
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(editorform);
             editorform.webBrowser1.Refresh();
-            changeSidePanel("wikiPage");
             pnl_editorBtn.Visible = true;
             editorform.Show();
-            dbManager.CloseDB();
         }
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-
             string newWikiPath = editorform.SaveMD(out DateTime changeTime);
             dbManager.OpenDB();
-            dbManager.UpdateData("wikiPages", $"wikiPath='{newWikiPath}, wikiLastChangeTime={changeTime}', wikiContributors=wikiContributors+{user.userName}", $"wikiID='{wikiPageID}'");
+            dbManager.UpdateData("wikiPages", $"wikiPath='{newWikiPath}', wikiLastChangeTime='{changeTime}', wikiContributors=wikiContributors+'{user.userName}'", $"wikiID='{wikiPageID}'");
+        }
+
+        private void btn_expand_Click(object sender, EventArgs e)
+        {
+            if (this.btn_expand.Text == ">>")
+            {
+                this.Width = 1413;
+                this.btn_expand.Text = "<<";
+            }
+            else 
+            {
+                this.Width = 1165;
+                this.btn_expand.Text = ">>";
+            }
+            
         }
     }
 }

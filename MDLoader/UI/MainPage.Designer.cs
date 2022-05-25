@@ -59,7 +59,7 @@ namespace ArknightsWiki.UI
             this.btn_recruit.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_recruit.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_recruit.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_recruit.Location = new System.Drawing.Point(758, 361);
+            this.btn_recruit.Location = new System.Drawing.Point(758, 323);
             this.btn_recruit.Name = "btn_recruit";
             this.btn_recruit.Size = new System.Drawing.Size(120, 120);
             this.btn_recruit.TabIndex = 4;
@@ -75,7 +75,7 @@ namespace ArknightsWiki.UI
             this.btn_materail.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_materail.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_materail.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_materail.Location = new System.Drawing.Point(591, 361);
+            this.btn_materail.Location = new System.Drawing.Point(587, 323);
             this.btn_materail.Name = "btn_materail";
             this.btn_materail.Size = new System.Drawing.Size(120, 120);
             this.btn_materail.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace ArknightsWiki.UI
             this.btn_operation.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_operation.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_operation.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_operation.Location = new System.Drawing.Point(407, 361);
+            this.btn_operation.Location = new System.Drawing.Point(407, 323);
             this.btn_operation.Name = "btn_operation";
             this.btn_operation.Size = new System.Drawing.Size(120, 120);
             this.btn_operation.TabIndex = 2;
@@ -107,7 +107,7 @@ namespace ArknightsWiki.UI
             this.btn_operator.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_operator.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_operator.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_operator.Location = new System.Drawing.Point(53, 361);
+            this.btn_operator.Location = new System.Drawing.Point(53, 323);
             this.btn_operator.Name = "btn_operator";
             this.btn_operator.Size = new System.Drawing.Size(120, 120);
             this.btn_operator.TabIndex = 1;
@@ -123,7 +123,7 @@ namespace ArknightsWiki.UI
             this.btn_enemies.crBorderPainting = System.Drawing.Color.Empty;
             this.btn_enemies.Font = new System.Drawing.Font("微软雅黑", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_enemies.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btn_enemies.Location = new System.Drawing.Point(234, 361);
+            this.btn_enemies.Location = new System.Drawing.Point(236, 323);
             this.btn_enemies.Name = "btn_enemies";
             this.btn_enemies.Size = new System.Drawing.Size(120, 120);
             this.btn_enemies.TabIndex = 0;
@@ -139,7 +139,7 @@ namespace ArknightsWiki.UI
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(933, 566);
+            this.ClientSize = new System.Drawing.Size(933, 631);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_recruit);
             this.Controls.Add(this.btn_materail);

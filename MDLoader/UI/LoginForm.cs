@@ -40,8 +40,8 @@ namespace ArknightsWiki.UI
             {
                 // 登录成功
                 user = new User(reader["userID"].ToString(),
-                                reader["userName"].ToString(),
                                 reader["userPwd"].ToString(),
+                                reader["userName"].ToString(),
                                 reader["userEmail"].ToString());
                 MessageBox.Show("登陆成功!");
                 owner.user = new User(user);

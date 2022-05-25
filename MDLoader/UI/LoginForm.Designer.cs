@@ -147,7 +147,8 @@ namespace ArknightsWiki.UI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
-            this.ClientSize = new System.Drawing.Size(933, 566);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(933, 631);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_login);
@@ -156,6 +157,7 @@ namespace ArknightsWiki.UI
             this.Controls.Add(this.tb_userName);
             this.Controls.Add(this.lbl_UserName);
             this.Controls.Add(this.lbl_Pwd);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
             this.Text = "登录ArknightsWiki";

@@ -278,7 +278,8 @@ namespace ArknightsWiki.UI
             if (adapter.Filename == "") return;
             try
             {
-                mainFrame.btn_save.Visible = true;
+                if(mainFrame.user != null)
+                    mainFrame.btn_save.Visible = true;
                 adapter.GetUserSideMD(webBrowser1);
                 List<string> updatedlist = adapter.CacheMDPictures(adapter.Filename);
                 HtmlDocument doc = webBrowser1.Document;

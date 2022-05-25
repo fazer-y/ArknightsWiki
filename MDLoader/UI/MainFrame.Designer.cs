@@ -30,7 +30,6 @@ namespace ArknightsWiki.UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrame));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button7 = new System.Windows.Forms.Button();
@@ -44,40 +43,38 @@ namespace ArknightsWiki.UI
             this.lbl_arkWiki = new System.Windows.Forms.Label();
             this.btn_readSource = new System.Windows.Forms.Button();
             this.btn_read = new System.Windows.Forms.Button();
-            this.btn_history = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_min = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
             this.btn_save = new System.Windows.Forms.Button();
-            this.pnl_ = new System.Windows.Forms.Panel();
-            this.lbl_wikiTags = new System.Windows.Forms.Label();
-            this.lbl_wikiID = new System.Windows.Forms.Label();
+            this.pnl_wikiInfo = new System.Windows.Forms.Panel();
+            this.tb_contributor = new System.Windows.Forms.TextBox();
+            this.tb_wikiTags = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgv_history = new System.Windows.Forms.DataGridView();
             this.arkWikiDataSet = new ArknightsWiki.ArkWikiDataSet();
-            this.wikiHistoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.wikiHistoryTableAdapter = new ArknightsWiki.ArkWikiDataSetTableAdapters.WikiHistoryTableAdapter();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_discuss = new System.Windows.Forms.Button();
             this.pnl_editorBtn = new System.Windows.Forms.Panel();
-            this.pnl_side = new System.Windows.Forms.Panel();
-            this.pnl_hotWiki = new System.Windows.Forms.Panel();
-            this.dgv_hotWiki = new System.Windows.Forms.DataGridView();
-            this.label5 = new System.Windows.Forms.Label();
             this.pnl_wikiDetail = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tb_createTime = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tb_changeTime = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tb_views = new System.Windows.Forms.TextBox();
+            this.btn_expand = new System.Windows.Forms.Button();
+            this.lbl_wikiID = new System.Windows.Forms.Label();
+            this.lbl_title = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.pnl_.SuspendLayout();
+            this.pnl_wikiInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_history)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arkWikiDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wikiHistoryBindingSource)).BeginInit();
             this.pnl_editorBtn.SuspendLayout();
-            this.pnl_side.SuspendLayout();
-            this.pnl_hotWiki.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_hotWiki)).BeginInit();
             this.pnl_wikiDetail.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -194,18 +191,18 @@ namespace ArknightsWiki.UI
             this.pnl_main.Location = new System.Drawing.Point(225, 118);
             this.pnl_main.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.pnl_main.Name = "pnl_main";
-            this.pnl_main.Size = new System.Drawing.Size(933, 566);
+            this.pnl_main.Size = new System.Drawing.Size(933, 631);
             this.pnl_main.TabIndex = 1;
             // 
             // lbl_arkWiki
             // 
             this.lbl_arkWiki.AutoSize = true;
             this.lbl_arkWiki.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_arkWiki.Font = new System.Drawing.Font("幼圆", 25.81132F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_arkWiki.Font = new System.Drawing.Font("幼圆", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lbl_arkWiki.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_arkWiki.Location = new System.Drawing.Point(5, 10);
+            this.lbl_arkWiki.Location = new System.Drawing.Point(3, 9);
             this.lbl_arkWiki.Name = "lbl_arkWiki";
-            this.lbl_arkWiki.Size = new System.Drawing.Size(277, 38);
+            this.lbl_arkWiki.Size = new System.Drawing.Size(387, 53);
             this.lbl_arkWiki.TabIndex = 9;
             this.lbl_arkWiki.Text = "ArknightsWiki";
             // 
@@ -213,13 +210,13 @@ namespace ArknightsWiki.UI
             // 
             this.btn_readSource.BackColor = System.Drawing.Color.Transparent;
             this.btn_readSource.FlatAppearance.BorderSize = 0;
-            this.btn_readSource.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_readSource.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_readSource.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_readSource.Location = new System.Drawing.Point(106, 3);
+            this.btn_readSource.Location = new System.Drawing.Point(206, 3);
             this.btn_readSource.Name = "btn_readSource";
             this.btn_readSource.Size = new System.Drawing.Size(100, 30);
             this.btn_readSource.TabIndex = 10;
-            this.btn_readSource.Text = "查看源代码";
+            this.btn_readSource.Text = "源代码";
             this.btn_readSource.UseVisualStyleBackColor = false;
             this.btn_readSource.Click += new System.EventHandler(this.btn_readSource_Click);
             // 
@@ -227,9 +224,9 @@ namespace ArknightsWiki.UI
             // 
             this.btn_read.BackColor = System.Drawing.Color.Transparent;
             this.btn_read.FlatAppearance.BorderSize = 0;
-            this.btn_read.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_read.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_read.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_read.Location = new System.Drawing.Point(3, 3);
+            this.btn_read.Location = new System.Drawing.Point(103, 3);
             this.btn_read.Name = "btn_read";
             this.btn_read.Size = new System.Drawing.Size(100, 30);
             this.btn_read.TabIndex = 11;
@@ -237,22 +234,11 @@ namespace ArknightsWiki.UI
             this.btn_read.UseVisualStyleBackColor = false;
             this.btn_read.Click += new System.EventHandler(this.btn_read_Click);
             // 
-            // btn_history
-            // 
-            this.btn_history.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_history.Location = new System.Drawing.Point(126, 284);
-            this.btn_history.Name = "btn_history";
-            this.btn_history.Size = new System.Drawing.Size(100, 30);
-            this.btn_history.TabIndex = 12;
-            this.btn_history.Text = "查看历史";
-            this.btn_history.UseVisualStyleBackColor = true;
-            this.btn_history.Click += new System.EventHandler(this.button10_Click);
-            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Controls.Add(this.btn_login);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(972, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(846, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(186, 49);
             this.flowLayoutPanel1.TabIndex = 13;
@@ -275,7 +261,7 @@ namespace ArknightsWiki.UI
             this.btn_min.FlatAppearance.BorderSize = 0;
             this.btn_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_min.Font = new System.Drawing.Font("宋体", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_min.Location = new System.Drawing.Point(1340, 0);
+            this.btn_min.Location = new System.Drawing.Point(1090, 0);
             this.btn_min.Name = "btn_min";
             this.btn_min.Size = new System.Drawing.Size(30, 30);
             this.btn_min.TabIndex = 14;
@@ -289,7 +275,7 @@ namespace ArknightsWiki.UI
             this.btn_close.FlatAppearance.BorderSize = 0;
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("宋体", 12.22642F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_close.Location = new System.Drawing.Point(1376, 0);
+            this.btn_close.Location = new System.Drawing.Point(1126, 0);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(30, 30);
             this.btn_close.TabIndex = 15;
@@ -299,56 +285,69 @@ namespace ArknightsWiki.UI
             // 
             // btn_save
             // 
-            this.btn_save.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_save.Location = new System.Drawing.Point(10, 284);
+            this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_save.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_save.Location = new System.Drawing.Point(0, 3);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(110, 30);
+            this.btn_save.Size = new System.Drawing.Size(100, 30);
             this.btn_save.TabIndex = 17;
             this.btn_save.Text = "提交修改";
             this.btn_save.UseVisualStyleBackColor = true;
             this.btn_save.Visible = false;
             this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
-            // pnl_
+            // pnl_wikiInfo
             // 
-            this.pnl_.BackColor = System.Drawing.Color.Transparent;
-            this.pnl_.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_.Controls.Add(this.lbl_wikiTags);
-            this.pnl_.Controls.Add(this.lbl_wikiID);
-            this.pnl_.Controls.Add(this.label4);
-            this.pnl_.Controls.Add(this.label3);
-            this.pnl_.Controls.Add(this.label2);
-            this.pnl_.Controls.Add(this.label1);
-            this.pnl_.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.pnl_.Location = new System.Drawing.Point(3, 2);
-            this.pnl_.Name = "pnl_";
-            this.pnl_.Size = new System.Drawing.Size(234, 234);
-            this.pnl_.TabIndex = 18;
-            this.pnl_.Visible = true;
+            this.pnl_wikiInfo.AutoSize = true;
+            this.pnl_wikiInfo.BackColor = System.Drawing.Color.Transparent;
+            this.pnl_wikiInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_wikiInfo.Controls.Add(this.lbl_title);
+            this.pnl_wikiInfo.Controls.Add(this.lbl_wikiID);
+            this.pnl_wikiInfo.Controls.Add(this.tb_views);
+            this.pnl_wikiInfo.Controls.Add(this.label7);
+            this.pnl_wikiInfo.Controls.Add(this.tb_changeTime);
+            this.pnl_wikiInfo.Controls.Add(this.label6);
+            this.pnl_wikiInfo.Controls.Add(this.tb_createTime);
+            this.pnl_wikiInfo.Controls.Add(this.label5);
+            this.pnl_wikiInfo.Controls.Add(this.tb_contributor);
+            this.pnl_wikiInfo.Controls.Add(this.tb_wikiTags);
+            this.pnl_wikiInfo.Controls.Add(this.label4);
+            this.pnl_wikiInfo.Controls.Add(this.label3);
+            this.pnl_wikiInfo.Controls.Add(this.label2);
+            this.pnl_wikiInfo.Controls.Add(this.label1);
+            this.pnl_wikiInfo.Font = new System.Drawing.Font("宋体", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.pnl_wikiInfo.Location = new System.Drawing.Point(3, 3);
+            this.pnl_wikiInfo.Name = "pnl_wikiInfo";
+            this.pnl_wikiInfo.Size = new System.Drawing.Size(239, 386);
+            this.pnl_wikiInfo.TabIndex = 18;
             // 
-            // lbl_wikiTags
+            // tb_contributor
             // 
-            this.lbl_wikiTags.AutoSize = true;
-            this.lbl_wikiTags.Location = new System.Drawing.Point(7, 151);
-            this.lbl_wikiTags.Name = "lbl_wikiTags";
-            this.lbl_wikiTags.Size = new System.Drawing.Size(55, 15);
-            this.lbl_wikiTags.TabIndex = 5;
-            this.lbl_wikiTags.Text = "label5";
+            this.tb_contributor.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tb_contributor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tb_contributor.Enabled = false;
+            this.tb_contributor.Location = new System.Drawing.Point(13, 192);
+            this.tb_contributor.Name = "tb_contributor";
+            this.tb_contributor.ReadOnly = true;
+            this.tb_contributor.Size = new System.Drawing.Size(221, 21);
+            this.tb_contributor.TabIndex = 11;
             // 
-            // lbl_wikiID
+            // tb_wikiTags
             // 
-            this.lbl_wikiID.AutoSize = true;
-            this.lbl_wikiID.Location = new System.Drawing.Point(7, 37);
-            this.lbl_wikiID.Name = "lbl_wikiID";
-            this.lbl_wikiID.Size = new System.Drawing.Size(55, 15);
-            this.lbl_wikiID.TabIndex = 4;
-            this.lbl_wikiID.Text = "label5";
+            this.tb_wikiTags.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tb_wikiTags.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tb_wikiTags.Enabled = false;
+            this.tb_wikiTags.Location = new System.Drawing.Point(13, 133);
+            this.tb_wikiTags.Name = "tb_wikiTags";
+            this.tb_wikiTags.ReadOnly = true;
+            this.tb_wikiTags.Size = new System.Drawing.Size(221, 21);
+            this.tb_wikiTags.TabIndex = 10;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(7, 185);
+            this.label4.Location = new System.Drawing.Point(10, 169);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 15);
             this.label4.TabIndex = 3;
@@ -358,135 +357,180 @@ namespace ArknightsWiki.UI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(4, 117);
+            this.label3.Location = new System.Drawing.Point(10, 115);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 15);
+            this.label3.Size = new System.Drawing.Size(71, 15);
             this.label3.TabIndex = 2;
-            this.label3.Text = "页面标签：";
+            this.label3.Text = "页面标签";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(7, 75);
+            this.label2.Location = new System.Drawing.Point(10, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 15);
+            this.label2.Size = new System.Drawing.Size(71, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "搜索标题：";
+            this.label2.Text = "搜索标题";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Location = new System.Drawing.Point(10, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 15);
+            this.label1.Size = new System.Drawing.Size(71, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "页面编号：";
+            this.label1.Text = "页面编号";
             // 
             // dgv_history
             // 
+            this.dgv_history.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgv_history.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_history.Location = new System.Drawing.Point(3, 320);
+            this.dgv_history.Location = new System.Drawing.Point(3, 392);
             this.dgv_history.Name = "dgv_history";
             this.dgv_history.RowHeadersVisible = false;
             this.dgv_history.RowHeadersWidth = 45;
             this.dgv_history.RowTemplate.Height = 24;
             this.dgv_history.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgv_history.Size = new System.Drawing.Size(231, 240);
+            this.dgv_history.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv_history.Size = new System.Drawing.Size(239, 201);
             this.dgv_history.TabIndex = 19;
-            this.dgv_history.Visible = true;
             // 
             // arkWikiDataSet
             // 
             this.arkWikiDataSet.DataSetName = "ArkWikiDataSet";
             this.arkWikiDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // wikiHistoryBindingSource
+            // btn_discuss
             // 
-            this.wikiHistoryBindingSource.DataMember = "WikiHistory";
-            this.wikiHistoryBindingSource.DataSource = this.arkWikiDataSet;
-            // 
-            // wikiHistoryTableAdapter
-            // 
-            this.wikiHistoryTableAdapter.ClearBeforeFill = true;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(209, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 30);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "查看源代码";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_discuss.BackColor = System.Drawing.Color.Transparent;
+            this.btn_discuss.FlatAppearance.BorderSize = 0;
+            this.btn_discuss.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_discuss.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_discuss.Location = new System.Drawing.Point(309, 3);
+            this.btn_discuss.Name = "btn_discuss";
+            this.btn_discuss.Size = new System.Drawing.Size(100, 30);
+            this.btn_discuss.TabIndex = 20;
+            this.btn_discuss.Text = "讨论";
+            this.btn_discuss.UseVisualStyleBackColor = false;
             // 
             // pnl_editorBtn
             // 
             this.pnl_editorBtn.BackColor = System.Drawing.Color.Transparent;
-            this.pnl_editorBtn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_editorBtn.Controls.Add(this.btn_expand);
+            this.pnl_editorBtn.Controls.Add(this.btn_save);
             this.pnl_editorBtn.Controls.Add(this.btn_read);
-            this.pnl_editorBtn.Controls.Add(this.button1);
+            this.pnl_editorBtn.Controls.Add(this.btn_discuss);
             this.pnl_editorBtn.Controls.Add(this.btn_readSource);
             this.pnl_editorBtn.Font = new System.Drawing.Font("宋体", 8.830189F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.pnl_editorBtn.Location = new System.Drawing.Point(846, 82);
+            this.pnl_editorBtn.Location = new System.Drawing.Point(709, 82);
             this.pnl_editorBtn.Name = "pnl_editorBtn";
-            this.pnl_editorBtn.Size = new System.Drawing.Size(312, 36);
+            this.pnl_editorBtn.Size = new System.Drawing.Size(449, 36);
             this.pnl_editorBtn.TabIndex = 21;
             this.pnl_editorBtn.Visible = false;
             // 
-            // pnl_side
+            // pnl_wikiDetail
             // 
-            this.pnl_side.BackColor = System.Drawing.Color.Transparent;
-            this.pnl_side.Location = new System.Drawing.Point(1166, 118);
-            this.pnl_side.Name = "pnl_side";
-            this.pnl_side.Size = new System.Drawing.Size(240, 566);
-            this.pnl_side.TabIndex = 0;
-            // 
-            // pnl_hotWiki
-            // 
-            this.pnl_hotWiki.Controls.Add(this.dgv_hotWiki);
-            this.pnl_hotWiki.Controls.Add(this.label5);
-            this.pnl_hotWiki.Location = new System.Drawing.Point(1163, 121);
-            this.pnl_hotWiki.Name = "pnl_hotWiki";
-            this.pnl_hotWiki.Size = new System.Drawing.Size(235, 561);
-            this.pnl_hotWiki.TabIndex = 0;
-            // 
-            // dgv_hotWiki
-            // 
-            this.dgv_hotWiki.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            this.dgv_hotWiki.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_hotWiki.Location = new System.Drawing.Point(3, 42);
-            this.dgv_hotWiki.Name = "dgv_hotWiki";
-            this.dgv_hotWiki.RowHeadersWidth = 45;
-            this.dgv_hotWiki.RowTemplate.Height = 24;
-            this.dgv_hotWiki.Size = new System.Drawing.Size(230, 314);
-            this.dgv_hotWiki.TabIndex = 0;
+            this.pnl_wikiDetail.BackColor = System.Drawing.Color.Transparent;
+            this.pnl_wikiDetail.Controls.Add(this.dgv_history);
+            this.pnl_wikiDetail.Controls.Add(this.pnl_wikiInfo);
+            this.pnl_wikiDetail.Location = new System.Drawing.Point(1164, 82);
+            this.pnl_wikiDetail.Name = "pnl_wikiDetail";
+            this.pnl_wikiDetail.Size = new System.Drawing.Size(248, 602);
+            this.pnl_wikiDetail.TabIndex = 20;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(70, 9);
+            this.label5.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(10, 230);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 21);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "热门页面";
+            this.label5.Size = new System.Drawing.Size(71, 15);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "创建时间";
             // 
-            // pnl_wikiDetail
+            // tb_createTime
             // 
-            this.pnl_wikiDetail.Controls.Add(this.btn_save);
-            this.pnl_wikiDetail.Controls.Add(this.dgv_history);
-            this.pnl_wikiDetail.Controls.Add(this.btn_history);
-            this.pnl_wikiDetail.Controls.Add(this.pnl_);
-            this.pnl_wikiDetail.Location = new System.Drawing.Point(3, 3);
-            this.pnl_wikiDetail.Name = "pnl_wikiDetail";
-            this.pnl_wikiDetail.Size = new System.Drawing.Size(240, 566);
-            this.pnl_wikiDetail.TabIndex = 20;
-            this.pnl_wikiDetail.Visible = false;
+            this.tb_createTime.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tb_createTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tb_createTime.Enabled = false;
+            this.tb_createTime.Location = new System.Drawing.Point(13, 248);
+            this.tb_createTime.Name = "tb_createTime";
+            this.tb_createTime.ReadOnly = true;
+            this.tb_createTime.Size = new System.Drawing.Size(221, 21);
+            this.tb_createTime.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Location = new System.Drawing.Point(10, 286);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 15);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "修改时间";
+            // 
+            // tb_changeTime
+            // 
+            this.tb_changeTime.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tb_changeTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tb_changeTime.Enabled = false;
+            this.tb_changeTime.Location = new System.Drawing.Point(13, 311);
+            this.tb_changeTime.Name = "tb_changeTime";
+            this.tb_changeTime.ReadOnly = true;
+            this.tb_changeTime.Size = new System.Drawing.Size(221, 21);
+            this.tb_changeTime.TabIndex = 15;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("宋体", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Location = new System.Drawing.Point(10, 342);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(55, 15);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "浏览量";
+            // 
+            // tb_views
+            // 
+            this.tb_views.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tb_views.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tb_views.Enabled = false;
+            this.tb_views.Location = new System.Drawing.Point(13, 360);
+            this.tb_views.Name = "tb_views";
+            this.tb_views.ReadOnly = true;
+            this.tb_views.Size = new System.Drawing.Size(221, 21);
+            this.tb_views.TabIndex = 17;
+            // 
+            // btn_expand
+            // 
+            this.btn_expand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_expand.Location = new System.Drawing.Point(412, 3);
+            this.btn_expand.Name = "btn_expand";
+            this.btn_expand.Size = new System.Drawing.Size(37, 30);
+            this.btn_expand.TabIndex = 21;
+            this.btn_expand.Text = ">>";
+            this.btn_expand.UseVisualStyleBackColor = true;
+            this.btn_expand.Click += new System.EventHandler(this.btn_expand_Click);
+            // 
+            // lbl_wikiID
+            // 
+            this.lbl_wikiID.AutoSize = true;
+            this.lbl_wikiID.Location = new System.Drawing.Point(10, 32);
+            this.lbl_wikiID.Name = "lbl_wikiID";
+            this.lbl_wikiID.Size = new System.Drawing.Size(62, 18);
+            this.lbl_wikiID.TabIndex = 18;
+            this.lbl_wikiID.Text = "label8";
+            // 
+            // lbl_title
+            // 
+            this.lbl_title.AutoSize = true;
+            this.lbl_title.Location = new System.Drawing.Point(10, 85);
+            this.lbl_title.Name = "lbl_title";
+            this.lbl_title.Size = new System.Drawing.Size(62, 18);
+            this.lbl_title.TabIndex = 19;
+            this.lbl_title.Text = "label9";
             // 
             // MainFrame
             // 
@@ -494,8 +538,7 @@ namespace ArknightsWiki.UI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1410, 686);
-            this.Controls.Add(this.pnl_side);
+            this.ClientSize = new System.Drawing.Size(1165, 761);
             this.Controls.Add(this.pnl_editorBtn);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.btn_min);
@@ -503,6 +546,7 @@ namespace ArknightsWiki.UI
             this.Controls.Add(this.lbl_arkWiki);
             this.Controls.Add(this.pnl_main);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.pnl_wikiDetail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainFrame";
@@ -511,17 +555,13 @@ namespace ArknightsWiki.UI
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mianFrame_MouseDown);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.pnl_.ResumeLayout(false);
-            this.pnl_.PerformLayout();
+            this.pnl_wikiInfo.ResumeLayout(false);
+            this.pnl_wikiInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_history)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arkWikiDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wikiHistoryBindingSource)).EndInit();
             this.pnl_editorBtn.ResumeLayout(false);
-            this.pnl_side.ResumeLayout(false);
-            this.pnl_hotWiki.ResumeLayout(false);
-            this.pnl_hotWiki.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_hotWiki)).EndInit();
             this.pnl_wikiDetail.ResumeLayout(false);
+            this.pnl_wikiDetail.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -541,29 +581,31 @@ namespace ArknightsWiki.UI
         private System.Windows.Forms.Label lbl_arkWiki;
         public System.Windows.Forms.Button btn_readSource;
         private System.Windows.Forms.Button btn_read;
-        private System.Windows.Forms.Button btn_history;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btn_min;
         private System.Windows.Forms.Button btn_close;
         public Button btn_login;
         public Button btn_save;
-        private Panel pnl_;
+        private Panel pnl_wikiInfo;
         private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
         private DataGridView dgv_history;
         private ArkWikiDataSet arkWikiDataSet;
-        private BindingSource wikiHistoryBindingSource;
-        private ArkWikiDataSetTableAdapters.WikiHistoryTableAdapter wikiHistoryTableAdapter;
-        private Label lbl_wikiID;
-        public Button button1;
-        private Label lbl_wikiTags;
+        public Button btn_discuss;
         private Panel pnl_editorBtn;
-        private Panel pnl_side;
         private Panel pnl_wikiDetail;
+        private TextBox tb_contributor;
+        private TextBox tb_wikiTags;
+        private TextBox tb_createTime;
         private Label label5;
-        private DataGridView dgv_hotWiki;
-        private Panel pnl_hotWiki;
+        private TextBox tb_views;
+        private Label label7;
+        private TextBox tb_changeTime;
+        private Label label6;
+        private Button btn_expand;
+        private Label lbl_title;
+        private Label lbl_wikiID;
     }
 }

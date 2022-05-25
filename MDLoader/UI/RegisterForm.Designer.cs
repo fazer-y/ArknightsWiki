@@ -128,7 +128,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(933, 566);
+            this.ClientSize = new System.Drawing.Size(933, 631);
             this.Controls.Add(this.btn_cancle);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.tb_email);
