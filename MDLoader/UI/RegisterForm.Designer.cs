@@ -36,12 +36,14 @@
             this.tb_email = new System.Windows.Forms.TextBox();
             this.btn_register = new System.Windows.Forms.Button();
             this.btn_cancle = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tb_confirmPwd = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tb_nickName
             // 
             this.tb_nickName.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_nickName.Location = new System.Drawing.Point(420, 161);
+            this.tb_nickName.Location = new System.Drawing.Point(416, 161);
             this.tb_nickName.MaxLength = 20;
             this.tb_nickName.Name = "tb_nickName";
             this.tb_nickName.Size = new System.Drawing.Size(194, 31);
@@ -52,27 +54,27 @@
             this.lbl_nickName.AutoSize = true;
             this.lbl_nickName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_nickName.Font = new System.Drawing.Font("幼圆", 18.33962F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_nickName.Location = new System.Drawing.Point(314, 164);
+            this.lbl_nickName.Location = new System.Drawing.Point(262, 165);
             this.lbl_nickName.Name = "lbl_nickName";
-            this.lbl_nickName.Size = new System.Drawing.Size(96, 27);
+            this.lbl_nickName.Size = new System.Drawing.Size(152, 27);
             this.lbl_nickName.TabIndex = 1;
-            this.lbl_nickName.Text = "昵称：";
+            this.lbl_nickName.Text = "用户昵称：";
             // 
             // lbl_passwd
             // 
             this.lbl_passwd.AutoSize = true;
             this.lbl_passwd.BackColor = System.Drawing.Color.Transparent;
             this.lbl_passwd.Font = new System.Drawing.Font("幼圆", 18.33962F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_passwd.Location = new System.Drawing.Point(314, 223);
+            this.lbl_passwd.Location = new System.Drawing.Point(262, 220);
             this.lbl_passwd.Name = "lbl_passwd";
-            this.lbl_passwd.Size = new System.Drawing.Size(96, 27);
+            this.lbl_passwd.Size = new System.Drawing.Size(152, 27);
             this.lbl_passwd.TabIndex = 2;
-            this.lbl_passwd.Text = "密码：";
+            this.lbl_passwd.Text = "登录密码：";
             // 
             // tb_pwd
             // 
             this.tb_pwd.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_pwd.Location = new System.Drawing.Point(420, 220);
+            this.tb_pwd.Location = new System.Drawing.Point(416, 220);
             this.tb_pwd.MaxLength = 20;
             this.tb_pwd.Name = "tb_pwd";
             this.tb_pwd.Size = new System.Drawing.Size(194, 31);
@@ -83,16 +85,16 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("幼圆", 18.33962F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(314, 287);
+            this.label1.Location = new System.Drawing.Point(258, 324);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 27);
+            this.label1.Size = new System.Drawing.Size(152, 27);
             this.label1.TabIndex = 4;
-            this.label1.Text = "邮箱：";
+            this.label1.Text = "个人邮箱：";
             // 
             // tb_email
             // 
             this.tb_email.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tb_email.Location = new System.Drawing.Point(420, 284);
+            this.tb_email.Location = new System.Drawing.Point(416, 320);
             this.tb_email.MaxLength = 30;
             this.tb_email.Name = "tb_email";
             this.tb_email.Size = new System.Drawing.Size(194, 31);
@@ -101,7 +103,7 @@
             // btn_register
             // 
             this.btn_register.Font = new System.Drawing.Font("宋体", 14.9434F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_register.Location = new System.Drawing.Point(497, 350);
+            this.btn_register.Location = new System.Drawing.Point(493, 396);
             this.btn_register.Name = "btn_register";
             this.btn_register.Size = new System.Drawing.Size(117, 44);
             this.btn_register.TabIndex = 6;
@@ -113,13 +115,33 @@
             // 
             this.btn_cancle.BackColor = System.Drawing.Color.Transparent;
             this.btn_cancle.Font = new System.Drawing.Font("幼圆", 14.9434F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_cancle.Location = new System.Drawing.Point(319, 350);
+            this.btn_cancle.Location = new System.Drawing.Point(294, 396);
             this.btn_cancle.Name = "btn_cancle";
-            this.btn_cancle.Size = new System.Drawing.Size(113, 44);
+            this.btn_cancle.Size = new System.Drawing.Size(120, 44);
             this.btn_cancle.TabIndex = 7;
             this.btn_cancle.Text = "取消注册";
             this.btn_cancle.UseVisualStyleBackColor = false;
             this.btn_cancle.Click += new System.EventHandler(this.btn_cancle_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("幼圆", 18.33962F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(262, 275);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(152, 27);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "确认密码：";
+            // 
+            // tb_confirmPwd
+            // 
+            this.tb_confirmPwd.Font = new System.Drawing.Font("宋体", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tb_confirmPwd.Location = new System.Drawing.Point(416, 271);
+            this.tb_confirmPwd.MaxLength = 20;
+            this.tb_confirmPwd.Name = "tb_confirmPwd";
+            this.tb_confirmPwd.Size = new System.Drawing.Size(194, 31);
+            this.tb_confirmPwd.TabIndex = 9;
             // 
             // RegisterForm
             // 
@@ -129,6 +151,8 @@
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 631);
+            this.Controls.Add(this.tb_confirmPwd);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_cancle);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.tb_email);
@@ -158,5 +182,7 @@
         private System.Windows.Forms.TextBox tb_email;
         private System.Windows.Forms.Button btn_register;
         private System.Windows.Forms.Button btn_cancle;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tb_confirmPwd;
     }
 }

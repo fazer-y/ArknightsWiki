@@ -10,13 +10,12 @@ namespace ArknightsWiki.Arknights
     {
         public string oprID { get; }
         public string oprName { get; }
-        public int eneAmount { get; }
-        public int goal { get; }
+        public string eneAmount { get; }
+        public string goal { get; }
         public string oprMapPath { get; }
-        public int cost { get; }
+        public string cost { get; }
 
-        public Operation(string oprID, string oprName, int eneAmount, int goal,
-            string oprMapPath, int cost)
+        public Operation(string oprID, string oprName, string eneAmount, string goal, string oprMapPath, string cost)
         {
             this.oprID = oprID;
             this.oprName = oprName;

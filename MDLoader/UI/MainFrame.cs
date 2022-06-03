@@ -11,6 +11,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MDLoader;
+using System.Diagnostics;
 
 namespace ArknightsWiki.UI
 {
@@ -18,14 +20,21 @@ namespace ArknightsWiki.UI
     {
         public User user = null;
         public string wikiPageID = "";
-        private EditorForm editorform;
+
+        // 子页面
         private MainPage mainpage;
         private LoginForm loginform;
         private PersonalForm personalForm;
         private RegisterForm registerform;
         private OperatorForm operatorform;
+        private EnemiesForm enemiesform;
+        private OperationForm operationform;
+        private MaterailForm materailform;
+        private RecruitForm recruitform;
+        private DropsForm dropsform;
 
-        public DataTable dataTable_history = new DataTable();
+        private string wikiPath = "";
+
         DBManager dbManager;
         public MainFrame()
         {
@@ -35,23 +44,16 @@ namespace ArknightsWiki.UI
             loginform = new LoginForm(this);
             registerform = new RegisterForm();
             operatorform = new OperatorForm();
+            operationform = new OperationForm();
+            enemiesform = new EnemiesForm();
+            materailform = new MaterailForm();
+            dropsform = new DropsForm();
+            recruitform = new RecruitForm();
 
             pnl_main.Controls.Add(mainpage);
             mainpage.Show();
-            this.btn_readSource.Enabled = false;
-
-            #region 页面历史表设计属性设置
-            dataTable_history.Columns.Add("editTime", typeof(string));
-            dataTable_history.Columns.Add("userID", typeof (string));
-            dgv_history.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgv_history.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dgv_history.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.True;
-            dgv_history.ReadOnly = true;
-            dgv_history.AllowUserToAddRows = false;
-            dgv_history.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgv_history.DefaultCellStyle.Font = new Font("Tahoma", 10);
-            #endregion
         }
+           
 
         private void MainFrame_Load(object sender, EventArgs e)
         {
@@ -59,7 +61,6 @@ namespace ArknightsWiki.UI
 
         public void btn_mainPage_Click(object sender, EventArgs e)
         {
-            pnl_editorBtn.Visible = false;
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(mainpage);
             mainpage.Show();
@@ -125,6 +126,7 @@ namespace ArknightsWiki.UI
         /// </summary>
         private void closePictureBox_Click(object sender, EventArgs e)
         {
+            closeProc("MDLoader");
             Application.Exit();
         }
         /// <summary>
@@ -143,31 +145,7 @@ namespace ArknightsWiki.UI
         }
         #endregion 
 
-        private void btn_operator_Click(object sender, EventArgs e)
-        {
-            pnl_editorBtn.Visible = false;
-            pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(operatorform);
-            operatorform.oprMD += loadMD;
-            operatorform.Show();
-        }
 
-        private void btn_readSource_Click(object sender, EventArgs e)
-        {
-            editorform.Visible = false;
-            mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, -150, 0, 0, 0);
-            editorform.readSource();
-            editorform.Visible = true;
-        }
-
-        private void btn_read_Click(object sender, EventArgs e)
-        {
-            editorform.Visible = false;
-            mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, -150, 0, 0, 0);
-            editorform.fullscreen();
-            editorform.webBrowser1.Refresh();
-            editorform.Visible = true;
-        }
 
         public void btn_login_Click(object sender, EventArgs e)
         {
@@ -200,15 +178,11 @@ namespace ArknightsWiki.UI
             btn_login.Click += btn_login_personal_Click;
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(mainpage);
-            btn_readSource.Enabled = true;
             mainpage.Show();
         }
 
         public void loadMD(string item, string name)
         {
-            this.Width = 1412;
-            this.btn_expand.Text = "<<";
-            editorform = new EditorForm(this);
             dbManager.OpenDB();
             SqlDataReader reader = null;
             switch (item)
@@ -229,19 +203,12 @@ namespace ArknightsWiki.UI
                     reader = dbManager.SelectData("WikiPages", $"wikiTitle like '%{name}'", "*");
                     break;
             }
-
+            
             if (reader.Read())
             {
-                editorform.fileName = $"C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\bin\\Debug\\"
+                wikiPath = $"C:\\Users\\23887\\Desktop\\ArkWiki\\References\\md-fileloader-master\\Program\\MDLoader\\bin\\Debug\\"
                     + reader["wikiPath"];
                 wikiPageID = reader["wikiID"].ToString();
-                this.lbl_wikiID.Text = wikiPageID;
-                this.lbl_title.Text = reader["wikiTitle"].ToString();
-                this.tb_contributor.Text = reader["wikiContributors"].ToString();
-                this.tb_wikiTags.Text = reader["wikiTags"].ToString();
-                this.tb_createTime.Text = reader["wikiCreateTime"].ToString();
-                this.tb_changeTime.Text = reader["wikiLastChangeTime"].ToString();
-                this.tb_views.Text = reader["wikiPageviews"].ToString();
             }
             dbManager.CloseDB();
 
@@ -250,49 +217,96 @@ namespace ArknightsWiki.UI
             dbManager.UpdateData("wikiPages", $"wikiPageViews=wikiPageViews+1", $"wikiID='{wikiPageID}'");
             dbManager.CloseDB();
 
-            // 历史版本读取
-            dbManager.OpenDB();
-            reader = dbManager.SelectData("WikiHistory", $"wikiID='{wikiPageID}'");
 
-            dataTable_history.Rows.Clear();
-            while (reader.Read())
+            // 启动editormd
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.FileName = @"C:\Users\23887\Downloads\Compressed\md-fileloader-master\Program\MDLoader\bin\Debug\MDLoader.exe"; //启动的应用程序名称
+            if(user != null)
+                startInfo.Arguments = $"{wikiPath} {user.userID} {wikiPageID}";
+            else
+                startInfo.Arguments = $"{wikiPath} _ {wikiPageID}";
+            startInfo.WindowStyle = ProcessWindowStyle.Normal;
+            Process.Start(startInfo);
+            Console.WriteLine(startInfo.Arguments);
+        }
+
+        private void closeProc(string ProcName)
+        {
+            try
             {
-                dataTable_history.Rows.Add(
-                    reader["editTime"].ToString(),
-                    reader["userID"].ToString());
+                //获取Jt的所有进程
+                Process[] processIdAry = Process.GetProcessesByName(ProcName);
+                //如果有这个进程运行那么就是
+                if (processIdAry.Count() > 0)
+                {
+                    for (int i = 0; i < processIdAry.Count(); i++)
+                    {
+                        Console.WriteLine("第{0}个{1}程序的ID:{2}", i, ProcName, processIdAry[i].Id);
+                        processIdAry[i].Kill();
+                        Console.WriteLine($"{ProcName}进程关闭成功！\n");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{ProcName}进程没有运行");
+                }
             }
-            dgv_history.DataSource = dataTable_history;
-            dgv_history.Columns[0].Width = 140;
-            dgv_history.Columns[1].Width = 95;
+            catch
+            {
+                Console.WriteLine($"无法关闭{ProcName}进程！");
+            }
+        }
 
-            // 显示编辑器页面
+        private void btn_recruit_Click(object sender, EventArgs e)
+        {
             pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(editorform);
-            editorform.webBrowser1.Refresh();
-            pnl_editorBtn.Visible = true;
-            editorform.Show();
+            pnl_main.Controls.Add(recruitform);
+            recruitform.Show();
         }
 
-        private void btn_save_Click(object sender, EventArgs e)
+        private void btn_drops_Click(object sender, EventArgs e)
         {
-            string newWikiPath = editorform.SaveMD(out DateTime changeTime);
-            dbManager.OpenDB();
-            dbManager.UpdateData("wikiPages", $"wikiPath='{newWikiPath}', wikiLastChangeTime='{changeTime}', wikiContributors=wikiContributors+'{user.userName}'", $"wikiID='{wikiPageID}'");
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(dropsform);
+            dropsform.dropMD += loadMD;
+            dropsform.reloadData();
+            dropsform.Show();
         }
 
-        private void btn_expand_Click(object sender, EventArgs e)
+        private void btn_operator_Click(object sender, EventArgs e)
         {
-            if (this.btn_expand.Text == ">>")
-            {
-                this.Width = 1413;
-                this.btn_expand.Text = "<<";
-            }
-            else 
-            {
-                this.Width = 1165;
-                this.btn_expand.Text = ">>";
-            }
-            
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(operatorform);
+            operatorform.oprMD += loadMD;
+            operatorform.reloadData();
+            operatorform.Show();
+        }
+
+        private void btn_operation_Click(object sender, EventArgs e)
+        {
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(operationform);
+            operationform.operationMD += loadMD;
+            operationform.reloadData();
+            operationform.Show();
+        }
+
+        private void btn_enemies_Click(object sender, EventArgs e)
+        {
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(enemiesform);
+            enemiesform.eneMD += loadMD;
+            enemiesform.reloadData();
+            enemiesform.Show();
+        }
+
+        private void btn_materail_Click(object sender, EventArgs e)
+        {
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(materailform);
+            materailform.matMD += loadMD;
+            materailform.reloadData();
+            materailform.Show();
         }
     }
 }

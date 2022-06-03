@@ -29,6 +29,7 @@ namespace ArknightsWiki.UI
             InitializeComponent();
             TopLevel = false;
             cb_searchItem.SelectedIndex = 0;
+            cb_searchItem.DropDownStyle = ComboBoxStyle.DropDownList;
 
             dgv = new DataGridView();
             dgv.Parent = this.pnl_data;
@@ -56,15 +57,6 @@ namespace ArknightsWiki.UI
             }
             dbManager.CloseDB();
 
-            while (count < 5)
-            {
-                oprData.Rows.Add(oprDataList[count].oprImagePath,
-                    oprDataList[count].oprName,
-                    oprDataList[count].oprRace,
-                    string.Join(", ", oprDataList[count].oprTags),
-                    string.Join(", ", oprDataList[count].oprSkills));
-                count++;
-            }
 
             dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgv.MultiSelect = false;
@@ -95,10 +87,10 @@ namespace ArknightsWiki.UI
             dgv.CellFormatting += new DataGridViewCellFormattingEventHandler(dgv_CellFormatting);
             dgv.AllowUserToAddRows = false;
 
-            dgv.DataSource = oprData;
+            reloadData();
         }
 
-        void dgv_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        public void dgv_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             if (e.ColumnIndex == 0)
             {
@@ -114,6 +106,25 @@ namespace ArknightsWiki.UI
                     }
                 }
             }
+        }
+
+        public void reloadData()
+        {
+            tb_search.Text = "";
+            cb_searchItem.SelectedIndex = 0;
+            count = 0;
+            oprData.Rows.Clear();
+            while (count < 5)
+            {
+                oprData.Rows.Add(oprDataList[count].oprImagePath,
+                    oprDataList[count].oprName,
+                    oprDataList[count].oprRace,
+                    string.Join(", ", oprDataList[count].oprTags),
+                    string.Join(", ", oprDataList[count].oprSkills));
+                count++;
+            }
+            dgv.DataSource = oprData;
+            lbl_pageIndex.Text = $"第{count / 5}页";
         }
 
 

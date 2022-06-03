@@ -26,7 +26,11 @@ namespace ArknightsWiki.UI
 
         private void btn_register_Click(object sender, EventArgs e)
         {
-            if (tb_nickName.Text != "" && tb_pwd.Text != "" && tb_email.Text != "")
+            if(tb_nickName.Text == "" && tb_pwd.Text == "" && tb_email.Text == "")
+                MessageBox.Show("信息不全，请检查后重试！");
+            else if(tb_confirmPwd.Text != tb_pwd.Text)
+                MessageBox.Show("两次输入的密码不一致，请检查后重试！");
+            else
             {
                 string nickName = tb_nickName.Text;
                 string pwd = tb_pwd.Text;
@@ -42,10 +46,6 @@ namespace ArknightsWiki.UI
                 dBManager.InsertData("Users", user.ToString());
                 MessageBox.Show($"注册成功!\n您的UID为{ user.userID}，系统将自动登录。");
                 register(user);
-            }
-            else
-            {
-                MessageBox.Show("信息不全，请检查后重试！");
             }
         }
 

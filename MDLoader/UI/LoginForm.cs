@@ -49,7 +49,6 @@ namespace ArknightsWiki.UI
                 owner.btn_login.Click -= btn_login_Click;
                 owner.btn_login.Click += owner.btn_login_personal_Click;
                 owner.btn_mainPage_Click(sender, e);
-                owner.btn_readSource.Enabled = true;
                 this.Visible = false;
             }
             else
