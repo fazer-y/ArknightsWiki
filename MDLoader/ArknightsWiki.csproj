@@ -98,6 +98,12 @@
     <Compile Include="UI\DropsForm.Designer.cs">
       <DependentUpon>DropsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\DropSubmit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DropSubmit.Designer.cs">
+      <DependentUpon>DropSubmit.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\EnemiesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,9 @@
     <EmbeddedResource Include="UI\DropsForm.resx">
       <DependentUpon>DropsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\DropSubmit.resx">
+      <DependentUpon>DropSubmit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\EnemiesForm.resx">
       <DependentUpon>EnemiesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PersonalForm.resx">
       <DependentUpon>PersonalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RecruitForm.resx">
+      <DependentUpon>RecruitForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>

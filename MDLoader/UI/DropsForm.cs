@@ -14,9 +14,11 @@ using ArknightsWiki.Arknights;
 
 namespace ArknightsWiki.UI
 {
+    public delegate void LunchForm();
     public partial class DropsForm : Form
     {
         public event GetMD dropMD;
+        public event LunchForm lunchSubmit;
         DataTable oprData = new DataTable();
         DataGridView dgv = null;
         int count = 0;
@@ -76,15 +78,15 @@ namespace ArknightsWiki.UI
             dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "关卡编号", DataPropertyName = "oprID" });
             dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "样本总数", DataPropertyName = "sampleSize" });
             dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "掉落总数", DataPropertyName = "dropSize" });
-            dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "掉落盖概率", DataPropertyName = "probability" });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "掉落概率", DataPropertyName = "probability" });
             dgv.Columns.Add(new DataGridViewTextBoxColumn() { HeaderText = "单件理智消耗", DataPropertyName = "cost" });
 
             dgv.Columns[0].Width = 150;
             dgv.Columns[1].Width = 180;
             dgv.Columns[2].Width = 140;
             dgv.Columns[3].Width = 100;
-            dgv.Columns[4].Width = 100;
-            dgv.Columns[5].Width = 100;
+            dgv.Columns[4].Width = 150;
+            dgv.Columns[5].Width = 200;
 
             dgv.AllowUserToAddRows = false;
             reloadData();
@@ -94,11 +96,11 @@ namespace ArknightsWiki.UI
         {
             oprData.Rows.Clear();
             dgv.DataSource = oprData;
-            if (count >= 10)
-                count -= 10;
+            if (count >= 42)
+                count -= 42;
             else
                 return;
-            int max = count + 5;
+            int max = count + 21;
             while (count < max && count < oprDataList.Count())
             {
                 oprData.Rows.Add(oprDataList[count].matName,
@@ -110,13 +112,13 @@ namespace ArknightsWiki.UI
                 count++;
             }
             dgv.DataSource = oprData;
-            lbl_pageIndex.Text = $"第{count / 5}页";
+            lbl_pageIndex.Text = $"第{count / 21}页";
         }
 
         private void btn_next_Click(object sender, EventArgs e)
         {
             oprData.Rows.Clear();
-            int max = count + 5;
+            int max = count + 21;
             while (count < max && count < oprDataList.Count())
             {
                 oprData.Rows.Add(oprDataList[count].matName,
@@ -128,7 +130,7 @@ namespace ArknightsWiki.UI
                 count++;
             }
             dgv.DataSource = oprData;
-            lbl_pageIndex.Text = $"第{count / 5}页";
+            lbl_pageIndex.Text = $"第{count / 21}页";
         }
 
         public void reloadData()
@@ -137,7 +139,7 @@ namespace ArknightsWiki.UI
             cb_searchItem.SelectedIndex = 0;
             count = 0;
             oprData.Rows.Clear();
-            while (count < 5)
+            while (count < 21)
             {
                 oprData.Rows.Add(oprDataList[count].matName,
                     oprDataList[count].oprID,
@@ -148,7 +150,7 @@ namespace ArknightsWiki.UI
                 count++;
             }
             dgv.DataSource = oprData;
-            lbl_pageIndex.Text = $"第{count / 5}页";
+            lbl_pageIndex.Text = $"第{count / 20}页";
         }
 
         private void DGVCell_MouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -201,6 +203,11 @@ namespace ArknightsWiki.UI
             dgv.DataSource = oprData;
             btn_next.Enabled = false;
             btn_pre.Enabled = false;
+        }
+
+        private void btn_dropSubmit_Click(object sender, EventArgs e)
+        {
+            lunchSubmit();
         }
     }
 }

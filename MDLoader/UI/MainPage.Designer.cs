@@ -66,6 +66,7 @@ namespace ArknightsWiki.UI
             this.btn_recruit.Text = "公开招募";
             this.btn_recruit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_recruit.UseVisualStyleBackColor = false;
+            this.btn_recruit.Click += new System.EventHandler(this.btn_recruit_Click);
             // 
             // btn_materail
             // 
@@ -82,6 +83,7 @@ namespace ArknightsWiki.UI
             this.btn_materail.Text = "道具资料";
             this.btn_materail.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_materail.UseVisualStyleBackColor = false;
+            this.btn_materail.Click += new System.EventHandler(this.btn_materail_Click);
             // 
             // btn_operation
             // 
@@ -98,6 +100,7 @@ namespace ArknightsWiki.UI
             this.btn_operation.Text = "关卡一览";
             this.btn_operation.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_operation.UseVisualStyleBackColor = false;
+            this.btn_operation.Click += new System.EventHandler(this.btn_operation_Click);
             // 
             // btn_operator
             // 
@@ -114,6 +117,7 @@ namespace ArknightsWiki.UI
             this.btn_operator.Text = "干员资料";
             this.btn_operator.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_operator.UseVisualStyleBackColor = false;
+            this.btn_operator.Click += new System.EventHandler(this.btn_operator_Click);
             // 
             // btn_enemies
             // 
@@ -130,6 +134,7 @@ namespace ArknightsWiki.UI
             this.btn_enemies.Text = "敌人档案";
             this.btn_enemies.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_enemies.UseVisualStyleBackColor = false;
+            this.btn_enemies.Click += new System.EventHandler(this.btn_enemies_Click);
             // 
             // MainPage
             // 

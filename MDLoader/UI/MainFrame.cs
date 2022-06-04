@@ -16,6 +16,7 @@ using System.Diagnostics;
 
 namespace ArknightsWiki.UI
 {
+    
     public partial class MainFrame : Form
     {
         public User user = null;
@@ -40,7 +41,7 @@ namespace ArknightsWiki.UI
         {
             InitializeComponent();
             dbManager = new DBManager("127.0.0.1", "ArkWiki", "fazer", "zxc123456..");
-            mainpage = new MainPage();
+            mainpage = new MainPage(this);
             loginform = new LoginForm(this);
             registerform = new RegisterForm();
             operatorform = new OperatorForm();
@@ -59,13 +60,7 @@ namespace ArknightsWiki.UI
         {
         }
 
-        public void btn_mainPage_Click(object sender, EventArgs e)
-        {
-            pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(mainpage);
-            mainpage.Show();
-        }
-
+       
         #region 无边框显示
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
@@ -146,30 +141,6 @@ namespace ArknightsWiki.UI
         #endregion 
 
 
-
-        public void btn_login_Click(object sender, EventArgs e)
-        {
-            pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(loginform);
-            loginform.Show();
-        }
-
-        public void btn_login_personal_Click(object sender, EventArgs e)
-        {
-            personalForm = new PersonalForm(this);
-            pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(personalForm);
-            personalForm.Show();
-        }
-
-        public void btn_register_Click(object sender, EventArgs e)
-        {
-            pnl_main.Controls.Clear();
-            pnl_main.Controls.Add(registerform);
-            registerform.register += registerGetUser;
-            registerform.Show();
-        }
-
         public void registerGetUser(User user)
         {
             this.user = new User(user);
@@ -230,6 +201,55 @@ namespace ArknightsWiki.UI
             Console.WriteLine(startInfo.Arguments);
         }
 
+        public void lunchSubmitForm()
+        {
+            DropSubmit dropSubmit = new DropSubmit();
+            dropSubmit.sR += submitDrop;
+            dropSubmit.ShowDialog();
+        }
+
+        public void submitDrop(string oprID, string matName, int amount)
+        {
+            DateTime currentDateTime = DateTime.Now;
+            dbManager.OpenDB();
+            dbManager.InsertData("DropsRecords", $"('{user.userID}', '{oprID}', '{currentDateTime.ToString()}', '{matName}', {amount})");
+            dbManager.CloseDB();
+
+            // 更新Drops表
+            dbManager.OpenDB();
+            SqlDataReader reader = dbManager.SelectData("Drops", $"oprID='{oprID}' and matName='{matName}'");
+            int sampleSize = 0;
+            int dropSize = 0;
+            double probability = 0.0;
+            double cost = 0.0;
+            int oprCost = 0;
+            if (reader.Read())
+            {
+                int.TryParse(reader["sampleSize"].ToString(), out sampleSize);
+                int.TryParse(reader["dropSize"].ToString(), out dropSize);
+                double.TryParse(reader["probability"].ToString(), out probability);
+                double.TryParse(reader["cost"].ToString(), out cost);
+            }
+            dbManager.CloseDB();
+
+            dbManager.OpenDB();
+            reader = dbManager.SelectData("Operations", $"oprID='{oprID}'", "cost");
+            if (reader.Read())
+                int.TryParse(reader["cost"].ToString(), out oprCost);
+            dbManager.CloseDB();
+
+            sampleSize++;
+            dropSize += amount;
+            probability = dropSize*1.00 / sampleSize;
+            cost = probability * oprCost;
+
+            dbManager.OpenDB();
+            dbManager.UpdateData("Drops", $"sampleSize={sampleSize}, dropSize={dropSize}, probability={probability}, cost={cost} ", $"oprID='{oprID}' and matName='{matName}'");
+            dbManager.CloseDB();
+            MessageBox.Show("提交成功，感谢您的贡献！");
+        }
+
+
         private void closeProc(string ProcName)
         {
             try
@@ -257,7 +277,38 @@ namespace ArknightsWiki.UI
             }
         }
 
-        private void btn_recruit_Click(object sender, EventArgs e)
+        #region ButtonEvent
+        public void btn_login_Click(object sender, EventArgs e)
+        {
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(loginform);
+            loginform.Show();
+        }
+
+        public void btn_login_personal_Click(object sender, EventArgs e)
+        {
+            personalForm = new PersonalForm(this);
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(personalForm);
+            personalForm.Show();
+        }
+
+        public void btn_register_Click(object sender, EventArgs e)
+        {
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(registerform);
+            registerform.register += registerGetUser;
+            registerform.Show();
+        }
+
+        public void btn_mainPage_Click(object sender, EventArgs e)
+        {
+            pnl_main.Controls.Clear();
+            pnl_main.Controls.Add(mainpage);
+            mainpage.Show();
+        }
+
+        public void btn_recruit_Click(object sender, EventArgs e)
         {
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(recruitform);
@@ -269,11 +320,16 @@ namespace ArknightsWiki.UI
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(dropsform);
             dropsform.dropMD += loadMD;
+            dropsform.lunchSubmit += lunchSubmitForm;
+            if(user == null)
+                dropsform.btn_dropSubmit.Enabled = false;
+            else
+                dropsform.btn_dropSubmit.Enabled = true;
             dropsform.reloadData();
             dropsform.Show();
         }
 
-        private void btn_operator_Click(object sender, EventArgs e)
+        public void btn_operator_Click(object sender, EventArgs e)
         {
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(operatorform);
@@ -282,7 +338,7 @@ namespace ArknightsWiki.UI
             operatorform.Show();
         }
 
-        private void btn_operation_Click(object sender, EventArgs e)
+        public void btn_operation_Click(object sender, EventArgs e)
         {
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(operationform);
@@ -291,7 +347,7 @@ namespace ArknightsWiki.UI
             operationform.Show();
         }
 
-        private void btn_enemies_Click(object sender, EventArgs e)
+        public void btn_enemies_Click(object sender, EventArgs e)
         {
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(enemiesform);
@@ -300,7 +356,7 @@ namespace ArknightsWiki.UI
             enemiesform.Show();
         }
 
-        private void btn_materail_Click(object sender, EventArgs e)
+        public void btn_materail_Click(object sender, EventArgs e)
         {
             pnl_main.Controls.Clear();
             pnl_main.Controls.Add(materailform);
@@ -308,5 +364,6 @@ namespace ArknightsWiki.UI
             materailform.reloadData();
             materailform.Show();
         }
+        #endregion
     }
 }

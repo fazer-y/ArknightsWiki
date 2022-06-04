@@ -35,6 +35,7 @@
             this.btn_searchOpr = new System.Windows.Forms.Button();
             this.cb_searchItem = new System.Windows.Forms.ComboBox();
             this.tb_search = new System.Windows.Forms.TextBox();
+            this.btn_dropSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_pageIndex
@@ -93,7 +94,7 @@
             this.cb_searchItem.Font = new System.Drawing.Font("宋体", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cb_searchItem.FormattingEnabled = true;
             this.cb_searchItem.Items.AddRange(new object[] {
-            "材料名称",
+            "道具名称",
             "关卡编号"});
             this.cb_searchItem.Location = new System.Drawing.Point(171, 26);
             this.cb_searchItem.Name = "cb_searchItem";
@@ -108,6 +109,18 @@
             this.tb_search.Size = new System.Drawing.Size(300, 33);
             this.tb_search.TabIndex = 21;
             // 
+            // btn_dropSubmit
+            // 
+            this.btn_dropSubmit.BackColor = System.Drawing.Color.Transparent;
+            this.btn_dropSubmit.Font = new System.Drawing.Font("宋体", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_dropSubmit.Location = new System.Drawing.Point(799, 1);
+            this.btn_dropSubmit.Name = "btn_dropSubmit";
+            this.btn_dropSubmit.Size = new System.Drawing.Size(134, 30);
+            this.btn_dropSubmit.TabIndex = 28;
+            this.btn_dropSubmit.Text = "掉落记录提交";
+            this.btn_dropSubmit.UseVisualStyleBackColor = false;
+            this.btn_dropSubmit.Click += new System.EventHandler(this.btn_dropSubmit_Click);
+            // 
             // DropsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -115,6 +128,7 @@
             this.BackgroundImage = global::ArknightsWiki.Properties.Resources.sunBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 631);
+            this.Controls.Add(this.btn_dropSubmit);
             this.Controls.Add(this.lbl_pageIndex);
             this.Controls.Add(this.btn_next);
             this.Controls.Add(this.btn_pre);
@@ -140,5 +154,6 @@
         private System.Windows.Forms.Button btn_searchOpr;
         private System.Windows.Forms.ComboBox cb_searchItem;
         private System.Windows.Forms.TextBox tb_search;
+        public System.Windows.Forms.Button btn_dropSubmit;
     }
 }

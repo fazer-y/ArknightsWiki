@@ -134,7 +134,7 @@ namespace ArknightsWiki.WinformEx
         protected override void OnMouseLeave(EventArgs e)
         {
             base.OnMouseLeave(e);
-            this.BackColor = preColor;
+            this.BackColor = Color.Gray;
             this.FlatAppearance.BorderColor = crBorderDefault;
         }
     }
